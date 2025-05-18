@@ -34,9 +34,6 @@ ENV/
 # Streamlit
 .streamlit/
 
-# Data directory
-data/
-
 # IDE
 .idea/
 .vscode/
