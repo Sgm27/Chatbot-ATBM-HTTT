@@ -1038,3 +1038,1513 @@ ValueError: all the input array dimensions except for the concatenation axis mus
 2025-05-18 23:34:07,109 - lightrag - INFO - Query edges: Tấn công mạng, Gián đoạn dịch vụ, Ngắt quãng kênh truyền thông, An ninh thông tin, top_k: 60, cosine: 0.2
 2025-05-18 23:34:08,299 - lightrag - INFO - Global query uses 76 entites, 60 relations, 3 chunks
 2025-05-18 23:34:15,087 - lightrag - INFO - Storage Finalization completed!
+2025-05-19 09:56:40,916 - lightrag - INFO - Created new empty graph
+2025-05-19 09:56:43,258 - lightrag - INFO - Process 18808 KV load full_docs with 0 records
+2025-05-19 09:56:43,260 - lightrag - INFO - Process 18808 KV load text_chunks with 0 records
+2025-05-19 09:56:43,263 - lightrag - INFO - Process 18808 KV load llm_response_cache with 0 records
+2025-05-19 09:56:43,264 - lightrag - INFO - Process 18808 doc status load doc_status with 0 records
+2025-05-19 09:56:43,276 - lightrag - INFO - Storage Initialization completed!
+2025-05-19 09:56:43,277 - lightrag - INFO - Storage Finalization completed!
+2025-05-19 09:58:16,050 - lightrag - INFO - Created new empty graph
+2025-05-19 09:58:16,062 - lightrag - INFO - Process 4964 KV load full_docs with 0 records
+2025-05-19 09:58:16,063 - lightrag - INFO - Process 4964 KV load text_chunks with 0 records
+2025-05-19 09:58:16,065 - lightrag - INFO - Process 4964 KV load llm_response_cache with 0 records
+2025-05-19 09:58:16,068 - lightrag - INFO - Process 4964 doc status load doc_status with 0 records
+2025-05-19 09:58:16,077 - lightrag - INFO - Storage Initialization completed!
+2025-05-19 09:58:16,080 - lightrag - INFO - Storage Finalization completed!
+2025-05-19 09:58:49,981 - lightrag - INFO - Created new empty graph
+2025-05-19 09:58:49,996 - lightrag - INFO - Process 6328 KV load full_docs with 0 records
+2025-05-19 09:58:49,996 - lightrag - INFO - Process 6328 KV load text_chunks with 0 records
+2025-05-19 09:58:49,999 - lightrag - INFO - Process 6328 KV load llm_response_cache with 0 records
+2025-05-19 09:58:50,000 - lightrag - INFO - Process 6328 doc status load doc_status with 0 records
+2025-05-19 09:58:50,016 - lightrag - INFO - Stored 1 new unique documents
+2025-05-19 09:58:50,017 - lightrag - INFO - Storage Initialization completed!
+2025-05-19 09:58:50,017 - lightrag - INFO - Processing 1 document(s)
+2025-05-19 09:58:50,018 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2025-05-19 09:58:50,018 - lightrag - INFO - Processing d-id: doc-4242190da2622b7fb6a57c5f030f0ba5
+2025-05-19 09:58:50,117 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-19 09:58:50,117 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-19 09:59:10,577 - lightrag - INFO -  == LLM cache == saving default: e1aa3bfa5c891d4870d43dedb4a9aada
+2025-05-19 09:59:18,828 - lightrag - INFO -  == LLM cache == saving default: 906a4f40e4c7ce9ea2f6e6dedb0032c4
+2025-05-19 09:59:38,147 - lightrag - INFO -  == LLM cache == saving default: 07c8c7284c2920ca5010e83205a623e8
+2025-05-19 09:59:43,667 - lightrag - INFO -  == LLM cache == saving default: 68c3e4914f63377cb08049f655c642fc
+2025-05-19 09:59:59,857 - lightrag - INFO -  == LLM cache == saving default: 0b32cd8b3d91ca10d3fd6d4eb49a805c
+2025-05-19 09:59:59,864 - lightrag - INFO - Chunk 1 of 82 extracted 41 Ent + 30 Rel
+2025-05-19 10:00:04,867 - lightrag - INFO -  == LLM cache == saving default: 1b37be5f192e88b108c9e45c4d25ad62
+2025-05-19 10:00:04,867 - lightrag - INFO - Chunk 2 of 82 extracted 50 Ent + 21 Rel
+2025-05-19 10:00:10,487 - lightrag - INFO -  == LLM cache == saving default: c5ec84cf16671be92bf5ea3f6fa854fb
+2025-05-19 10:00:10,498 - lightrag - INFO - Chunk 3 of 82 extracted 58 Ent + 58 Rel
+2025-05-19 10:00:31,798 - lightrag - INFO -  == LLM cache == saving default: cecb75ee5be5f43ff04d30707bf3f894
+2025-05-19 10:00:38,341 - lightrag - INFO -  == LLM cache == saving default: 8d117404995124c1d0e0be2538efd0cd
+2025-05-19 10:00:40,173 - lightrag - INFO -  == LLM cache == saving default: 6d5fd5e4a7e9119cc0b35dec13a496d5
+2025-05-19 10:00:40,178 - lightrag - INFO - Chunk 4 of 82 extracted 81 Ent + 41 Rel
+2025-05-19 10:00:47,111 - lightrag - INFO -  == LLM cache == saving default: abed40cf1950a6f421764da645161fee
+2025-05-19 10:01:06,947 - lightrag - INFO -  == LLM cache == saving default: 04ff8e1f82669a1438fe7c96c8d7b0f4
+2025-05-19 10:01:06,948 - lightrag - INFO - Chunk 5 of 82 extracted 14 Ent + 19 Rel
+2025-05-19 10:01:09,119 - lightrag - INFO -  == LLM cache == saving default: 2cdac22203f3e092cb7abf86dff2a819
+2025-05-19 10:01:09,119 - lightrag - INFO - Chunk 6 of 82 extracted 45 Ent + 14 Rel
+2025-05-19 10:01:27,244 - lightrag - INFO -  == LLM cache == saving default: c2868e85b186a97c749e447d730ff1bb
+2025-05-19 10:01:30,338 - lightrag - INFO -  == LLM cache == saving default: f9f67e156726e05a5107fe91046c9903
+2025-05-19 10:01:39,288 - lightrag - INFO -  == LLM cache == saving default: 4431092fffa8dc5ade80578757419621
+2025-05-19 10:01:44,039 - lightrag - INFO -  == LLM cache == saving default: 6f893c9c07020b571b2f054db1d942b9
+2025-05-19 10:01:44,043 - lightrag - INFO - Chunk 7 of 82 extracted 73 Ent + 64 Rel
+2025-05-19 10:02:18,926 - lightrag - INFO -  == LLM cache == saving default: 95c02785de11486b8ffec61d78c0c43f
+2025-05-19 10:02:25,959 - lightrag - INFO -  == LLM cache == saving default: 785bfca7a5185b729061fa76b9eb5588
+2025-05-19 10:02:25,959 - lightrag - INFO - Chunk 8 of 82 extracted 32 Ent + 41 Rel
+2025-05-19 10:02:41,948 - lightrag - INFO -  == LLM cache == saving default: ba6102fd782ad20c8d895c98ea2e0864
+2025-05-19 10:02:41,959 - lightrag - INFO - Chunk 9 of 82 extracted 38 Ent + 41 Rel
+2025-05-19 10:02:44,989 - lightrag - INFO -  == LLM cache == saving default: 23eccbf059f9dc80c63bc7094e7650e1
+2025-05-19 10:02:44,994 - lightrag - INFO - Chunk 10 of 82 extracted 36 Ent + 36 Rel
+2025-05-19 10:02:55,691 - lightrag - INFO -  == LLM cache == saving default: 7c79f1a686cbd515db0a4e76b2d5567a
+2025-05-19 10:02:56,273 - lightrag - INFO -  == LLM cache == saving default: 44adc460de0231209bdd47f27811e903
+2025-05-19 10:02:56,273 - lightrag - INFO - Chunk 11 of 82 extracted 37 Ent + 35 Rel
+2025-05-19 10:03:13,240 - lightrag - INFO -  == LLM cache == saving default: f1f6714acc42a4a72af997648f173f27
+2025-05-19 10:03:13,249 - lightrag - INFO - Chunk 12 of 82 extracted 30 Ent + 32 Rel
+2025-05-19 10:03:15,460 - lightrag - INFO -  == LLM cache == saving default: 9bd25503796c4f70cf86d88ff8090a6b
+2025-05-19 10:03:21,590 - lightrag - INFO -  == LLM cache == saving default: 897c8da3cbd580e6e564f2cf55550595
+2025-05-19 10:03:24,709 - lightrag - INFO -  == LLM cache == saving default: fd2a9a9ab838e46f1de683b552bb5f7b
+2025-05-19 10:03:40,738 - lightrag - INFO -  == LLM cache == saving default: 80afbf86e4121a1a27121b293d215578
+2025-05-19 10:03:48,319 - lightrag - INFO -  == LLM cache == saving default: 1817cfd2bfafa0a7fd8222f9f0851cc1
+2025-05-19 10:03:48,319 - lightrag - INFO - Chunk 13 of 82 extracted 36 Ent + 38 Rel
+2025-05-19 10:04:00,794 - lightrag - INFO -  == LLM cache == saving default: 6d9f2c061d0ccdac2c12aea15715486f
+2025-05-19 10:04:00,794 - lightrag - INFO - Chunk 14 of 82 extracted 40 Ent + 38 Rel
+2025-05-19 10:04:12,538 - lightrag - INFO -  == LLM cache == saving default: e14a1c8f73dbcaafea42199aac8a03fe
+2025-05-19 10:04:21,474 - lightrag - INFO -  == LLM cache == saving default: 972f537cd54198e576183c51c56c4ea2
+2025-05-19 10:04:21,476 - lightrag - INFO - Chunk 15 of 82 extracted 25 Ent + 32 Rel
+2025-05-19 10:04:26,692 - lightrag - INFO -  == LLM cache == saving default: d8e45a904a802951886126e6df94a90d
+2025-05-19 10:04:30,769 - lightrag - INFO -  == LLM cache == saving default: 48391aa9bdca03bb353bf06529e7c25f
+2025-05-19 10:04:30,772 - lightrag - INFO - Chunk 16 of 82 extracted 46 Ent + 55 Rel
+2025-05-19 10:04:40,698 - lightrag - INFO -  == LLM cache == saving default: 84b519d51508a8fdad5f8a90d646b4fa
+2025-05-19 10:04:52,859 - lightrag - INFO -  == LLM cache == saving default: b76725334e1293f535de0e8df5a4b3fe
+2025-05-19 10:05:04,711 - lightrag - INFO -  == LLM cache == saving default: 8a3eb26158d4d6d27512ab23e4e1168d
+2025-05-19 10:05:04,713 - lightrag - INFO - Chunk 17 of 82 extracted 43 Ent + 36 Rel
+2025-05-19 10:05:11,270 - lightrag - INFO -  == LLM cache == saving default: d9b68101462238c192a4c1f9dc405d63
+2025-05-19 10:05:11,280 - lightrag - INFO - Chunk 18 of 82 extracted 22 Ent + 29 Rel
+2025-05-19 10:05:15,405 - lightrag - INFO -  == LLM cache == saving default: ddd1aa374ddc999a9f533fafbdc026aa
+2025-05-19 10:05:15,405 - lightrag - INFO - Chunk 19 of 82 extracted 18 Ent + 21 Rel
+2025-05-19 10:05:22,692 - lightrag - INFO -  == LLM cache == saving default: 3f5b9737f283b12a946c901cbfd7f5aa
+2025-05-19 10:05:22,694 - lightrag - INFO - Chunk 20 of 82 extracted 30 Ent + 21 Rel
+2025-05-19 10:05:27,875 - lightrag - INFO -  == LLM cache == saving default: 61d4160b6a5f0e7396396c3f360d5064
+2025-05-19 10:05:30,662 - lightrag - INFO -  == LLM cache == saving default: c165d1272f294966730248ec3b0e4aa0
+2025-05-19 10:05:41,875 - lightrag - INFO -  == LLM cache == saving default: 78fd86c08e2b5c6227a5cd92744d41b8
+2025-05-19 10:05:42,940 - lightrag - INFO -  == LLM cache == saving default: 8f6dea000d28a452d3529797abf9f6bd
+2025-05-19 10:06:19,386 - lightrag - INFO -  == LLM cache == saving default: cd328a6e9cdba060cfe7b99c6c17b1cc
+2025-05-19 10:06:19,390 - lightrag - INFO - Chunk 21 of 82 extracted 20 Ent + 19 Rel
+2025-05-19 10:06:20,506 - lightrag - INFO -  == LLM cache == saving default: 8097717987dfa3ceb886736f15544387
+2025-05-19 10:06:20,514 - lightrag - INFO - Chunk 22 of 82 extracted 20 Ent + 20 Rel
+2025-05-19 10:06:26,557 - lightrag - INFO -  == LLM cache == saving default: 38a8d2d2932f9020ca82f4bebb428a24
+2025-05-19 10:06:26,560 - lightrag - INFO - Chunk 23 of 82 extracted 32 Ent + 28 Rel
+2025-05-19 10:06:46,531 - lightrag - INFO -  == LLM cache == saving default: 9d0cf05f196b5b9eb6892e47e034763f
+2025-05-19 10:06:46,535 - lightrag - INFO - Chunk 24 of 82 extracted 38 Ent + 38 Rel
+2025-05-19 10:06:47,396 - lightrag - INFO -  == LLM cache == saving default: f437de01f49ec07dd74023f830a14a77
+2025-05-19 10:06:49,021 - lightrag - INFO -  == LLM cache == saving default: 20098aa50c5ffd483120b5fdc6ae81f2
+2025-05-19 10:07:02,092 - lightrag - INFO -  == LLM cache == saving default: 86f06152a9061df21da4b82a57c484b7
+2025-05-19 10:07:10,491 - lightrag - INFO -  == LLM cache == saving default: 1e214d0b14885478efd0c89e9d733b49
+2025-05-19 10:07:17,100 - lightrag - INFO -  == LLM cache == saving default: 5568d956cd09bb72c6097006ea4d499b
+2025-05-19 10:07:17,101 - lightrag - INFO - Chunk 25 of 82 extracted 25 Ent + 24 Rel
+2025-05-19 10:07:26,422 - lightrag - INFO -  == LLM cache == saving default: 63397639e147e5c0c744af1e9018c2b1
+2025-05-19 10:07:26,428 - lightrag - INFO - Chunk 26 of 82 extracted 16 Ent + 19 Rel
+2025-05-19 10:07:26,761 - lightrag - INFO -  == LLM cache == saving default: c8bad5298667770d6c842d31d10dc4ab
+2025-05-19 10:07:26,761 - lightrag - INFO - Chunk 27 of 82 extracted 25 Ent + 35 Rel
+2025-05-19 10:07:47,278 - lightrag - INFO -  == LLM cache == saving default: 746db72bb7454d9d5912942bed125046
+2025-05-19 10:07:53,128 - lightrag - INFO -  == LLM cache == saving default: 9859b323364330d7e9833cbe1e969f9a
+2025-05-19 10:07:59,786 - lightrag - INFO -  == LLM cache == saving default: 4164ccaa5e0b7c5a567f193ec7f77abf
+2025-05-19 10:07:59,786 - lightrag - INFO - Chunk 28 of 82 extracted 28 Ent + 24 Rel
+2025-05-19 10:08:07,612 - lightrag - INFO -  == LLM cache == saving default: 75ecc923e5599f5877d7b719d05b327d
+2025-05-19 10:08:22,962 - lightrag - INFO -  == LLM cache == saving default: 6819ee6a53d99cfc67a62cd3363a8408
+2025-05-19 10:08:22,962 - lightrag - INFO - Chunk 29 of 82 extracted 15 Ent + 19 Rel
+2025-05-19 10:08:28,637 - lightrag - INFO -  == LLM cache == saving default: edc7d3b04d8bb8910a01edb6d1e146cd
+2025-05-19 10:08:34,571 - lightrag - INFO -  == LLM cache == saving default: e32687bdcfb4dc0c6b5b8c136109044b
+2025-05-19 10:08:34,574 - lightrag - INFO - Chunk 30 of 82 extracted 22 Ent + 20 Rel
+2025-05-19 10:08:41,252 - lightrag - INFO -  == LLM cache == saving default: a6ed303d83c2c5827e1dac046c64f374
+2025-05-19 10:08:41,252 - lightrag - INFO - Chunk 31 of 82 extracted 23 Ent + 28 Rel
+2025-05-19 10:08:48,703 - lightrag - INFO -  == LLM cache == saving default: 82b94c1aa039758d8549862b3d3d8a32
+2025-05-19 10:08:56,145 - lightrag - INFO -  == LLM cache == saving default: 2119b3e225ab1a6acb9cbbdf6383f3bf
+2025-05-19 10:08:56,145 - lightrag - INFO - Chunk 32 of 82 extracted 15 Ent + 16 Rel
+2025-05-19 10:08:57,614 - lightrag - ERROR - OpenAI API Connection Error: Request timed out.
+2025-05-19 10:09:22,245 - lightrag - INFO -  == LLM cache == saving default: c56969654ce943d3911b1e0f6f99744e
+2025-05-19 10:09:25,184 - lightrag - INFO -  == LLM cache == saving default: 3ad4497e7d0219d6125b77b16dc46dd4
+2025-05-19 10:09:25,817 - lightrag - INFO -  == LLM cache == saving default: 3f2aeb6731df949423071023e607eb3f
+2025-05-19 10:09:25,818 - lightrag - INFO - Chunk 33 of 82 extracted 29 Ent + 34 Rel
+2025-05-19 10:09:34,886 - lightrag - INFO -  == LLM cache == saving default: 3d19b92dd4e22b5166737f53e1c859fa
+2025-05-19 10:09:44,549 - lightrag - INFO -  == LLM cache == saving default: f38c5b54ff935653d2f0cf4272ca64b5
+2025-05-19 10:09:44,550 - lightrag - INFO - Chunk 34 of 82 extracted 14 Ent + 13 Rel
+2025-05-19 10:10:04,423 - lightrag - INFO -  == LLM cache == saving default: 6ee7d6780289817aeb65a65eb31ec8f1
+2025-05-19 10:10:04,425 - lightrag - INFO - Chunk 35 of 82 extracted 33 Ent + 30 Rel
+2025-05-19 10:10:05,159 - lightrag - INFO -  == LLM cache == saving default: 4278e78f74c793c17ce849edc43afd91
+2025-05-19 10:10:05,555 - lightrag - INFO -  == LLM cache == saving default: 39fb0f07734259da5689db811ed956b8
+2025-05-19 10:10:08,722 - lightrag - INFO -  == LLM cache == saving default: cf48ef067b76a5587595d9c2a6fc2479
+2025-05-19 10:10:08,726 - lightrag - INFO - Chunk 36 of 82 extracted 19 Ent + 28 Rel
+2025-05-19 10:10:46,787 - lightrag - INFO -  == LLM cache == saving default: e055e8c2683ac01fd6b154144c005880
+2025-05-19 10:10:46,790 - lightrag - INFO - Chunk 37 of 82 extracted 25 Ent + 32 Rel
+2025-05-19 10:10:49,934 - lightrag - INFO -  == LLM cache == saving default: 6f7a0e12989179a397f1a2d88b48b383
+2025-05-19 10:10:58,223 - lightrag - INFO -  == LLM cache == saving default: 50d5ac7825636b1c8adcc00312859031
+2025-05-19 10:11:14,764 - lightrag - INFO -  == LLM cache == saving default: 86944950281b1fc9b7e92910088fb257
+2025-05-19 10:11:14,764 - lightrag - INFO - Chunk 38 of 82 extracted 31 Ent + 31 Rel
+2025-05-19 10:11:30,538 - lightrag - INFO -  == LLM cache == saving default: 8d4807aafe105715127c5e82945e2b77
+2025-05-19 10:11:30,541 - lightrag - INFO - Chunk 39 of 82 extracted 53 Ent + 47 Rel
+2025-05-19 10:11:32,001 - lightrag - INFO -  == LLM cache == saving default: dd808570f2865f186c9d48a1a6f80d17
+2025-05-19 10:11:32,002 - lightrag - INFO - Chunk 40 of 82 extracted 33 Ent + 32 Rel
+2025-05-19 10:11:36,551 - lightrag - INFO -  == LLM cache == saving default: f51aa768c2aaf7e053d674329c542ac1
+2025-05-19 10:11:43,514 - lightrag - INFO -  == LLM cache == saving default: 84d2c809c4e8909a223b04f8164f5c5f
+2025-05-19 10:11:55,324 - lightrag - INFO -  == LLM cache == saving default: 2e20c1435bc62cb26b2991870371b127
+2025-05-19 10:11:57,401 - lightrag - INFO -  == LLM cache == saving default: 34bd811669e70f47d2efa0e256b2a88f
+2025-05-19 10:12:15,653 - lightrag - INFO -  == LLM cache == saving default: 87cd77ca43770c8035907665b48a6f83
+2025-05-19 10:12:15,655 - lightrag - INFO - Chunk 41 of 82 extracted 36 Ent + 42 Rel
+2025-05-19 10:12:19,651 - lightrag - INFO -  == LLM cache == saving default: 243a4118f470010f1b1dd5564216e618
+2025-05-19 10:12:19,652 - lightrag - INFO - Chunk 42 of 82 extracted 17 Ent + 18 Rel
+2025-05-19 10:12:46,305 - lightrag - INFO -  == LLM cache == saving default: 6240e9749b893d9c44e4e5119ce0cb17
+2025-05-19 10:12:47,468 - lightrag - INFO -  == LLM cache == saving default: a622eef5011311548daf2bd3c3f77f22
+2025-05-19 10:12:47,469 - lightrag - INFO - Chunk 43 of 82 extracted 23 Ent + 25 Rel
+2025-05-19 10:12:53,002 - lightrag - INFO -  == LLM cache == saving default: c36576f78bb5425f4fde2305a7084fca
+2025-05-19 10:12:55,364 - lightrag - INFO -  == LLM cache == saving default: 22cd14886fcb0c042a0308d135580080
+2025-05-19 10:12:55,367 - lightrag - INFO - Chunk 44 of 82 extracted 35 Ent + 38 Rel
+2025-05-19 10:13:11,373 - lightrag - INFO -  == LLM cache == saving default: 93f085b3e4bd10c3a7082c6e0fdb0812
+2025-05-19 10:13:12,367 - lightrag - INFO -  == LLM cache == saving default: 5b7afe26049fe74e4131f53260815d6b
+2025-05-19 10:13:30,943 - lightrag - INFO -  == LLM cache == saving default: b094645e9cdaf5d504c3710f94e59f69
+2025-05-19 10:13:30,947 - lightrag - INFO - Chunk 45 of 82 extracted 32 Ent + 39 Rel
+2025-05-19 10:13:41,602 - lightrag - INFO -  == LLM cache == saving default: f811e596b12d2b4a73f649e38a34008d
+2025-05-19 10:13:41,603 - lightrag - INFO - Chunk 46 of 82 extracted 35 Ent + 41 Rel
+2025-05-19 10:13:59,581 - lightrag - INFO -  == LLM cache == saving default: e9aa936f1a4acbbaa76fe7cb3445b2c5
+2025-05-19 10:13:59,583 - lightrag - INFO - Chunk 47 of 82 extracted 26 Ent + 36 Rel
+2025-05-19 10:14:02,816 - lightrag - INFO -  == LLM cache == saving default: 27da42f5a314bf29a1e8fc4d7f8151a0
+2025-05-19 10:14:04,353 - lightrag - INFO -  == LLM cache == saving default: e7f8d7730b1e404dc1714ae74327b5a4
+2025-05-19 10:14:04,357 - lightrag - INFO - Chunk 48 of 82 extracted 26 Ent + 30 Rel
+2025-05-19 10:14:07,838 - lightrag - INFO -  == LLM cache == saving default: 03bd8c1c37d7f5713747e035f43416f8
+2025-05-19 10:14:18,071 - lightrag - INFO -  == LLM cache == saving default: 32ccda6466e019d488d4990f15092a9c
+2025-05-19 10:14:19,436 - lightrag - INFO -  == LLM cache == saving default: aef62d6e8cd8b2c53e80c72762c58cab
+2025-05-19 10:14:19,436 - lightrag - INFO - Chunk 49 of 82 extracted 29 Ent + 27 Rel
+2025-05-19 10:14:37,463 - lightrag - INFO -  == LLM cache == saving default: c1df8709438aa322cc9ef8780866eae9
+2025-05-19 10:14:43,069 - lightrag - INFO -  == LLM cache == saving default: f230d21b0927ca61556bc1c010c9431f
+2025-05-19 10:14:49,397 - lightrag - INFO -  == LLM cache == saving default: aa2a84d016cb96359d8906d874d036a0
+2025-05-19 10:14:49,413 - lightrag - INFO - Chunk 50 of 82 extracted 33 Ent + 38 Rel
+2025-05-19 10:15:04,399 - lightrag - INFO -  == LLM cache == saving default: 23e234951c35fad76be0036175c29a7a
+2025-05-19 10:15:04,402 - lightrag - INFO - Chunk 51 of 82 extracted 38 Ent + 35 Rel
+2025-05-19 10:15:07,073 - lightrag - INFO -  == LLM cache == saving default: b03e655cf491f4f28bbc7b70018f7768
+2025-05-19 10:15:10,010 - lightrag - INFO -  == LLM cache == saving default: 1645ddd345e0f5eb8605f46bbbaa423e
+2025-05-19 10:15:10,013 - lightrag - INFO - Chunk 52 of 82 extracted 36 Ent + 34 Rel
+2025-05-19 10:15:18,164 - lightrag - INFO -  == LLM cache == saving default: 6cac21c993091e94030e079b45733f33
+2025-05-19 10:15:18,164 - lightrag - INFO - Chunk 53 of 82 extracted 27 Ent + 30 Rel
+2025-05-19 10:15:37,313 - lightrag - INFO -  == LLM cache == saving default: f208ce4ca395679e88647693538e854c
+2025-05-19 10:15:39,869 - lightrag - INFO -  == LLM cache == saving default: 333f6347e70d7bb6e8f826215e80d9fe
+2025-05-19 10:15:57,235 - lightrag - INFO -  == LLM cache == saving default: 8950498b587773ee7e2831f59b39183f
+2025-05-19 10:15:57,238 - lightrag - INFO - Chunk 54 of 82 extracted 28 Ent + 33 Rel
+2025-05-19 10:16:00,839 - lightrag - INFO -  == LLM cache == saving default: 7b66db43bfc422c4dd38e3eeb93597fb
+2025-05-19 10:16:08,791 - lightrag - INFO -  == LLM cache == saving default: c88a1bed02c62731b0533f2045f976a5
+2025-05-19 10:16:08,793 - lightrag - INFO - Chunk 55 of 82 extracted 16 Ent + 27 Rel
+2025-05-19 10:16:12,857 - lightrag - INFO -  == LLM cache == saving default: d57ab6b8796712f60a2ab06af0a1274b
+2025-05-19 10:16:12,858 - lightrag - INFO - Chunk 56 of 82 extracted 22 Ent + 20 Rel
+2025-05-19 10:16:28,253 - lightrag - INFO -  == LLM cache == saving default: d40766da0719bdbde6ba0611e957d712
+2025-05-19 10:16:35,538 - lightrag - INFO -  == LLM cache == saving default: bbd34d5a5a89143762228f375f797b2f
+2025-05-19 10:16:35,542 - lightrag - INFO - Chunk 57 of 82 extracted 31 Ent + 28 Rel
+2025-05-19 10:16:45,553 - lightrag - INFO -  == LLM cache == saving default: b260a36abc83f5491c5103b8b20f1836
+2025-05-19 10:16:58,371 - lightrag - INFO -  == LLM cache == saving default: 312e7088b086a7d217678df408e7d94c
+2025-05-19 10:17:09,336 - lightrag - INFO -  == LLM cache == saving default: 503ce4ae58c03f5787b95be24c9119a6
+2025-05-19 10:17:09,339 - lightrag - INFO - Chunk 58 of 82 extracted 30 Ent + 38 Rel
+2025-05-19 10:17:09,585 - lightrag - INFO -  == LLM cache == saving default: 71f0028a550830898dd147d355053e7c
+2025-05-19 10:17:16,998 - lightrag - INFO -  == LLM cache == saving default: 91eef80b5376267316cab4ec21871343
+2025-05-19 10:17:17,000 - lightrag - INFO - Chunk 59 of 82 extracted 20 Ent + 23 Rel
+2025-05-19 10:17:27,829 - lightrag - INFO -  == LLM cache == saving default: c2526daeba33eaa30731fd8901da4c97
+2025-05-19 10:17:27,830 - lightrag - INFO - Chunk 60 of 82 extracted 22 Ent + 31 Rel
+2025-05-19 10:17:52,344 - lightrag - INFO -  == LLM cache == saving default: 67f355edd0d3950b50c8b13e819dd57a
+2025-05-19 10:17:55,247 - lightrag - INFO -  == LLM cache == saving default: db23fc7dc471361eb3d076b4a182638f
+2025-05-19 10:18:05,509 - lightrag - INFO -  == LLM cache == saving default: ffca89d8319caea7b1afbef897831e47
+2025-05-19 10:18:05,511 - lightrag - INFO - Chunk 61 of 82 extracted 37 Ent + 56 Rel
+2025-05-19 10:18:30,654 - lightrag - INFO -  == LLM cache == saving default: 522a41849e520871aebc094cd149c127
+2025-05-19 10:18:37,593 - lightrag - INFO -  == LLM cache == saving default: fc0c4923be9fb442661263d1ceb7b820
+2025-05-19 10:18:46,119 - lightrag - INFO -  == LLM cache == saving default: 1a4027f64d567aaf36c9f7441ddc4408
+2025-05-19 10:18:46,121 - lightrag - INFO - Chunk 62 of 82 extracted 41 Ent + 37 Rel
+2025-05-19 10:18:46,977 - lightrag - INFO -  == LLM cache == saving default: 82368eff519418c460a4f6b566f94356
+2025-05-19 10:18:46,980 - lightrag - INFO - Chunk 63 of 82 extracted 30 Ent + 39 Rel
+2025-05-19 10:19:07,081 - lightrag - INFO -  == LLM cache == saving default: 206ea3256d3e5d8fad179cb4ac99ec1d
+2025-05-19 10:19:08,273 - lightrag - INFO -  == LLM cache == saving default: 16d3b1f0cddba4edd19f20239b9f80b0
+2025-05-19 10:19:08,276 - lightrag - INFO - Chunk 64 of 82 extracted 19 Ent + 17 Rel
+2025-05-19 10:19:16,105 - lightrag - INFO -  == LLM cache == saving default: 6fc1d653bacddb37228e05f7352a8f39
+2025-05-19 10:19:18,279 - lightrag - INFO -  == LLM cache == saving default: c2c2d39271943352d3807fad8b22f7e5
+2025-05-19 10:19:18,280 - lightrag - INFO - Chunk 65 of 82 extracted 44 Ent + 38 Rel
+2025-05-19 10:19:42,446 - lightrag - INFO -  == LLM cache == saving default: c301d1fd2624cb968ce4bc50777b16ae
+2025-05-19 10:19:42,448 - lightrag - INFO - Chunk 66 of 82 extracted 34 Ent + 34 Rel
+2025-05-19 10:19:42,929 - lightrag - INFO -  == LLM cache == saving default: fc0ede60fdf92f81b76ba6ddfde4ff3e
+2025-05-19 10:19:49,692 - lightrag - INFO -  == LLM cache == saving default: 25590c8e50cb5f27e65ca9a57e53e3ed
+2025-05-19 10:19:53,970 - lightrag - INFO -  == LLM cache == saving default: d5f67fae04906cc93b90cf0f53862893
+2025-05-19 10:19:53,972 - lightrag - INFO - Chunk 67 of 82 extracted 35 Ent + 42 Rel
+2025-05-19 10:20:12,358 - lightrag - INFO -  == LLM cache == saving default: a1e804766abd53e2ee3727bd72489a80
+2025-05-19 10:20:14,826 - lightrag - INFO -  == LLM cache == saving default: 022718476244cc27a6c52c1de06fe5c2
+2025-05-19 10:20:28,303 - lightrag - INFO -  == LLM cache == saving default: 78f51a84de516f0db5f9c9dbca48e404
+2025-05-19 10:20:28,306 - lightrag - INFO - Chunk 68 of 82 extracted 40 Ent + 43 Rel
+2025-05-19 10:20:28,506 - lightrag - INFO -  == LLM cache == saving default: 50d0b4d8ef3502897bb88b7904f761dd
+2025-05-19 10:20:28,508 - lightrag - INFO - Chunk 69 of 82 extracted 19 Ent + 27 Rel
+2025-05-19 10:20:38,901 - lightrag - INFO -  == LLM cache == saving default: 1c54bcbb3a58b9e653c59a28978ad1e8
+2025-05-19 10:20:38,903 - lightrag - INFO - Chunk 70 of 82 extracted 14 Ent + 16 Rel
+2025-05-19 10:21:02,688 - lightrag - INFO -  == LLM cache == saving default: 65217ee306ba300a9a66c2e12c659802
+2025-05-19 10:21:10,023 - lightrag - INFO -  == LLM cache == saving default: b0f947eb072d0e6e6f28d64c1502268b
+2025-05-19 10:21:11,249 - lightrag - INFO -  == LLM cache == saving default: d6c40f605755e05c61e1f7f844d3f72b
+2025-05-19 10:21:11,252 - lightrag - INFO - Chunk 71 of 82 extracted 24 Ent + 25 Rel
+2025-05-19 10:21:12,328 - lightrag - INFO -  == LLM cache == saving default: 92b01ee4079402c4001762438e902b73
+2025-05-19 10:21:29,788 - lightrag - INFO -  == LLM cache == saving default: 3a84adc8f7e0d2ee6fbeca1eaefc24a8
+2025-05-19 10:21:32,880 - lightrag - INFO -  == LLM cache == saving default: 971d508e129658638e3b597777585b73
+2025-05-19 10:21:32,882 - lightrag - INFO - Chunk 72 of 82 extracted 11 Ent + 11 Rel
+2025-05-19 10:21:37,965 - lightrag - INFO -  == LLM cache == saving default: f364ff1bdee41e398b6939f7b78ec28d
+2025-05-19 10:21:37,966 - lightrag - INFO - Chunk 73 of 82 extracted 21 Ent + 28 Rel
+2025-05-19 10:21:50,054 - lightrag - INFO -  == LLM cache == saving default: 7b1ae84420c90f1958284f8d9ee48f09
+2025-05-19 10:21:50,055 - lightrag - INFO - Chunk 74 of 82 extracted 38 Ent + 34 Rel
+2025-05-19 10:21:54,520 - lightrag - INFO -  == LLM cache == saving default: c8a92356ba4a91aa95fe00220044c457
+2025-05-19 10:22:08,111 - lightrag - INFO -  == LLM cache == saving default: fb7692c27ce28337b0c44327811abfcf
+2025-05-19 10:22:39,709 - lightrag - INFO -  == LLM cache == saving default: 1c1013a959d9cd1b91ff7475186960ee
+2025-05-19 10:22:39,711 - lightrag - INFO - Chunk 75 of 82 extracted 41 Ent + 38 Rel
+2025-05-19 10:22:39,819 - lightrag - INFO -  == LLM cache == saving default: b0507f65b723b61eb97397237bfac5ba
+2025-05-19 10:22:41,698 - lightrag - INFO -  == LLM cache == saving default: 5747d6efb1b9bba83c13026d1130b5d6
+2025-05-19 10:22:41,701 - lightrag - INFO - Chunk 76 of 82 extracted 39 Ent + 33 Rel
+2025-05-19 10:22:41,817 - lightrag - INFO -  == LLM cache == saving default: 16eed6a6fcbd922f10af4462d39f291c
+2025-05-19 10:22:41,823 - lightrag - INFO - Chunk 77 of 82 extracted 58 Ent + 59 Rel
+2025-05-19 10:23:23,077 - lightrag - INFO -  == LLM cache == saving default: dbdebda1bdbee0177a32b6a169508281
+2025-05-19 10:23:26,041 - lightrag - INFO -  == LLM cache == saving default: 68d001d6e4580dfb19db227659cd23a9
+2025-05-19 10:23:31,951 - lightrag - INFO -  == LLM cache == saving default: 2b86ec33293c0497930247cca604ccf8
+2025-05-19 10:23:31,954 - lightrag - INFO - Chunk 78 of 82 extracted 33 Ent + 31 Rel
+2025-05-19 10:23:40,521 - lightrag - INFO -  == LLM cache == saving default: 9924fa2abb5aa9621d2b167d403f83c2
+2025-05-19 10:24:15,434 - lightrag - INFO -  == LLM cache == saving default: 15a2b0a88ac8258ef5fc2a4645c2bb85
+2025-05-19 10:24:19,045 - lightrag - INFO -  == LLM cache == saving default: 2f7522e9190900d116854d899883afac
+2025-05-19 10:24:19,047 - lightrag - INFO - Chunk 79 of 82 extracted 30 Ent + 33 Rel
+2025-05-19 10:24:31,712 - lightrag - INFO -  == LLM cache == saving default: 27593999ee18df29a5e42585e9393f2b
+2025-05-19 10:24:31,715 - lightrag - INFO - Chunk 80 of 82 extracted 32 Ent + 39 Rel
+2025-05-19 10:24:47,259 - lightrag - INFO -  == LLM cache == saving default: 17503126aebe4c23ad7f44074076c4e7
+2025-05-19 10:24:47,264 - lightrag - INFO - Chunk 81 of 82 extracted 30 Ent + 32 Rel
+2025-05-19 10:24:56,784 - lightrag - INFO -  == LLM cache == saving default: e711849f78a342f4e9a1bab7204e3691
+2025-05-19 10:24:56,786 - lightrag - INFO - Chunk 82 of 82 extracted 48 Ent + 31 Rel
+2025-05-19 10:24:56,790 - lightrag - INFO - Merging stage 1/1: unknown_source
+2025-05-19 10:24:56,791 - lightrag - INFO - Merge N: Học viện Công nghệ Bưu chính Viễn thông | 3+0
+2025-05-19 10:24:56,792 - lightrag - INFO - Merge N: Hà Nội | 2+0
+2025-05-19 10:24:56,793 - lightrag - INFO - Merge N: Hệ thống thông tin | 2+0
+2025-05-19 10:24:56,795 - lightrag - INFO - Merge N: Chương 3. Đảm bảo an toàn thông tin dựa trên mã hóa | 2+0
+2025-05-19 10:24:56,795 - lightrag - INFO - LLM merge N: SSL/TLS | 8+0
+2025-05-19 10:24:57,183 - lightrag - ERROR - OpenAI API Call Failed,
+Model: o4-mini,
+Params: {'max_tokens': 500}, Got: Error code: 400 - {'error': {'message': "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}
+2025-05-19 10:24:57,184 - lightrag - ERROR - limit_async: Error in decorated function: Error code: 400 - {'error': {'message': "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}
+2025-05-19 10:24:57,219 - lightrag - ERROR - Traceback (most recent call last):
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\lightrag.py", line 1055, in process_document
+    await merge_nodes_and_edges(
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\operate.py", line 564, in merge_nodes_and_edges
+    entity_data = await _merge_nodes_then_upsert(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\operate.py", line 299, in _merge_nodes_then_upsert
+    description = await _handle_entity_relation_summary(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\operate.py", line 142, in _handle_entity_relation_summary
+    summary = await use_llm_func_with_cache(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\utils.py", line 1648, in use_llm_func_with_cache
+    res: str = await use_llm_func(input_text, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\utils.py", line 586, in wait_func
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\utils.py", line 370, in worker
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\llm\openai.py", line 397, in gpt_o4_mini_complete
+    return await openai_complete_if_cache(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\tenacity\__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\llm\openai.py", line 186, in openai_complete_if_cache
+    response = await openai_async_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2000, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\openai\_base_client.py", line 1767, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\openai\_base_client.py", line 1461, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\openai\_base_client.py", line 1562, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}
+
+2025-05-19 10:24:57,220 - lightrag - ERROR - Merging stage failed in document 1/1: unknown_source
+2025-05-19 10:24:57,296 - lightrag - INFO - Document processing pipeline completed
+2025-05-19 10:25:04,655 - lightrag - INFO -  == LLM cache == saving hybrid: 25f4bf9f33f0f44c24dec544442aff59
+2025-05-19 10:25:04,655 - lightrag - INFO - Process 6328 building query context...
+2025-05-19 10:25:04,656 - lightrag - INFO - Query nodes: Phishing, Malware, Tấn công DDoS, SQL Injection, Cross-Site Scripting (XSS), Man-in-the-Middle, Brute Force, Social Engineering, top_k: 60, cosine: 0.2
+2025-05-19 10:25:06,426 - lightrag - INFO - Query edges: Phương pháp tấn công, Tấn công mạng, An ninh mạng, Rủi ro bảo mật, top_k: 60, cosine: 0.2
+2025-05-19 10:25:08,142 - lightrag - INFO - Creating a new event loop in main thread.
+2025-05-19 10:25:40,649 - lightrag - INFO - Created new empty graph
+2025-05-19 10:25:40,662 - lightrag - INFO - Process 16128 KV load full_docs with 0 records
+2025-05-19 10:25:40,663 - lightrag - INFO - Process 16128 KV load text_chunks with 0 records
+2025-05-19 10:25:40,732 - lightrag - INFO - Process 16128 KV load llm_response_cache with 165 records
+2025-05-19 10:25:40,756 - lightrag - INFO - Process 16128 doc status load doc_status with 1 records
+2025-05-19 10:25:40,759 - lightrag - INFO - Process 16128 building query context...
+2025-05-19 10:25:40,760 - lightrag - INFO - Query nodes: Phishing, Malware, Tấn công DDoS, SQL Injection, Cross-Site Scripting (XSS), Man-in-the-Middle, Brute Force, Social Engineering, top_k: 60, cosine: 0.2
+2025-05-19 10:25:40,761 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-19 10:25:40,762 - lightrag - INFO - Storage Initialization completed!
+2025-05-19 10:25:42,255 - lightrag - INFO - Query edges: Phương pháp tấn công, Tấn công mạng, An ninh mạng, Rủi ro bảo mật, top_k: 60, cosine: 0.2
+2025-05-19 10:25:43,520 - lightrag - INFO - Storage Finalization completed!
+2025-05-19 10:26:23,520 - lightrag - INFO - Created new empty graph
+2025-05-19 10:26:23,533 - lightrag - INFO - Process 17180 KV load full_docs with 0 records
+2025-05-19 10:26:23,534 - lightrag - INFO - Process 17180 KV load text_chunks with 0 records
+2025-05-19 10:26:23,619 - lightrag - INFO - Process 17180 KV load llm_response_cache with 165 records
+2025-05-19 10:26:23,627 - lightrag - INFO - Process 17180 doc status load doc_status with 1 records
+2025-05-19 10:26:23,630 - lightrag - INFO - Process 17180 building query context...
+2025-05-19 10:26:23,631 - lightrag - INFO - Query nodes: Phishing, Malware, Tấn công DDoS, SQL Injection, Cross-Site Scripting (XSS), Man-in-the-Middle, Brute Force, Social Engineering, top_k: 60, cosine: 0.2
+2025-05-19 10:26:23,631 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-19 10:26:23,634 - lightrag - INFO - Storage Initialization completed!
+2025-05-19 10:26:25,117 - lightrag - INFO - Query edges: Phương pháp tấn công, Tấn công mạng, An ninh mạng, Rủi ro bảo mật, top_k: 60, cosine: 0.2
+2025-05-19 10:26:26,075 - lightrag - INFO - Storage Finalization completed!
+2025-05-19 10:26:50,621 - lightrag - INFO - Created new empty graph
+2025-05-19 10:26:50,634 - lightrag - INFO - Process 9704 KV load full_docs with 0 records
+2025-05-19 10:26:50,635 - lightrag - INFO - Process 9704 KV load text_chunks with 0 records
+2025-05-19 10:26:50,702 - lightrag - INFO - Process 9704 KV load llm_response_cache with 165 records
+2025-05-19 10:26:50,710 - lightrag - INFO - Process 9704 doc status load doc_status with 1 records
+2025-05-19 10:26:50,714 - lightrag - INFO - Process 9704 building query context...
+2025-05-19 10:26:50,714 - lightrag - INFO - Query nodes: Phishing, Malware, Tấn công DDoS, SQL Injection, Cross-Site Scripting (XSS), Man-in-the-Middle, Brute Force, Social Engineering, top_k: 60, cosine: 0.2
+2025-05-19 10:26:50,715 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-19 10:26:50,715 - lightrag - INFO - Storage Initialization completed!
+2025-05-19 10:26:52,596 - lightrag - INFO - Query edges: Phương pháp tấn công, Tấn công mạng, An ninh mạng, Rủi ro bảo mật, top_k: 60, cosine: 0.2
+2025-05-19 10:26:53,469 - lightrag - INFO - Storage Finalization completed!
+2025-05-19 10:27:24,464 - lightrag - INFO - Created new empty graph
+2025-05-19 10:27:24,477 - lightrag - INFO - Process 15480 KV load full_docs with 0 records
+2025-05-19 10:27:24,479 - lightrag - INFO - Process 15480 KV load text_chunks with 0 records
+2025-05-19 10:27:24,552 - lightrag - INFO - Process 15480 KV load llm_response_cache with 165 records
+2025-05-19 10:27:24,559 - lightrag - INFO - Process 15480 doc status load doc_status with 1 records
+2025-05-19 10:27:24,566 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-19 10:27:24,566 - lightrag - INFO - Storage Initialization completed!
+2025-05-19 10:27:26,193 - lightrag - INFO -  == LLM cache == saving hybrid: 35120b4c17d54f632424fafd8a6bec6a
+2025-05-19 10:27:26,193 - lightrag - WARNING - low_level_keywords is empty, switching from hybrid mode to global mode
+2025-05-19 10:27:26,194 - lightrag - INFO - Process 15480 building query context...
+2025-05-19 10:27:26,195 - lightrag - INFO - Query edges: Chào bạn, top_k: 60, cosine: 0.2
+2025-05-19 10:27:26,196 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-19 10:27:27,197 - lightrag - INFO - Storage Finalization completed!
+2025-05-19 10:29:36,061 - lightrag - INFO - Created new empty graph
+2025-05-19 10:29:36,073 - lightrag - INFO - Process 17016 KV load full_docs with 0 records
+2025-05-19 10:29:36,073 - lightrag - INFO - Process 17016 KV load text_chunks with 0 records
+2025-05-19 10:29:36,075 - lightrag - INFO - Process 17016 KV load llm_response_cache with 0 records
+2025-05-19 10:29:36,076 - lightrag - INFO - Process 17016 doc status load doc_status with 0 records
+2025-05-19 10:29:36,109 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-19 10:29:36,118 - lightrag - INFO - Storage Initialization completed!
+2025-05-19 10:29:44,138 - lightrag - INFO -  == LLM cache == saving hybrid: 25f4bf9f33f0f44c24dec544442aff59
+2025-05-19 10:29:44,139 - lightrag - INFO - Process 17016 building query context...
+2025-05-19 10:29:44,139 - lightrag - INFO - Query nodes: Phishing, SQL injection, Tấn công từ chối dịch vụ (DDoS), Brute force, Man-in-the-middle, Malware, top_k: 60, cosine: 0.2
+2025-05-19 10:29:44,140 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-19 10:29:47,653 - lightrag - INFO - Query edges: phương pháp tấn công, tấn công phổ biến, top_k: 60, cosine: 0.2
+2025-05-19 10:29:48,593 - lightrag - INFO - Storage Finalization completed!
+2025-05-19 10:30:24,481 - lightrag - INFO - Created new empty graph
+2025-05-19 10:30:24,496 - lightrag - INFO - Process 6816 KV load full_docs with 0 records
+2025-05-19 10:30:24,497 - lightrag - INFO - Process 6816 KV load text_chunks with 0 records
+2025-05-19 10:30:24,498 - lightrag - INFO - Process 6816 KV load llm_response_cache with 0 records
+2025-05-19 10:30:24,500 - lightrag - INFO - Process 6816 doc status load doc_status with 0 records
+2025-05-19 10:30:24,510 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-19 10:30:24,511 - lightrag - INFO - Storage Initialization completed!
+2025-05-19 10:30:28,952 - lightrag - INFO -  == LLM cache == saving hybrid: 25f4bf9f33f0f44c24dec544442aff59
+2025-05-19 10:30:28,952 - lightrag - INFO - Process 6816 building query context...
+2025-05-19 10:30:28,952 - lightrag - INFO - Query nodes: Phishing, Malware, DDoS, Ransomware, SQL Injection, Cross-site scripting (XSS), Brute force, Social engineering, Man-in-the-middle, Zero-day exploit, top_k: 60, cosine: 0.2
+2025-05-19 10:30:28,952 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-19 10:30:29,831 - lightrag - INFO - Query edges: Phương pháp tấn công, An ninh mạng, Lỗ hổng bảo mật, Chiến lược tấn công, top_k: 60, cosine: 0.2
+2025-05-19 10:30:30,864 - lightrag - INFO - Storage Finalization completed!
+2025-05-19 10:30:51,245 - lightrag - INFO - Created new empty graph
+2025-05-19 10:30:51,258 - lightrag - INFO - Process 5640 KV load full_docs with 0 records
+2025-05-19 10:30:51,259 - lightrag - INFO - Process 5640 KV load text_chunks with 0 records
+2025-05-19 10:30:51,261 - lightrag - INFO - Process 5640 KV load llm_response_cache with 0 records
+2025-05-19 10:30:51,262 - lightrag - INFO - Process 5640 doc status load doc_status with 0 records
+2025-05-19 10:30:51,273 - lightrag - INFO - Storage Initialization completed!
+2025-05-19 10:30:51,273 - lightrag - INFO - Storage Finalization completed!
+2025-05-19 10:32:12,942 - lightrag - INFO - Created new empty graph
+2025-05-19 10:32:12,956 - lightrag - INFO - Process 19388 KV load full_docs with 0 records
+2025-05-19 10:32:12,956 - lightrag - INFO - Process 19388 KV load text_chunks with 0 records
+2025-05-19 10:32:12,962 - lightrag - INFO - Process 19388 KV load llm_response_cache with 0 records
+2025-05-19 10:32:12,963 - lightrag - INFO - Process 19388 doc status load doc_status with 0 records
+2025-05-19 10:32:12,977 - lightrag - INFO - Stored 1 new unique documents
+2025-05-19 10:32:12,978 - lightrag - INFO - Storage Initialization completed!
+2025-05-19 10:32:12,979 - lightrag - INFO - Processing 1 document(s)
+2025-05-19 10:32:12,979 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2025-05-19 10:32:12,979 - lightrag - INFO - Processing d-id: doc-4242190da2622b7fb6a57c5f030f0ba5
+2025-05-19 10:32:13,073 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-19 10:32:13,073 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-19 10:32:34,263 - lightrag - INFO -  == LLM cache == saving default: e1aa3bfa5c891d4870d43dedb4a9aada
+2025-05-19 10:32:40,413 - lightrag - INFO -  == LLM cache == saving default: 68c3e4914f63377cb08049f655c642fc
+2025-05-19 10:32:41,502 - lightrag - INFO -  == LLM cache == saving default: 906a4f40e4c7ce9ea2f6e6dedb0032c4
+2025-05-19 10:33:10,461 - lightrag - INFO -  == LLM cache == saving default: 07c8c7284c2920ca5010e83205a623e8
+2025-05-19 10:33:37,823 - lightrag - INFO -  == LLM cache == saving default: 434d70995415ecacc7bfce5d0fe47d06
+2025-05-19 10:33:37,823 - lightrag - INFO - Chunk 1 of 82 extracted 35 Ent + 34 Rel
+2025-05-19 10:33:41,383 - lightrag - INFO -  == LLM cache == saving default: 4c8cf265b5da3383b0d4a47c124961d3
+2025-05-19 10:33:41,383 - lightrag - INFO - Chunk 2 of 82 extracted 58 Ent + 34 Rel
+2025-05-19 10:33:46,936 - lightrag - INFO -  == LLM cache == saving default: 151f0b2628ad0b332b4d3965456fc48b
+2025-05-19 10:33:46,942 - lightrag - INFO - Chunk 3 of 82 extracted 76 Ent + 70 Rel
+2025-05-19 10:34:07,863 - lightrag - INFO -  == LLM cache == saving default: cecb75ee5be5f43ff04d30707bf3f894
+2025-05-19 10:34:19,723 - lightrag - INFO -  == LLM cache == saving default: 8d117404995124c1d0e0be2538efd0cd
+2025-05-19 10:34:20,063 - lightrag - INFO -  == LLM cache == saving default: d090da4f482aed896df7b85004fb30db
+2025-05-19 10:34:20,074 - lightrag - INFO - Chunk 4 of 82 extracted 55 Ent + 22 Rel
+2025-05-19 10:34:31,899 - lightrag - INFO -  == LLM cache == saving default: abed40cf1950a6f421764da645161fee
+2025-05-19 10:34:50,574 - lightrag - INFO -  == LLM cache == saving default: 94f0fd29b4c1c1ddcc2ef50942ff88d1
+2025-05-19 10:34:50,574 - lightrag - INFO - Chunk 5 of 82 extracted 71 Ent + 43 Rel
+2025-05-19 10:34:58,027 - lightrag - INFO -  == LLM cache == saving default: c2868e85b186a97c749e447d730ff1bb
+2025-05-19 10:35:11,364 - lightrag - INFO -  == LLM cache == saving default: 7589dee10b1df0feed1f5b368b03ba70
+2025-05-19 10:35:11,364 - lightrag - INFO - Chunk 6 of 82 extracted 56 Ent + 30 Rel
+2025-05-19 10:35:14,245 - lightrag - INFO -  == LLM cache == saving default: 4431092fffa8dc5ade80578757419621
+2025-05-19 10:35:38,566 - lightrag - INFO -  == LLM cache == saving default: 020899d17133cdb15b47f48f0a3d8871
+2025-05-19 10:35:38,566 - lightrag - INFO - Chunk 7 of 82 extracted 33 Ent + 40 Rel
+2025-05-19 10:35:43,464 - lightrag - INFO -  == LLM cache == saving default: f9f67e156726e05a5107fe91046c9903
+2025-05-19 10:35:54,678 - lightrag - INFO -  == LLM cache == saving default: 1876576bf868e48412742e6392b39446
+2025-05-19 10:35:54,683 - lightrag - INFO - Chunk 8 of 82 extracted 26 Ent + 28 Rel
+2025-05-19 10:36:11,335 - lightrag - INFO -  == LLM cache == saving default: f63789fd5f482e69e9c0eb6201c02e16
+2025-05-19 10:36:11,344 - lightrag - INFO - Chunk 9 of 82 extracted 30 Ent + 31 Rel
+2025-05-19 10:36:17,144 - lightrag - INFO -  == LLM cache == saving default: 7c79f1a686cbd515db0a4e76b2d5567a
+2025-05-19 10:36:22,315 - lightrag - INFO -  == LLM cache == saving default: 95c02785de11486b8ffec61d78c0c43f
+2025-05-19 10:36:27,368 - lightrag - INFO -  == LLM cache == saving default: be05b2a297103f9b5e09b52f43985d03
+2025-05-19 10:36:27,372 - lightrag - INFO - Chunk 10 of 82 extracted 41 Ent + 38 Rel
+2025-05-19 10:36:45,607 - lightrag - INFO -  == LLM cache == saving default: 897c8da3cbd580e6e564f2cf55550595
+2025-05-19 10:37:01,143 - lightrag - INFO -  == LLM cache == saving default: b724b8cf9f3313de56c30b885e194cbb
+2025-05-19 10:37:01,145 - lightrag - INFO - Chunk 11 of 82 extracted 20 Ent + 27 Rel
+2025-05-19 10:37:08,657 - lightrag - INFO -  == LLM cache == saving default: da785e282e12a615e5b4fa23af2f6eb4
+2025-05-19 10:37:08,659 - lightrag - INFO - Chunk 12 of 82 extracted 38 Ent + 38 Rel
+2025-05-19 10:37:17,424 - lightrag - INFO -  == LLM cache == saving default: 9bd25503796c4f70cf86d88ff8090a6b
+2025-05-19 10:37:44,712 - lightrag - INFO -  == LLM cache == saving default: fd2a9a9ab838e46f1de683b552bb5f7b
+2025-05-19 10:37:44,860 - lightrag - INFO -  == LLM cache == saving default: 4c37bff6061ab850132337f8c543ad2e
+2025-05-19 10:37:44,864 - lightrag - INFO - Chunk 13 of 82 extracted 52 Ent + 53 Rel
+2025-05-19 10:38:06,195 - lightrag - INFO -  == LLM cache == saving default: abf323091f30cd3d4eeb0fd7e1cf3ca6
+2025-05-19 10:38:06,195 - lightrag - INFO - Chunk 14 of 82 extracted 38 Ent + 37 Rel
+2025-05-19 10:38:17,105 - lightrag - INFO -  == LLM cache == saving default: 80afbf86e4121a1a27121b293d215578
+2025-05-19 10:38:28,945 - lightrag - INFO -  == LLM cache == saving default: e14a1c8f73dbcaafea42199aac8a03fe
+2025-05-19 10:38:37,245 - lightrag - INFO -  == LLM cache == saving default: d8e45a904a802951886126e6df94a90d
+2025-05-19 10:38:47,243 - lightrag - INFO -  == LLM cache == saving default: 924fde46a51e5bf7d6a60ab921acd474
+2025-05-19 10:38:47,246 - lightrag - INFO - Chunk 15 of 82 extracted 37 Ent + 39 Rel
+2025-05-19 10:38:58,085 - lightrag - INFO -  == LLM cache == saving default: 8e442cc75ce77fd5cc3e2b0ada3929ad
+2025-05-19 10:38:58,085 - lightrag - INFO - Chunk 16 of 82 extracted 35 Ent + 29 Rel
+2025-05-19 10:39:03,755 - lightrag - INFO -  == LLM cache == saving default: 5092823c4e55ae0791494bf940b4727e
+2025-05-19 10:39:03,755 - lightrag - INFO - Chunk 17 of 82 extracted 28 Ent + 28 Rel
+2025-05-19 10:39:10,856 - lightrag - INFO -  == LLM cache == saving default: b0dc5c6c7f9983767c9cd0871e2e999b
+2025-05-19 10:39:10,856 - lightrag - INFO - Chunk 18 of 82 extracted 43 Ent + 37 Rel
+2025-05-19 10:39:25,967 - lightrag - INFO -  == LLM cache == saving default: b76725334e1293f535de0e8df5a4b3fe
+2025-05-19 10:39:31,562 - lightrag - INFO -  == LLM cache == saving default: 84b519d51508a8fdad5f8a90d646b4fa
+2025-05-19 10:39:35,967 - lightrag - INFO -  == LLM cache == saving default: 8f6dea000d28a452d3529797abf9f6bd
+2025-05-19 10:39:38,778 - lightrag - INFO -  == LLM cache == saving default: c165d1272f294966730248ec3b0e4aa0
+2025-05-19 10:39:52,605 - lightrag - INFO -  == LLM cache == saving default: ff235f8007ebddc1de8e6ca5f97e1355
+2025-05-19 10:39:52,605 - lightrag - INFO - Chunk 19 of 82 extracted 21 Ent + 22 Rel
+2025-05-19 10:40:00,075 - lightrag - INFO -  == LLM cache == saving default: f1bd54a4b61cbd4a298476ee08e06e8d
+2025-05-19 10:40:00,075 - lightrag - INFO - Chunk 20 of 82 extracted 24 Ent + 25 Rel
+2025-05-19 10:40:08,417 - lightrag - INFO -  == LLM cache == saving default: 2aa405d1cb6ca0d7fd2608abcd6c627b
+2025-05-19 10:40:08,419 - lightrag - INFO - Chunk 21 of 82 extracted 21 Ent + 20 Rel
+2025-05-19 10:40:18,117 - lightrag - INFO -  == LLM cache == saving default: 2247d973df0c48e20063301ed8eb4980
+2025-05-19 10:40:18,117 - lightrag - INFO - Chunk 22 of 82 extracted 15 Ent + 20 Rel
+2025-05-19 10:40:18,702 - lightrag - INFO -  == LLM cache == saving default: 61d4160b6a5f0e7396396c3f360d5064
+2025-05-19 10:40:19,127 - lightrag - INFO -  == LLM cache == saving default: 78fd86c08e2b5c6227a5cd92744d41b8
+2025-05-19 10:40:33,056 - lightrag - INFO -  == LLM cache == saving default: f437de01f49ec07dd74023f830a14a77
+2025-05-19 10:40:54,676 - lightrag - INFO -  == LLM cache == saving default: d06ebc1fce6b72dcefe57fb4907f0e97
+2025-05-19 10:40:54,677 - lightrag - INFO - Chunk 23 of 82 extracted 20 Ent + 22 Rel
+2025-05-19 10:41:21,506 - lightrag - INFO -  == LLM cache == saving default: 86f06152a9061df21da4b82a57c484b7
+2025-05-19 10:41:22,228 - lightrag - INFO -  == LLM cache == saving default: c956fa2ed4bdfbd3dc1ff917142b7354
+2025-05-19 10:41:22,232 - lightrag - INFO - Chunk 24 of 82 extracted 28 Ent + 28 Rel
+2025-05-19 10:41:28,586 - lightrag - INFO -  == LLM cache == saving default: 20098aa50c5ffd483120b5fdc6ae81f2
+2025-05-19 10:41:32,778 - lightrag - INFO -  == LLM cache == saving default: 14e073820b3cf0decef7c53ac5db8d6e
+2025-05-19 10:41:32,778 - lightrag - INFO - Chunk 25 of 82 extracted 20 Ent + 26 Rel
+2025-05-19 10:41:50,542 - lightrag - INFO -  == LLM cache == saving default: d355df2af86877923ae076f7fdfe9f98
+2025-05-19 10:41:50,544 - lightrag - INFO - Chunk 26 of 82 extracted 24 Ent + 23 Rel
+2025-05-19 10:41:53,776 - lightrag - INFO -  == LLM cache == saving default: 746db72bb7454d9d5912942bed125046
+2025-05-19 10:41:54,920 - lightrag - INFO -  == LLM cache == saving default: 27b391e8f08f1fa8c360fd3a2c8f3059
+2025-05-19 10:41:54,926 - lightrag - INFO - Chunk 27 of 82 extracted 21 Ent + 22 Rel
+2025-05-19 10:41:56,797 - lightrag - INFO -  == LLM cache == saving default: 1e214d0b14885478efd0c89e9d733b49
+2025-05-19 10:42:20,086 - lightrag - INFO -  == LLM cache == saving default: 9859b323364330d7e9833cbe1e969f9a
+2025-05-19 10:42:27,452 - lightrag - INFO -  == LLM cache == saving default: 75ecc923e5599f5877d7b719d05b327d
+2025-05-19 10:42:36,801 - lightrag - INFO -  == LLM cache == saving default: 506736e8e5ffe3fd25b849ac81edffcf
+2025-05-19 10:42:36,801 - lightrag - INFO - Chunk 28 of 82 extracted 24 Ent + 31 Rel
+2025-05-19 10:42:49,328 - lightrag - INFO -  == LLM cache == saving default: bf46127f658fd5dfe72338406c8c8af3
+2025-05-19 10:42:49,331 - lightrag - INFO - Chunk 29 of 82 extracted 15 Ent + 15 Rel
+2025-05-19 10:42:51,747 - lightrag - INFO -  == LLM cache == saving default: 5f76b5b3cbcbad9c201d089cb1add45b
+2025-05-19 10:42:51,747 - lightrag - INFO - Chunk 30 of 82 extracted 33 Ent + 30 Rel
+2025-05-19 10:43:11,988 - lightrag - INFO -  == LLM cache == saving default: dd6d556bd85d501a9cc8886890877ceb
+2025-05-19 10:43:11,991 - lightrag - INFO - Chunk 31 of 82 extracted 27 Ent + 33 Rel
+2025-05-19 10:43:21,057 - lightrag - INFO -  == LLM cache == saving default: 82b94c1aa039758d8549862b3d3d8a32
+2025-05-19 10:43:30,087 - lightrag - INFO -  == LLM cache == saving default: edc7d3b04d8bb8910a01edb6d1e146cd
+2025-05-19 10:43:35,889 - lightrag - INFO -  == LLM cache == saving default: c56969654ce943d3911b1e0f6f99744e
+2025-05-19 10:43:37,708 - lightrag - INFO -  == LLM cache == saving default: 3ad4497e7d0219d6125b77b16dc46dd4
+2025-05-19 10:43:46,234 - lightrag - INFO -  == LLM cache == saving default: 85705474c602c442741ebaefb0a63b2f
+2025-05-19 10:43:46,234 - lightrag - INFO - Chunk 32 of 82 extracted 31 Ent + 31 Rel
+2025-05-19 10:44:00,977 - lightrag - INFO -  == LLM cache == saving default: d9c1f3d406db693b1f1d0c37d62ee026
+2025-05-19 10:44:00,978 - lightrag - INFO - Chunk 33 of 82 extracted 16 Ent + 20 Rel
+2025-05-19 10:44:02,108 - lightrag - INFO -  == LLM cache == saving default: 15f6d6d36fc874b242b7117b660808ae
+2025-05-19 10:44:02,108 - lightrag - INFO - Chunk 34 of 82 extracted 21 Ent + 28 Rel
+2025-05-19 10:44:11,008 - lightrag - INFO -  == LLM cache == saving default: 9d75696550ea81e09dc6995ffe7c35b9
+2025-05-19 10:44:11,008 - lightrag - INFO - Chunk 35 of 82 extracted 21 Ent + 21 Rel
+2025-05-19 10:44:24,582 - lightrag - INFO -  == LLM cache == saving default: 39fb0f07734259da5689db811ed956b8
+2025-05-19 10:44:27,858 - lightrag - INFO -  == LLM cache == saving default: 3d19b92dd4e22b5166737f53e1c859fa
+2025-05-19 10:44:46,668 - lightrag - INFO -  == LLM cache == saving default: 4278e78f74c793c17ce849edc43afd91
+2025-05-19 10:45:04,879 - lightrag - INFO -  == LLM cache == saving default: 1d463c8bf74243c6562dc927861679fc
+2025-05-19 10:45:04,887 - lightrag - INFO - Chunk 36 of 82 extracted 47 Ent + 40 Rel
+2025-05-19 10:45:08,875 - lightrag - INFO -  == LLM cache == saving default: 50d5ac7825636b1c8adcc00312859031
+2025-05-19 10:45:09,359 - lightrag - INFO -  == LLM cache == saving default: c2c2b5ff0dbdf2f3eda9b73e45811f83
+2025-05-19 10:45:09,359 - lightrag - INFO - Chunk 37 of 82 extracted 23 Ent + 33 Rel
+2025-05-19 10:45:09,849 - lightrag - INFO -  == LLM cache == saving default: 95b0a5e582bd47c488214d97c11d78ba
+2025-05-19 10:45:09,849 - lightrag - INFO - Chunk 38 of 82 extracted 17 Ent + 21 Rel
+2025-05-19 10:45:24,099 - lightrag - INFO -  == LLM cache == saving default: f51aa768c2aaf7e053d674329c542ac1
+2025-05-19 10:45:48,108 - lightrag - INFO -  == LLM cache == saving default: 10021e7b077e3a4bf9896d4075695412
+2025-05-19 10:45:48,108 - lightrag - INFO - Chunk 39 of 82 extracted 32 Ent + 41 Rel
+2025-05-19 10:45:52,338 - lightrag - INFO -  == LLM cache == saving default: 6f7a0e12989179a397f1a2d88b48b383
+2025-05-19 10:45:58,069 - lightrag - INFO -  == LLM cache == saving default: 84d2c809c4e8909a223b04f8164f5c5f
+2025-05-19 10:46:10,829 - lightrag - INFO -  == LLM cache == saving default: b5465b09a36e1a85861ce468aa984432
+2025-05-19 10:46:10,832 - lightrag - INFO - Chunk 40 of 82 extracted 31 Ent + 29 Rel
+2025-05-19 10:46:22,404 - lightrag - INFO -  == LLM cache == saving default: ce49be1bfb5753bf8ca1469216ca74eb
+2025-05-19 10:46:22,404 - lightrag - INFO - Chunk 41 of 82 extracted 41 Ent + 37 Rel
+2025-05-19 10:46:23,730 - lightrag - INFO -  == LLM cache == saving default: 2e20c1435bc62cb26b2991870371b127
+2025-05-19 10:46:24,260 - lightrag - INFO -  == LLM cache == saving default: 34bd811669e70f47d2efa0e256b2a88f
+2025-05-19 10:46:28,769 - lightrag - INFO -  == LLM cache == saving default: 18e2df69d904dbac4f9652bbd5d2bf65
+2025-05-19 10:46:28,771 - lightrag - INFO - Chunk 42 of 82 extracted 33 Ent + 29 Rel
+2025-05-19 10:46:38,613 - lightrag - INFO -  == LLM cache == saving default: 6240e9749b893d9c44e4e5119ce0cb17
+2025-05-19 10:46:46,045 - lightrag - INFO -  == LLM cache == saving default: 3a29eb3ded751893feb48e29bd90ba91
+2025-05-19 10:46:46,049 - lightrag - INFO - Chunk 43 of 82 extracted 30 Ent + 37 Rel
+2025-05-19 10:47:02,560 - lightrag - INFO -  == LLM cache == saving default: c36576f78bb5425f4fde2305a7084fca
+2025-05-19 10:47:17,580 - lightrag - INFO -  == LLM cache == saving default: 93f085b3e4bd10c3a7082c6e0fdb0812
+2025-05-19 10:47:31,913 - lightrag - INFO -  == LLM cache == saving default: 9c8e474cd4647effb41966ac8d76a285
+2025-05-19 10:47:31,918 - lightrag - INFO - Chunk 44 of 82 extracted 26 Ent + 26 Rel
+2025-05-19 10:47:39,449 - lightrag - INFO -  == LLM cache == saving default: 835c338eb91d69fdba1a844884040bd1
+2025-05-19 10:47:39,449 - lightrag - INFO - Chunk 45 of 82 extracted 31 Ent + 30 Rel
+2025-05-19 10:48:00,529 - lightrag - INFO -  == LLM cache == saving default: 5b7afe26049fe74e4131f53260815d6b
+2025-05-19 10:48:10,379 - lightrag - INFO -  == LLM cache == saving default: e0ab1b0299f0bcc41be22ffdff818f9a
+2025-05-19 10:48:10,380 - lightrag - INFO - Chunk 46 of 82 extracted 36 Ent + 42 Rel
+2025-05-19 10:48:20,230 - lightrag - INFO -  == LLM cache == saving default: 27da42f5a314bf29a1e8fc4d7f8151a0
+2025-05-19 10:48:28,478 - lightrag - INFO -  == LLM cache == saving default: 03bd8c1c37d7f5713747e035f43416f8
+2025-05-19 10:48:33,509 - lightrag - INFO -  == LLM cache == saving default: 5b3838e010af7ec74c44dba186672633
+2025-05-19 10:48:33,509 - lightrag - INFO - Chunk 47 of 82 extracted 21 Ent + 21 Rel
+2025-05-19 10:48:34,219 - lightrag - INFO -  == LLM cache == saving default: 7d6413746a5ae55a5ea4d84601341f0e
+2025-05-19 10:48:34,224 - lightrag - INFO - Chunk 48 of 82 extracted 28 Ent + 30 Rel
+2025-05-19 10:48:39,521 - lightrag - INFO -  == LLM cache == saving default: 79b0a6cdb0dc60d6f5c760cc9c56239c
+2025-05-19 10:48:39,521 - lightrag - INFO - Chunk 49 of 82 extracted 26 Ent + 24 Rel
+2025-05-19 10:48:59,670 - lightrag - INFO -  == LLM cache == saving default: 32ccda6466e019d488d4990f15092a9c
+2025-05-19 10:49:05,115 - lightrag - INFO -  == LLM cache == saving default: c1df8709438aa322cc9ef8780866eae9
+2025-05-19 10:49:06,303 - lightrag - INFO -  == LLM cache == saving default: f230d21b0927ca61556bc1c010c9431f
+2025-05-19 10:49:11,210 - lightrag - INFO -  == LLM cache == saving default: dee1c78afd8f2810404684d5fa855131
+2025-05-19 10:49:11,216 - lightrag - INFO - Chunk 50 of 82 extracted 36 Ent + 40 Rel
+2025-05-19 10:49:36,437 - lightrag - INFO -  == LLM cache == saving default: b03e655cf491f4f28bbc7b70018f7768
+2025-05-19 10:49:36,630 - lightrag - INFO -  == LLM cache == saving default: 4c14b161831bb2ebc969bccfd399e848
+2025-05-19 10:49:36,633 - lightrag - INFO - Chunk 51 of 82 extracted 32 Ent + 33 Rel
+2025-05-19 10:49:37,433 - lightrag - INFO -  == LLM cache == saving default: df714f68c5f6320d7368630099976434
+2025-05-19 10:49:37,435 - lightrag - INFO - Chunk 52 of 82 extracted 24 Ent + 27 Rel
+2025-05-19 10:49:55,602 - lightrag - INFO -  == LLM cache == saving default: 49519f318d5d734795e832d04d1a2a74
+2025-05-19 10:49:55,605 - lightrag - INFO - Chunk 53 of 82 extracted 42 Ent + 36 Rel
+2025-05-19 10:50:04,910 - lightrag - INFO -  == LLM cache == saving default: 333f6347e70d7bb6e8f826215e80d9fe
+2025-05-19 10:50:07,617 - lightrag - INFO -  == LLM cache == saving default: 8f1ccc697d44af2c9af9526f62296708
+2025-05-19 10:50:07,619 - lightrag - INFO - Chunk 54 of 82 extracted 22 Ent + 26 Rel
+2025-05-19 10:50:24,920 - lightrag - INFO -  == LLM cache == saving default: 7b66db43bfc422c4dd38e3eeb93597fb
+2025-05-19 10:50:26,749 - lightrag - INFO -  == LLM cache == saving default: f208ce4ca395679e88647693538e854c
+2025-05-19 10:50:47,083 - lightrag - INFO -  == LLM cache == saving default: b260a36abc83f5491c5103b8b20f1836
+2025-05-19 10:51:01,848 - lightrag - INFO -  == LLM cache == saving default: c248abe1d04058f54864a6281a334c02
+2025-05-19 10:51:01,851 - lightrag - INFO - Chunk 55 of 82 extracted 21 Ent + 35 Rel
+2025-05-19 10:51:09,004 - lightrag - INFO -  == LLM cache == saving default: a8335b590b38787ffdb0350bf0b950d2
+2025-05-19 10:51:09,007 - lightrag - INFO - Chunk 56 of 82 extracted 23 Ent + 25 Rel
+2025-05-19 10:51:23,873 - lightrag - INFO -  == LLM cache == saving default: f03174b6202c91b5d1b64d4f5f4b0cdd
+2025-05-19 10:51:23,876 - lightrag - INFO - Chunk 57 of 82 extracted 31 Ent + 37 Rel
+2025-05-19 10:51:30,112 - lightrag - INFO -  == LLM cache == saving default: d40766da0719bdbde6ba0611e957d712
+2025-05-19 10:51:30,543 - lightrag - INFO -  == LLM cache == saving default: d24e9cf7246766fecad047a81f5ffce1
+2025-05-19 10:51:30,546 - lightrag - INFO - Chunk 58 of 82 extracted 15 Ent + 26 Rel
+2025-05-19 10:51:45,398 - lightrag - INFO -  == LLM cache == saving default: 71f0028a550830898dd147d355053e7c
+2025-05-19 10:51:48,201 - lightrag - INFO -  == LLM cache == saving default: 312e7088b086a7d217678df408e7d94c
+2025-05-19 10:52:10,698 - lightrag - INFO -  == LLM cache == saving default: fc0c4923be9fb442661263d1ceb7b820
+2025-05-19 10:52:14,413 - lightrag - INFO -  == LLM cache == saving default: 9b999fdfd87044e0806576c7da0cf50f
+2025-05-19 10:52:14,415 - lightrag - INFO - Chunk 59 of 82 extracted 31 Ent + 37 Rel
+2025-05-19 10:52:38,639 - lightrag - INFO -  == LLM cache == saving default: a3dd5c99f1d5e4d24ee426dfa58decd5
+2025-05-19 10:52:38,641 - lightrag - INFO - Chunk 60 of 82 extracted 33 Ent + 47 Rel
+2025-05-19 10:52:41,185 - lightrag - INFO -  == LLM cache == saving default: 7c06b8e687db087b36dd6e3cf1de2887
+2025-05-19 10:52:41,186 - lightrag - INFO - Chunk 61 of 82 extracted 45 Ent + 37 Rel
+2025-05-19 10:52:46,744 - lightrag - INFO -  == LLM cache == saving default: db23fc7dc471361eb3d076b4a182638f
+2025-05-19 10:52:50,208 - lightrag - INFO -  == LLM cache == saving default: 9fe1c13125d3573d6a55f6326b38c934
+2025-05-19 10:52:50,211 - lightrag - INFO - Chunk 62 of 82 extracted 25 Ent + 38 Rel
+2025-05-19 10:53:13,449 - lightrag - INFO -  == LLM cache == saving default: 67f355edd0d3950b50c8b13e819dd57a
+2025-05-19 10:53:14,201 - lightrag - INFO -  == LLM cache == saving default: 522a41849e520871aebc094cd149c127
+2025-05-19 10:53:25,721 - lightrag - INFO -  == LLM cache == saving default: 6fc1d653bacddb37228e05f7352a8f39
+2025-05-19 10:53:34,061 - lightrag - INFO -  == LLM cache == saving default: 862b9315fed88c01c97971d8b6080eed
+2025-05-19 10:53:34,065 - lightrag - INFO - Chunk 63 of 82 extracted 34 Ent + 40 Rel
+2025-05-19 10:53:40,050 - lightrag - INFO -  == LLM cache == saving default: 4715a6ca26939a873369ae67b4b5dba7
+2025-05-19 10:53:40,051 - lightrag - INFO - Chunk 64 of 82 extracted 28 Ent + 21 Rel
+2025-05-19 10:53:57,397 - lightrag - INFO -  == LLM cache == saving default: 8cb708d659ce5c7aaa39316fc913899a
+2025-05-19 10:53:57,399 - lightrag - INFO - Chunk 65 of 82 extracted 40 Ent + 39 Rel
+2025-05-19 10:54:00,234 - lightrag - INFO -  == LLM cache == saving default: 2221c257e6709ddd91fd46bf2169b25e
+2025-05-19 10:54:00,236 - lightrag - INFO - Chunk 66 of 82 extracted 30 Ent + 37 Rel
+2025-05-19 10:54:12,551 - lightrag - INFO -  == LLM cache == saving default: 206ea3256d3e5d8fad179cb4ac99ec1d
+2025-05-19 10:54:19,473 - lightrag - INFO -  == LLM cache == saving default: fc0ede60fdf92f81b76ba6ddfde4ff3e
+2025-05-19 10:54:26,036 - lightrag - INFO -  == LLM cache == saving default: 25590c8e50cb5f27e65ca9a57e53e3ed
+2025-05-19 10:54:35,208 - lightrag - INFO -  == LLM cache == saving default: a1e804766abd53e2ee3727bd72489a80
+2025-05-19 10:54:47,650 - lightrag - INFO -  == LLM cache == saving default: 59bf4ca4f24d622ef2fc7845aeb5f368
+2025-05-19 10:54:47,653 - lightrag - INFO - Chunk 67 of 82 extracted 30 Ent + 25 Rel
+2025-05-19 10:54:55,088 - lightrag - INFO -  == LLM cache == saving default: ea49c6ac60cadad81aa5ca0e9f266bde
+2025-05-19 10:54:55,089 - lightrag - INFO - Chunk 68 of 82 extracted 18 Ent + 21 Rel
+2025-05-19 10:55:03,691 - lightrag - INFO -  == LLM cache == saving default: bbd39e8ad755857ecb7a9d9e8db92acf
+2025-05-19 10:55:03,694 - lightrag - INFO - Chunk 69 of 82 extracted 39 Ent + 34 Rel
+2025-05-19 10:55:08,744 - lightrag - INFO -  == LLM cache == saving default: e75eacb581f41ff40f7083ee5ee903a0
+2025-05-19 10:55:08,746 - lightrag - INFO - Chunk 70 of 82 extracted 34 Ent + 34 Rel
+2025-05-19 10:55:22,179 - lightrag - INFO -  == LLM cache == saving default: 92b01ee4079402c4001762438e902b73
+2025-05-19 10:55:24,354 - lightrag - INFO -  == LLM cache == saving default: 022718476244cc27a6c52c1de06fe5c2
+2025-05-19 10:55:34,979 - lightrag - INFO -  == LLM cache == saving default: b0f947eb072d0e6e6f28d64c1502268b
+2025-05-19 10:55:36,799 - lightrag - INFO -  == LLM cache == saving default: 65217ee306ba300a9a66c2e12c659802
+2025-05-19 10:55:47,682 - lightrag - INFO -  == LLM cache == saving default: a3e3e502cde51e7d38b7b09da41af233
+2025-05-19 10:55:47,684 - lightrag - INFO - Chunk 71 of 82 extracted 30 Ent + 29 Rel
+2025-05-19 10:55:59,454 - lightrag - INFO -  == LLM cache == saving default: ea8b27c89ea8278e9a1a731befaacf3b
+2025-05-19 10:55:59,454 - lightrag - INFO - Chunk 72 of 82 extracted 19 Ent + 20 Rel
+2025-05-19 10:56:02,701 - lightrag - INFO -  == LLM cache == saving default: 3a84adc8f7e0d2ee6fbeca1eaefc24a8
+2025-05-19 10:56:04,171 - lightrag - INFO -  == LLM cache == saving default: 7c2c0b35c95dd4884e58e2a417c732cd
+2025-05-19 10:56:04,172 - lightrag - INFO - Chunk 73 of 82 extracted 20 Ent + 21 Rel
+2025-05-19 10:56:23,867 - lightrag - INFO -  == LLM cache == saving default: c8a92356ba4a91aa95fe00220044c457
+2025-05-19 10:56:34,009 - lightrag - INFO -  == LLM cache == saving default: 50b3edfd2db7efe4e6a2482e4bde26bb
+2025-05-19 10:56:34,012 - lightrag - INFO - Chunk 74 of 82 extracted 26 Ent + 27 Rel
+2025-05-19 10:56:37,258 - lightrag - INFO -  == LLM cache == saving default: b0507f65b723b61eb97397237bfac5ba
+2025-05-19 10:56:58,970 - lightrag - INFO -  == LLM cache == saving default: 64320dec4bddf2a4145b5a849f8d869a
+2025-05-19 10:56:58,972 - lightrag - INFO - Chunk 75 of 82 extracted 33 Ent + 31 Rel
+2025-05-19 10:57:15,131 - lightrag - INFO -  == LLM cache == saving default: 9e2016d0ec29d47c2584b88ed9e5790d
+2025-05-19 10:57:15,135 - lightrag - INFO - Chunk 76 of 82 extracted 55 Ent + 59 Rel
+2025-05-19 10:57:16,414 - lightrag - INFO -  == LLM cache == saving default: fb7692c27ce28337b0c44327811abfcf
+2025-05-19 10:57:40,595 - lightrag - INFO -  == LLM cache == saving default: cc5ca41ff1f3a8488a65a1c28d6f9e98
+2025-05-19 10:57:40,598 - lightrag - INFO - Chunk 77 of 82 extracted 36 Ent + 34 Rel
+2025-05-19 10:57:50,084 - lightrag - INFO -  == LLM cache == saving default: dbdebda1bdbee0177a32b6a169508281
+2025-05-19 10:57:55,705 - lightrag - INFO -  == LLM cache == saving default: 3c8fe9ff54f685ec8040e9691f2bbf07
+2025-05-19 10:57:55,707 - lightrag - INFO - Chunk 78 of 82 extracted 18 Ent + 17 Rel
+2025-05-19 10:58:21,650 - lightrag - INFO -  == LLM cache == saving default: 17bab8a108a7614e2bf390ba810ad490
+2025-05-19 10:58:21,650 - lightrag - INFO - Chunk 79 of 82 extracted 29 Ent + 26 Rel
+2025-05-19 10:58:26,329 - lightrag - INFO -  == LLM cache == saving default: 9924fa2abb5aa9621d2b167d403f83c2
+2025-05-19 10:58:38,686 - lightrag - INFO -  == LLM cache == saving default: 68d001d6e4580dfb19db227659cd23a9
+2025-05-19 10:58:49,455 - lightrag - INFO -  == LLM cache == saving default: 15a2b0a88ac8258ef5fc2a4645c2bb85
+2025-05-19 10:59:05,986 - lightrag - INFO -  == LLM cache == saving default: a66656557c30248b1dc1f97271363267
+2025-05-19 10:59:05,986 - lightrag - INFO - Chunk 80 of 82 extracted 30 Ent + 33 Rel
+2025-05-19 10:59:30,248 - lightrag - INFO -  == LLM cache == saving default: 76ab7a8fe871c8ba5f2db98654de591c
+2025-05-19 10:59:30,256 - lightrag - INFO - Chunk 81 of 82 extracted 38 Ent + 26 Rel
+2025-05-19 10:59:32,440 - lightrag - INFO -  == LLM cache == saving default: 7bb8f3fd3e029dde207a54c9aef71243
+2025-05-19 10:59:32,442 - lightrag - INFO - Chunk 82 of 82 extracted 36 Ent + 29 Rel
+2025-05-19 10:59:32,446 - lightrag - INFO - Merging stage 1/1: unknown_source
+2025-05-19 10:59:32,447 - lightrag - INFO - Merge N: Học viện Công nghệ Bưu chính Viễn thông | 3+0
+2025-05-19 10:59:32,448 - lightrag - INFO - Merge N: Hà Nội | 2+0
+2025-05-19 10:59:32,449 - lightrag - INFO - Merge N: Tính bí mật | 4+0
+2025-05-19 10:59:32,449 - lightrag - INFO - Merge N: Các công cụ hỗ trợ tấn công | 2+0
+2025-05-19 10:59:32,450 - lightrag - INFO - Merge N: Công cụ quét cổng dịch vụ | 2+0
+2025-05-19 10:59:32,450 - lightrag - INFO - Merge N: Công cụ nghe lén | 2+0
+2025-05-19 10:59:32,451 - lightrag - INFO - Merge N: Công cụ ghi phím gõ | 2+0
+2025-05-19 10:59:32,452 - lightrag - INFO - Merge N: Tấn công vào mật khẩu | 2+0
+2025-05-19 10:59:32,453 - lightrag - INFO - Merge N: Tấn công bằng mã độc | 2+0
+2025-05-19 10:59:32,453 - lightrag - INFO - Merge N: Tấn công sử dụng các kỹ thuật xã hội | 2+0
+2025-05-19 10:59:32,454 - lightrag - INFO - Merge N: Tấn công APT | 2+0
+2025-05-19 10:59:32,455 - lightrag - INFO - Merge N: Mô tả các dạng phần mềm độc hại | 2+0
+2025-05-19 10:59:32,455 - lightrag - INFO - Merge N: Phòng chống phần mềm độc hại | 3+0
+2025-05-19 10:59:32,456 - lightrag - INFO - Merge N: Malware | 4+0
+2025-05-19 10:59:32,457 - lightrag - INFO - Merge N: Hash Functions | 3+0
+2025-05-19 10:59:32,457 - lightrag - INFO - Merge N: Digital Signature | 3+0
+2025-05-19 10:59:32,457 - lightrag - INFO - Merge N: Digital Certificate | 2+0
+2025-05-19 10:59:32,459 - lightrag - INFO - LLM merge N: SSL/TLS | 6+0
+2025-05-19 10:59:33,373 - lightrag - ERROR - OpenAI API Call Failed,
+Model: o4-mini,
+Params: {'max_tokens': 500}, Got: Error code: 400 - {'error': {'message': "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}
+2025-05-19 10:59:33,652 - lightrag - ERROR - limit_async: Error in decorated function: Error code: 400 - {'error': {'message': "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}
+2025-05-19 10:59:33,690 - lightrag - ERROR - Traceback (most recent call last):
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\lightrag.py", line 1055, in process_document
+    await merge_nodes_and_edges(
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\operate.py", line 564, in merge_nodes_and_edges
+    entity_data = await _merge_nodes_then_upsert(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\operate.py", line 299, in _merge_nodes_then_upsert
+    description = await _handle_entity_relation_summary(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\operate.py", line 142, in _handle_entity_relation_summary
+    summary = await use_llm_func_with_cache(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\utils.py", line 1648, in use_llm_func_with_cache
+    res: str = await use_llm_func(input_text, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\utils.py", line 586, in wait_func
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\utils.py", line 370, in worker
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\llm\openai.py", line 397, in gpt_o4_mini_complete
+    return await openai_complete_if_cache(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\tenacity\__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\llm\openai.py", line 186, in openai_complete_if_cache
+    response = await openai_async_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2000, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\openai\_base_client.py", line 1767, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\openai\_base_client.py", line 1461, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\openai\_base_client.py", line 1562, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}
+
+2025-05-19 10:59:33,692 - lightrag - ERROR - Merging stage failed in document 1/1: unknown_source
+2025-05-19 10:59:33,745 - lightrag - INFO - Document processing pipeline completed
+2025-05-19 10:59:40,475 - lightrag - INFO -  == LLM cache == saving hybrid: 25f4bf9f33f0f44c24dec544442aff59
+2025-05-19 10:59:40,475 - lightrag - INFO - Process 19388 building query context...
+2025-05-19 10:59:40,477 - lightrag - INFO - Query nodes: Tấn công DDoS, Phishing, Malware, SQL Injection, Cross-site scripting, top_k: 60, cosine: 0.2
+2025-05-19 10:59:41,931 - lightrag - INFO - Query edges: Phương pháp tấn công, An ninh mạng, Mối đe dọa bảo mật, top_k: 60, cosine: 0.2
+2025-05-19 10:59:43,657 - lightrag - INFO - Creating a new event loop in main thread.
+2025-05-19 10:59:51,522 - lightrag - INFO - Created new empty graph
+2025-05-19 10:59:51,537 - lightrag - INFO - Process 7056 KV load full_docs with 0 records
+2025-05-19 10:59:51,539 - lightrag - INFO - Process 7056 KV load text_chunks with 0 records
+2025-05-19 10:59:51,605 - lightrag - INFO - Process 7056 KV load llm_response_cache with 165 records
+2025-05-19 10:59:51,624 - lightrag - INFO - Process 7056 doc status load doc_status with 1 records
+2025-05-19 10:59:51,633 - lightrag - INFO - No new unique documents were found.
+2025-05-19 10:59:51,634 - lightrag - INFO - Storage Initialization completed!
+2025-05-19 10:59:51,634 - lightrag - INFO - Processing 1 document(s)
+2025-05-19 10:59:51,641 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2025-05-19 10:59:51,644 - lightrag - INFO - Processing d-id: doc-4242190da2622b7fb6a57c5f030f0ba5
+2025-05-19 10:59:51,739 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-19 10:59:51,751 - lightrag - INFO - Chunk 1 of 82 extracted 35 Ent + 34 Rel
+2025-05-19 10:59:51,757 - lightrag - INFO - Chunk 2 of 82 extracted 76 Ent + 70 Rel
+2025-05-19 10:59:51,758 - lightrag - INFO - Chunk 3 of 82 extracted 55 Ent + 22 Rel
+2025-05-19 10:59:51,766 - lightrag - INFO - Chunk 4 of 82 extracted 58 Ent + 34 Rel
+2025-05-19 10:59:51,772 - lightrag - INFO - Chunk 5 of 82 extracted 56 Ent + 30 Rel
+2025-05-19 10:59:51,777 - lightrag - INFO - Chunk 6 of 82 extracted 71 Ent + 43 Rel
+2025-05-19 10:59:51,783 - lightrag - INFO - Chunk 7 of 82 extracted 33 Ent + 40 Rel
+2025-05-19 10:59:51,787 - lightrag - INFO - Chunk 8 of 82 extracted 30 Ent + 31 Rel
+2025-05-19 10:59:51,790 - lightrag - INFO - Chunk 9 of 82 extracted 26 Ent + 28 Rel
+2025-05-19 10:59:51,794 - lightrag - INFO - Chunk 10 of 82 extracted 41 Ent + 38 Rel
+2025-05-19 10:59:51,798 - lightrag - INFO - Chunk 11 of 82 extracted 38 Ent + 38 Rel
+2025-05-19 10:59:51,802 - lightrag - INFO - Chunk 12 of 82 extracted 20 Ent + 27 Rel
+2025-05-19 10:59:51,807 - lightrag - INFO - Chunk 13 of 82 extracted 52 Ent + 53 Rel
+2025-05-19 10:59:51,811 - lightrag - INFO - Chunk 14 of 82 extracted 38 Ent + 37 Rel
+2025-05-19 10:59:51,816 - lightrag - INFO - Chunk 15 of 82 extracted 37 Ent + 39 Rel
+2025-05-19 10:59:51,819 - lightrag - INFO - Chunk 16 of 82 extracted 35 Ent + 29 Rel
+2025-05-19 10:59:51,823 - lightrag - INFO - Chunk 17 of 82 extracted 43 Ent + 37 Rel
+2025-05-19 10:59:51,826 - lightrag - INFO - Chunk 18 of 82 extracted 28 Ent + 28 Rel
+2025-05-19 10:59:51,830 - lightrag - INFO - Chunk 19 of 82 extracted 24 Ent + 25 Rel
+2025-05-19 10:59:51,834 - lightrag - INFO - Chunk 20 of 82 extracted 21 Ent + 22 Rel
+2025-05-19 10:59:51,836 - lightrag - INFO - Chunk 21 of 82 extracted 21 Ent + 20 Rel
+2025-05-19 10:59:51,840 - lightrag - INFO - Chunk 22 of 82 extracted 15 Ent + 20 Rel
+2025-05-19 10:59:51,843 - lightrag - INFO - Chunk 23 of 82 extracted 28 Ent + 28 Rel
+2025-05-19 10:59:51,846 - lightrag - INFO - Chunk 24 of 82 extracted 20 Ent + 22 Rel
+2025-05-19 10:59:51,851 - lightrag - INFO - Chunk 25 of 82 extracted 20 Ent + 26 Rel
+2025-05-19 10:59:51,854 - lightrag - INFO - Chunk 26 of 82 extracted 24 Ent + 23 Rel
+2025-05-19 10:59:51,857 - lightrag - INFO - Chunk 27 of 82 extracted 21 Ent + 22 Rel
+2025-05-19 10:59:51,860 - lightrag - INFO - Chunk 28 of 82 extracted 24 Ent + 31 Rel
+2025-05-19 10:59:51,863 - lightrag - INFO - Chunk 29 of 82 extracted 33 Ent + 30 Rel
+2025-05-19 10:59:51,868 - lightrag - INFO - Chunk 30 of 82 extracted 27 Ent + 33 Rel
+2025-05-19 10:59:51,871 - lightrag - INFO - Chunk 31 of 82 extracted 15 Ent + 15 Rel
+2025-05-19 10:59:51,875 - lightrag - INFO - Chunk 32 of 82 extracted 21 Ent + 28 Rel
+2025-05-19 10:59:51,878 - lightrag - INFO - Chunk 33 of 82 extracted 31 Ent + 31 Rel
+2025-05-19 10:59:51,881 - lightrag - INFO - Chunk 34 of 82 extracted 16 Ent + 20 Rel
+2025-05-19 10:59:51,884 - lightrag - INFO - Chunk 35 of 82 extracted 21 Ent + 21 Rel
+2025-05-19 10:59:51,888 - lightrag - INFO - Chunk 36 of 82 extracted 17 Ent + 21 Rel
+2025-05-19 10:59:51,892 - lightrag - INFO - Chunk 37 of 82 extracted 23 Ent + 33 Rel
+2025-05-19 10:59:51,898 - lightrag - INFO - Chunk 38 of 82 extracted 47 Ent + 40 Rel
+2025-05-19 10:59:51,903 - lightrag - INFO - Chunk 39 of 82 extracted 32 Ent + 41 Rel
+2025-05-19 10:59:51,907 - lightrag - INFO - Chunk 40 of 82 extracted 33 Ent + 29 Rel
+2025-05-19 10:59:51,911 - lightrag - INFO - Chunk 41 of 82 extracted 41 Ent + 37 Rel
+2025-05-19 10:59:51,915 - lightrag - INFO - Chunk 42 of 82 extracted 31 Ent + 29 Rel
+2025-05-19 10:59:51,921 - lightrag - INFO - Chunk 43 of 82 extracted 30 Ent + 37 Rel
+2025-05-19 10:59:51,923 - lightrag - INFO - Chunk 44 of 82 extracted 21 Ent + 21 Rel
+2025-05-19 10:59:51,928 - lightrag - INFO - Chunk 45 of 82 extracted 26 Ent + 26 Rel
+2025-05-19 10:59:51,932 - lightrag - INFO - Chunk 46 of 82 extracted 31 Ent + 30 Rel
+2025-05-19 10:59:51,936 - lightrag - INFO - Chunk 47 of 82 extracted 36 Ent + 42 Rel
+2025-05-19 10:59:51,939 - lightrag - INFO - Chunk 48 of 82 extracted 28 Ent + 30 Rel
+2025-05-19 10:59:51,943 - lightrag - INFO - Chunk 49 of 82 extracted 26 Ent + 24 Rel
+2025-05-19 10:59:51,947 - lightrag - INFO - Chunk 50 of 82 extracted 36 Ent + 40 Rel
+2025-05-19 10:59:51,951 - lightrag - INFO - Chunk 51 of 82 extracted 24 Ent + 27 Rel
+2025-05-19 10:59:51,954 - lightrag - INFO - Chunk 52 of 82 extracted 32 Ent + 33 Rel
+2025-05-19 10:59:51,959 - lightrag - INFO - Chunk 53 of 82 extracted 42 Ent + 36 Rel
+2025-05-19 10:59:51,962 - lightrag - INFO - Chunk 54 of 82 extracted 22 Ent + 26 Rel
+2025-05-19 10:59:51,967 - lightrag - INFO - Chunk 55 of 82 extracted 15 Ent + 26 Rel
+2025-05-19 10:59:51,970 - lightrag - INFO - Chunk 56 of 82 extracted 21 Ent + 35 Rel
+2025-05-19 10:59:51,973 - lightrag - INFO - Chunk 57 of 82 extracted 23 Ent + 25 Rel
+2025-05-19 10:59:51,978 - lightrag - INFO - Chunk 58 of 82 extracted 31 Ent + 37 Rel
+2025-05-19 10:59:51,982 - lightrag - INFO - Chunk 59 of 82 extracted 31 Ent + 37 Rel
+2025-05-19 10:59:51,986 - lightrag - INFO - Chunk 60 of 82 extracted 33 Ent + 47 Rel
+2025-05-19 10:59:51,990 - lightrag - INFO - Chunk 61 of 82 extracted 25 Ent + 38 Rel
+2025-05-19 10:59:51,994 - lightrag - INFO - Chunk 62 of 82 extracted 45 Ent + 37 Rel
+2025-05-19 10:59:51,999 - lightrag - INFO - Chunk 63 of 82 extracted 34 Ent + 40 Rel
+2025-05-19 10:59:52,003 - lightrag - INFO - Chunk 64 of 82 extracted 30 Ent + 37 Rel
+2025-05-19 10:59:52,005 - lightrag - INFO - Chunk 65 of 82 extracted 28 Ent + 21 Rel
+2025-05-19 10:59:52,010 - lightrag - INFO - Chunk 66 of 82 extracted 40 Ent + 39 Rel
+2025-05-19 10:59:52,012 - lightrag - INFO - Chunk 67 of 82 extracted 30 Ent + 25 Rel
+2025-05-19 10:59:52,017 - lightrag - INFO - Chunk 68 of 82 extracted 34 Ent + 34 Rel
+2025-05-19 10:59:52,021 - lightrag - INFO - Chunk 69 of 82 extracted 39 Ent + 34 Rel
+2025-05-19 10:59:52,024 - lightrag - INFO - Chunk 70 of 82 extracted 18 Ent + 21 Rel
+2025-05-19 10:59:52,027 - lightrag - INFO - Chunk 71 of 82 extracted 19 Ent + 20 Rel
+2025-05-19 10:59:52,030 - lightrag - INFO - Chunk 72 of 82 extracted 30 Ent + 29 Rel
+2025-05-19 10:59:52,033 - lightrag - INFO - Chunk 73 of 82 extracted 20 Ent + 21 Rel
+2025-05-19 10:59:52,037 - lightrag - INFO - Chunk 74 of 82 extracted 26 Ent + 27 Rel
+2025-05-19 10:59:52,043 - lightrag - INFO - Chunk 75 of 82 extracted 55 Ent + 59 Rel
+2025-05-19 10:59:52,046 - lightrag - INFO - Chunk 76 of 82 extracted 33 Ent + 31 Rel
+2025-05-19 10:59:52,051 - lightrag - INFO - Chunk 77 of 82 extracted 36 Ent + 34 Rel
+2025-05-19 10:59:52,054 - lightrag - INFO - Chunk 78 of 82 extracted 18 Ent + 17 Rel
+2025-05-19 10:59:52,058 - lightrag - INFO - Chunk 79 of 82 extracted 29 Ent + 26 Rel
+2025-05-19 10:59:52,059 - lightrag - INFO - Chunk 80 of 82 extracted 36 Ent + 29 Rel
+2025-05-19 10:59:52,066 - lightrag - INFO - Chunk 81 of 82 extracted 30 Ent + 33 Rel
+2025-05-19 10:59:52,070 - lightrag - INFO - Chunk 82 of 82 extracted 38 Ent + 26 Rel
+2025-05-19 10:59:56,904 - lightrag - INFO - Merging stage 1/1: unknown_source
+2025-05-19 10:59:56,905 - lightrag - INFO - Merge N: Học viện Công nghệ Bưu chính Viễn thông | 3+0
+2025-05-19 10:59:56,906 - lightrag - INFO - Merge N: Hà Nội | 2+0
+2025-05-19 10:59:56,908 - lightrag - INFO - Merge N: Tính bí mật | 4+0
+2025-05-19 10:59:56,908 - lightrag - INFO - Merge N: Các công cụ hỗ trợ tấn công | 2+0
+2025-05-19 10:59:56,909 - lightrag - INFO - Merge N: Công cụ quét cổng dịch vụ | 2+0
+2025-05-19 10:59:56,910 - lightrag - INFO - Merge N: Công cụ nghe lén | 2+0
+2025-05-19 10:59:56,910 - lightrag - INFO - Merge N: Công cụ ghi phím gõ | 2+0
+2025-05-19 10:59:56,911 - lightrag - INFO - Merge N: Tấn công vào mật khẩu | 2+0
+2025-05-19 10:59:56,911 - lightrag - INFO - Merge N: Tấn công bằng mã độc | 2+0
+2025-05-19 10:59:56,912 - lightrag - INFO - Merge N: Tấn công sử dụng các kỹ thuật xã hội | 2+0
+2025-05-19 10:59:56,913 - lightrag - INFO - Merge N: Tấn công APT | 2+0
+2025-05-19 10:59:56,914 - lightrag - INFO - Merge N: Mô tả các dạng phần mềm độc hại | 2+0
+2025-05-19 10:59:56,914 - lightrag - INFO - Merge N: Phòng chống phần mềm độc hại | 3+0
+2025-05-19 10:59:56,915 - lightrag - INFO - Merge N: Malware | 4+0
+2025-05-19 10:59:56,916 - lightrag - INFO - Merge N: Hash Functions | 3+0
+2025-05-19 10:59:56,916 - lightrag - INFO - Merge N: Digital Signature | 3+0
+2025-05-19 10:59:56,917 - lightrag - INFO - Merge N: Digital Certificate | 2+0
+2025-05-19 10:59:56,917 - lightrag - INFO - LLM merge N: SSL/TLS | 6+0
+2025-05-19 10:59:56,918 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-19 10:59:57,818 - lightrag - ERROR - OpenAI API Call Failed,
+Model: o4-mini,
+Params: {'max_tokens': 500}, Got: Error code: 400 - {'error': {'message': "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}
+2025-05-19 10:59:57,819 - lightrag - ERROR - limit_async: Error in decorated function: Error code: 400 - {'error': {'message': "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}
+2025-05-19 10:59:57,825 - lightrag - ERROR - Traceback (most recent call last):
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\lightrag.py", line 1055, in process_document
+    await merge_nodes_and_edges(
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\operate.py", line 564, in merge_nodes_and_edges
+    entity_data = await _merge_nodes_then_upsert(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\operate.py", line 299, in _merge_nodes_then_upsert
+    description = await _handle_entity_relation_summary(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\operate.py", line 142, in _handle_entity_relation_summary
+    summary = await use_llm_func_with_cache(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\utils.py", line 1648, in use_llm_func_with_cache
+    res: str = await use_llm_func(input_text, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\utils.py", line 586, in wait_func
+    return await future
+           ^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\utils.py", line 370, in worker
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\llm\openai.py", line 397, in gpt_o4_mini_complete
+    return await openai_complete_if_cache(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\tenacity\__init__.py", line 400, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\lightrag\llm\openai.py", line 186, in openai_complete_if_cache
+    response = await openai_async_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2000, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\openai\_base_client.py", line 1767, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\openai\_base_client.py", line 1461, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Anaconda\envs\chroma\Lib\site-packages\openai\_base_client.py", line 1562, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - {'error': {'message': "Unsupported parameter: 'max_tokens' is not supported with this model. Use 'max_completion_tokens' instead.", 'type': 'invalid_request_error', 'param': 'max_tokens', 'code': 'unsupported_parameter'}}
+
+2025-05-19 10:59:57,826 - lightrag - ERROR - Merging stage failed in document 1/1: unknown_source
+2025-05-19 10:59:57,834 - lightrag - INFO - Document processing pipeline completed
+2025-05-19 10:59:57,835 - lightrag - INFO - Process 7056 building query context...
+2025-05-19 10:59:57,835 - lightrag - INFO - Query nodes: Tấn công DDoS, Phishing, Malware, SQL Injection, Cross-site scripting, top_k: 60, cosine: 0.2
+2025-05-19 10:59:59,145 - lightrag - INFO - Query edges: Phương pháp tấn công, An ninh mạng, Mối đe dọa bảo mật, top_k: 60, cosine: 0.2
+2025-05-19 11:00:00,796 - lightrag - INFO - Creating a new event loop in main thread.
+2025-05-19 11:00:22,841 - lightrag - INFO - Created new empty graph
+2025-05-19 11:00:22,855 - lightrag - INFO - Process 8572 KV load full_docs with 0 records
+2025-05-19 11:00:22,857 - lightrag - INFO - Process 8572 KV load text_chunks with 0 records
+2025-05-19 11:00:22,914 - lightrag - INFO - Process 8572 KV load llm_response_cache with 165 records
+2025-05-19 11:00:22,932 - lightrag - INFO - Process 8572 doc status load doc_status with 1 records
+2025-05-19 11:00:22,941 - lightrag - INFO - No new unique documents were found.
+2025-05-19 11:00:22,942 - lightrag - INFO - Storage Initialization completed!
+2025-05-19 11:00:22,943 - lightrag - INFO - Processing 1 document(s)
+2025-05-19 11:00:22,943 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2025-05-19 11:00:22,944 - lightrag - INFO - Processing d-id: doc-4242190da2622b7fb6a57c5f030f0ba5
+2025-05-19 11:00:23,037 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-19 11:00:23,047 - lightrag - INFO - Chunk 1 of 82 extracted 35 Ent + 34 Rel
+2025-05-19 11:00:23,054 - lightrag - INFO - Chunk 2 of 82 extracted 76 Ent + 70 Rel
+2025-05-19 11:00:23,057 - lightrag - INFO - Chunk 3 of 82 extracted 55 Ent + 22 Rel
+2025-05-19 11:00:23,061 - lightrag - INFO - Chunk 4 of 82 extracted 58 Ent + 34 Rel
+2025-05-19 11:00:23,068 - lightrag - INFO - Chunk 5 of 82 extracted 56 Ent + 30 Rel
+2025-05-19 11:00:23,077 - lightrag - INFO - Chunk 6 of 82 extracted 71 Ent + 43 Rel
+2025-05-19 11:00:23,084 - lightrag - INFO - Chunk 7 of 82 extracted 33 Ent + 40 Rel
+2025-05-19 11:00:23,090 - lightrag - INFO - Chunk 8 of 82 extracted 30 Ent + 31 Rel
+2025-05-19 11:00:23,093 - lightrag - INFO - Chunk 9 of 82 extracted 26 Ent + 28 Rel
+2025-05-19 11:00:23,098 - lightrag - INFO - Chunk 10 of 82 extracted 41 Ent + 38 Rel
+2025-05-19 11:00:23,102 - lightrag - INFO - Chunk 11 of 82 extracted 38 Ent + 38 Rel
+2025-05-19 11:00:23,104 - lightrag - INFO - Chunk 12 of 82 extracted 20 Ent + 27 Rel
+2025-05-19 11:00:23,110 - lightrag - INFO - Chunk 13 of 82 extracted 52 Ent + 53 Rel
+2025-05-19 11:00:23,114 - lightrag - INFO - Chunk 14 of 82 extracted 38 Ent + 37 Rel
+2025-05-19 11:00:23,119 - lightrag - INFO - Chunk 15 of 82 extracted 37 Ent + 39 Rel
+2025-05-19 11:00:23,123 - lightrag - INFO - Chunk 16 of 82 extracted 35 Ent + 29 Rel
+2025-05-19 11:00:23,126 - lightrag - INFO - Chunk 17 of 82 extracted 43 Ent + 37 Rel
+2025-05-19 11:00:23,130 - lightrag - INFO - Chunk 18 of 82 extracted 28 Ent + 28 Rel
+2025-05-19 11:00:23,134 - lightrag - INFO - Chunk 19 of 82 extracted 24 Ent + 25 Rel
+2025-05-19 11:00:23,137 - lightrag - INFO - Chunk 20 of 82 extracted 21 Ent + 22 Rel
+2025-05-19 11:00:23,139 - lightrag - INFO - Chunk 21 of 82 extracted 21 Ent + 20 Rel
+2025-05-19 11:00:23,142 - lightrag - INFO - Chunk 22 of 82 extracted 15 Ent + 20 Rel
+2025-05-19 11:00:23,146 - lightrag - INFO - Chunk 23 of 82 extracted 28 Ent + 28 Rel
+2025-05-19 11:00:23,149 - lightrag - INFO - Chunk 24 of 82 extracted 20 Ent + 22 Rel
+2025-05-19 11:00:23,152 - lightrag - INFO - Chunk 25 of 82 extracted 20 Ent + 26 Rel
+2025-05-19 11:00:23,156 - lightrag - INFO - Chunk 26 of 82 extracted 24 Ent + 23 Rel
+2025-05-19 11:00:23,158 - lightrag - INFO - Chunk 27 of 82 extracted 21 Ent + 22 Rel
+2025-05-19 11:00:23,161 - lightrag - INFO - Chunk 28 of 82 extracted 24 Ent + 31 Rel
+2025-05-19 11:00:23,165 - lightrag - INFO - Chunk 29 of 82 extracted 33 Ent + 30 Rel
+2025-05-19 11:00:23,169 - lightrag - INFO - Chunk 30 of 82 extracted 27 Ent + 33 Rel
+2025-05-19 11:00:23,172 - lightrag - INFO - Chunk 31 of 82 extracted 15 Ent + 15 Rel
+2025-05-19 11:00:23,175 - lightrag - INFO - Chunk 32 of 82 extracted 21 Ent + 28 Rel
+2025-05-19 11:00:23,178 - lightrag - INFO - Chunk 33 of 82 extracted 31 Ent + 31 Rel
+2025-05-19 11:00:23,181 - lightrag - INFO - Chunk 34 of 82 extracted 16 Ent + 20 Rel
+2025-05-19 11:00:23,183 - lightrag - INFO - Chunk 35 of 82 extracted 21 Ent + 21 Rel
+2025-05-19 11:00:23,188 - lightrag - INFO - Chunk 36 of 82 extracted 17 Ent + 21 Rel
+2025-05-19 11:00:23,192 - lightrag - INFO - Chunk 37 of 82 extracted 23 Ent + 33 Rel
+2025-05-19 11:00:23,196 - lightrag - INFO - Chunk 38 of 82 extracted 47 Ent + 40 Rel
+2025-05-19 11:00:23,202 - lightrag - INFO - Chunk 39 of 82 extracted 32 Ent + 41 Rel
+2025-05-19 11:00:23,204 - lightrag - INFO - Chunk 40 of 82 extracted 33 Ent + 29 Rel
+2025-05-19 11:00:23,209 - lightrag - INFO - Chunk 41 of 82 extracted 41 Ent + 37 Rel
+2025-05-19 11:00:23,211 - lightrag - INFO - Chunk 42 of 82 extracted 31 Ent + 29 Rel
+2025-05-19 11:00:23,217 - lightrag - INFO - Chunk 43 of 82 extracted 30 Ent + 37 Rel
+2025-05-19 11:00:23,220 - lightrag - INFO - Chunk 44 of 82 extracted 21 Ent + 21 Rel
+2025-05-19 11:00:23,223 - lightrag - INFO - Chunk 45 of 82 extracted 26 Ent + 26 Rel
+2025-05-19 11:00:23,227 - lightrag - INFO - Chunk 46 of 82 extracted 31 Ent + 30 Rel
+2025-05-19 11:00:23,231 - lightrag - INFO - Chunk 47 of 82 extracted 36 Ent + 42 Rel
+2025-05-19 11:00:23,235 - lightrag - INFO - Chunk 48 of 82 extracted 28 Ent + 30 Rel
+2025-05-19 11:00:23,238 - lightrag - INFO - Chunk 49 of 82 extracted 26 Ent + 24 Rel
+2025-05-19 11:00:23,242 - lightrag - INFO - Chunk 50 of 82 extracted 36 Ent + 40 Rel
+2025-05-19 11:00:23,244 - lightrag - INFO - Chunk 51 of 82 extracted 24 Ent + 27 Rel
+2025-05-19 11:00:23,249 - lightrag - INFO - Chunk 52 of 82 extracted 32 Ent + 33 Rel
+2025-05-19 11:00:23,254 - lightrag - INFO - Chunk 53 of 82 extracted 42 Ent + 36 Rel
+2025-05-19 11:00:23,256 - lightrag - INFO - Chunk 54 of 82 extracted 22 Ent + 26 Rel
+2025-05-19 11:00:23,256 - lightrag - INFO - Chunk 55 of 82 extracted 15 Ent + 26 Rel
+2025-05-19 11:00:23,263 - lightrag - INFO - Chunk 56 of 82 extracted 21 Ent + 35 Rel
+2025-05-19 11:00:23,268 - lightrag - INFO - Chunk 57 of 82 extracted 23 Ent + 25 Rel
+2025-05-19 11:00:23,271 - lightrag - INFO - Chunk 58 of 82 extracted 31 Ent + 37 Rel
+2025-05-19 11:00:23,274 - lightrag - INFO - Chunk 59 of 82 extracted 31 Ent + 37 Rel
+2025-05-19 11:00:23,279 - lightrag - INFO - Chunk 60 of 82 extracted 33 Ent + 47 Rel
+2025-05-19 11:00:23,284 - lightrag - INFO - Chunk 61 of 82 extracted 25 Ent + 38 Rel
+2025-05-19 11:00:23,288 - lightrag - INFO - Chunk 62 of 82 extracted 45 Ent + 37 Rel
+2025-05-19 11:00:23,291 - lightrag - INFO - Chunk 63 of 82 extracted 34 Ent + 40 Rel
+2025-05-19 11:00:23,294 - lightrag - INFO - Chunk 64 of 82 extracted 30 Ent + 37 Rel
+2025-05-19 11:00:23,298 - lightrag - INFO - Chunk 65 of 82 extracted 28 Ent + 21 Rel
+2025-05-19 11:00:23,303 - lightrag - INFO - Chunk 66 of 82 extracted 40 Ent + 39 Rel
+2025-05-19 11:00:23,306 - lightrag - INFO - Chunk 67 of 82 extracted 30 Ent + 25 Rel
+2025-05-19 11:00:23,309 - lightrag - INFO - Chunk 68 of 82 extracted 34 Ent + 34 Rel
+2025-05-19 11:00:23,313 - lightrag - INFO - Chunk 69 of 82 extracted 39 Ent + 34 Rel
+2025-05-19 11:00:23,317 - lightrag - INFO - Chunk 70 of 82 extracted 18 Ent + 21 Rel
+2025-05-19 11:00:23,319 - lightrag - INFO - Chunk 71 of 82 extracted 19 Ent + 20 Rel
+2025-05-19 11:00:23,323 - lightrag - INFO - Chunk 72 of 82 extracted 30 Ent + 29 Rel
+2025-05-19 11:00:23,326 - lightrag - INFO - Chunk 73 of 82 extracted 20 Ent + 21 Rel
+2025-05-19 11:00:23,329 - lightrag - INFO - Chunk 74 of 82 extracted 26 Ent + 27 Rel
+2025-05-19 11:00:23,336 - lightrag - INFO - Chunk 75 of 82 extracted 55 Ent + 59 Rel
+2025-05-19 11:00:23,340 - lightrag - INFO - Chunk 76 of 82 extracted 33 Ent + 31 Rel
+2025-05-19 11:00:23,343 - lightrag - INFO - Chunk 77 of 82 extracted 36 Ent + 34 Rel
+2025-05-19 11:00:23,347 - lightrag - INFO - Chunk 78 of 82 extracted 18 Ent + 17 Rel
+2025-05-19 11:00:23,350 - lightrag - INFO - Chunk 79 of 82 extracted 29 Ent + 26 Rel
+2025-05-19 11:00:23,354 - lightrag - INFO - Chunk 80 of 82 extracted 36 Ent + 29 Rel
+2025-05-19 11:00:23,358 - lightrag - INFO - Chunk 81 of 82 extracted 30 Ent + 33 Rel
+2025-05-19 11:00:23,361 - lightrag - INFO - Chunk 82 of 82 extracted 38 Ent + 26 Rel
+2025-05-19 11:00:28,734 - lightrag - INFO - Merging stage 1/1: unknown_source
+2025-05-19 11:00:28,743 - lightrag - INFO - Merge N: Học viện Công nghệ Bưu chính Viễn thông | 3+0
+2025-05-19 11:00:28,744 - lightrag - INFO - Merge N: Hà Nội | 2+0
+2025-05-19 11:00:28,745 - lightrag - INFO - Merge N: Tính bí mật | 4+0
+2025-05-19 11:00:28,746 - lightrag - INFO - Merge N: Các công cụ hỗ trợ tấn công | 2+0
+2025-05-19 11:00:28,747 - lightrag - INFO - Merge N: Công cụ quét cổng dịch vụ | 2+0
+2025-05-19 11:00:28,748 - lightrag - INFO - Merge N: Công cụ nghe lén | 2+0
+2025-05-19 11:00:28,748 - lightrag - INFO - Merge N: Công cụ ghi phím gõ | 2+0
+2025-05-19 11:00:28,749 - lightrag - INFO - Merge N: Tấn công vào mật khẩu | 2+0
+2025-05-19 11:00:28,750 - lightrag - INFO - Merge N: Tấn công bằng mã độc | 2+0
+2025-05-19 11:00:28,750 - lightrag - INFO - Merge N: Tấn công sử dụng các kỹ thuật xã hội | 2+0
+2025-05-19 11:00:28,751 - lightrag - INFO - Merge N: Tấn công APT | 2+0
+2025-05-19 11:00:28,752 - lightrag - INFO - Merge N: Mô tả các dạng phần mềm độc hại | 2+0
+2025-05-19 11:00:28,753 - lightrag - INFO - Merge N: Phòng chống phần mềm độc hại | 3+0
+2025-05-19 11:00:28,754 - lightrag - INFO - Merge N: Malware | 4+0
+2025-05-19 11:00:28,755 - lightrag - INFO - Merge N: Hash Functions | 3+0
+2025-05-19 11:00:28,756 - lightrag - INFO - Merge N: Digital Signature | 3+0
+2025-05-19 11:00:28,757 - lightrag - INFO - Merge N: Digital Certificate | 2+0
+2025-05-19 11:00:28,757 - lightrag - INFO - LLM merge N: SSL/TLS | 6+0
+2025-05-19 11:00:28,758 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-19 11:00:30,992 - lightrag - INFO -  == LLM cache == saving default: cf8bf3af84150b7f65710a10f8d54319
+2025-05-19 11:00:30,993 - lightrag - INFO - Merge N: SET | 3+0
+2025-05-19 11:00:30,993 - lightrag - INFO - Merge N: PGP | 4+0
+2025-05-19 11:00:30,993 - lightrag - INFO - Merge N: Access Control | 2+0
+2025-05-19 11:00:30,994 - lightrag - INFO - LLM merge N: Firewall | 9+0
+2025-05-19 11:00:34,843 - lightrag - INFO -  == LLM cache == saving default: d164a2e199cdba834e8629ee7fa2e9ea
+2025-05-19 11:00:34,843 - lightrag - INFO - Merge N: Information Security Management | 2+0
+2025-05-19 11:00:34,844 - lightrag - INFO - Merge N: Risk Assessment | 2+0
+2025-05-19 11:00:34,844 - lightrag - INFO - Merge N: Phương pháp hàm băm | 2+0
+2025-05-19 11:00:34,846 - lightrag - INFO - Merge N: Các giải thuật mã hóa | 2+0
+2025-05-19 11:00:34,847 - lightrag - INFO - Merge N: Giải thuật mã hóa khóa bất đối xứng | 2+0
+2025-05-19 11:00:34,848 - lightrag - INFO - Merge N: Chữ ký số | 4+0
+2025-05-19 11:00:34,848 - lightrag - INFO - Merge N: Chứng chỉ số | 4+0
+2025-05-19 11:00:34,849 - lightrag - INFO - LLM merge N: PKI | 6+0
+2025-05-19 11:00:37,266 - lightrag - INFO -  == LLM cache == saving default: d55f76449cd01d5a3bc0bfae2a4236c6
+2025-05-19 11:00:37,267 - lightrag - INFO - Merge N: Phân phối khóa công khai | 2+0
+2025-05-19 11:00:37,268 - lightrag - INFO - Merge N: Kiểm soát truy cập | 5+0
+2025-05-19 11:00:37,268 - lightrag - INFO - LLM merge N: Tường lửa | 6+0
+2025-05-19 11:00:39,857 - lightrag - INFO -  == LLM cache == saving default: 2ee9a7d77eeecd157a0b88c5e286f357
+2025-05-19 11:00:39,857 - lightrag - INFO - Merge N: Hệ thống phát hiện và ngăn chặn xâm nhập | 2+0
+2025-05-19 11:00:39,857 - lightrag - INFO - LLM merge N: Quản lý an toàn thông tin | 8+0
+2025-05-19 11:00:42,116 - lightrag - INFO -  == LLM cache == saving default: 7cfea631b505ce458d8bdf7a85bfc870
+2025-05-19 11:00:42,117 - lightrag - INFO - Merge N: Đánh giá rủi ro an toàn thông tin | 3+0
+2025-05-19 11:00:42,118 - lightrag - INFO - Merge N: Phân tích chi tiết rủi ro an toàn thông tin | 2+0
+2025-05-19 11:00:42,118 - lightrag - INFO - Merge N: Thực thi quản lý an toàn thông tin | 3+0
+2025-05-19 11:00:42,119 - lightrag - INFO - Merge N: Các chuẩn quản lý an toàn thông tin | 3+0
+2025-05-19 11:00:42,120 - lightrag - INFO - Merge N: Chu trình Plan-Do-Check-Act | 3+0
+2025-05-19 11:00:42,120 - lightrag - INFO - Merge N: Pháp luật và chính sách an toàn thông tin | 2+0
+2025-05-19 11:00:42,121 - lightrag - INFO - Merge N: Luật quốc tế về an toàn thông tin | 2+0
+2025-05-19 11:00:42,121 - lightrag - INFO - Merge N: CNTT | 2+0
+2025-05-19 11:00:42,122 - lightrag - INFO - Merge N: ATTT | 2+0
+2025-05-19 11:00:42,122 - lightrag - INFO - Merge N: Microsoft | 5+0
+2025-05-19 11:00:42,123 - lightrag - INFO - Merge N: Microsoft Baseline Security Analyzer | 2+0
+2025-05-19 11:00:42,124 - lightrag - INFO - Merge N: Acunetix Web Vulnerability Scanner | 3+0
+2025-05-19 11:00:42,124 - lightrag - INFO - Merge N: Zenmap | 2+0
+2025-05-19 11:00:42,124 - lightrag - INFO - Merge N: Wireshark | 2+0
+2025-05-19 11:00:42,126 - lightrag - INFO - Merge N: Keylogger | 2+0
+2025-05-19 11:00:42,127 - lightrag - INFO - Merge N: Shellcode | 2+0
+2025-05-19 11:00:42,127 - lightrag - INFO - Merge N: Slammer worm | 2+0
+2025-05-19 11:00:42,127 - lightrag - INFO - Merge N: Hoa Kỳ | 4+0
+2025-05-19 11:00:42,129 - lightrag - INFO - Merge N: Việt Nam | 4+0
+2025-05-19 11:00:42,129 - lightrag - INFO - Merge N: Chu trình quản lý an toàn thông tin | 2+0
+2025-05-19 11:00:42,130 - lightrag - INFO - Merge N: Câu hỏi ôn tập | 2+0
+2025-05-19 11:00:42,131 - lightrag - INFO - Merge N: Thiết bị IoT | 2+0
+2025-05-19 11:00:42,131 - lightrag - INFO - LLM merge N: Chính sách an toàn thông tin | 6+0
+2025-05-19 11:00:44,286 - lightrag - INFO -  == LLM cache == saving default: 6a7a27b88701caee41ccff62f8b679cd
+2025-05-19 11:00:44,287 - lightrag - INFO - Merge N: CAIDA | 2+0
+2025-05-19 11:00:44,287 - lightrag - INFO - Merge N: eBay | 2+0
+2025-05-19 11:00:44,288 - lightrag - INFO - Merge N: Royal Bank | 2+0
+2025-05-19 11:00:44,288 - lightrag - INFO - Merge N: shellcode | 2+0
+2025-05-19 11:00:44,289 - lightrag - INFO - Merge N: DDoS attack | 4+0
+2025-05-19 11:00:44,290 - lightrag - INFO - Merge N: IP spoofing attack | 2+0
+2025-05-19 11:00:44,291 - lightrag - INFO - Merge N: Vernam cipher | 2+0
+2025-05-19 11:00:44,291 - lightrag - INFO - LLM merge N: DES | 8+0
+2025-05-19 11:00:47,660 - lightrag - INFO -  == LLM cache == saving default: 42f8e9c04df84054dd7a0669517effb6
+2025-05-19 11:00:47,661 - lightrag - INFO - Merge N: 3DES | 2+0
+2025-05-19 11:00:47,661 - lightrag - INFO - LLM merge N: AES | 9+0
+2025-05-19 11:00:50,293 - lightrag - INFO -  == LLM cache == saving default: 5f6ad66e6e4e4b59e19d17c663531ed7
+2025-05-19 11:00:50,295 - lightrag - INFO - Merge N: Phân phối khóa điểm – điểm | 2+0
+2025-05-19 11:00:50,296 - lightrag - INFO - Merge N: Cisco | 2+0
+2025-05-19 11:00:50,296 - lightrag - INFO - Merge N: Information Security | 2+0
+2025-05-19 11:00:50,297 - lightrag - INFO - Merge N: Local Area Network | 2+0
+2025-05-19 11:00:50,298 - lightrag - INFO - Merge N: ISO/IEC 27001:2005 | 3+0
+2025-05-19 11:00:50,298 - lightrag - INFO - Merge N: Plan-Do-Check-Act cycle | 2+0
+2025-05-19 11:00:50,299 - lightrag - INFO - Merge N: FTP | 3+0
+2025-05-19 11:00:50,299 - lightrag - INFO - Merge N: IDEA | 3+0
+2025-05-19 11:00:50,300 - lightrag - INFO - Merge N: MAC | 2+0
+2025-05-19 11:00:50,301 - lightrag - INFO - Merge N: RBAC | 2+0
+2025-05-19 11:00:50,301 - lightrag - INFO - LLM merge N: RSA | 11+0
+2025-05-19 11:00:54,044 - lightrag - INFO -  == LLM cache == saving default: 6f779214bfd1ae009bcb79fd0b837e10
+2025-05-19 11:00:54,045 - lightrag - INFO - Merge N: SHA | 2+0
+2025-05-19 11:00:54,045 - lightrag - INFO - Merge N: SMTP | 4+0
+2025-05-19 11:00:54,046 - lightrag - INFO - Merge N: Internet | 5+0
+2025-05-19 11:00:54,047 - lightrag - INFO - Merge N: An toàn thông tin | 5+0
+2025-05-19 11:00:54,047 - lightrag - INFO - Merge N: An toàn máy tính và dữ liệu | 3+0
+2025-05-19 11:00:54,048 - lightrag - INFO - Merge N: An ninh mạng | 3+0
+2025-05-19 11:00:54,049 - lightrag - INFO - Merge N: Môn học An toàn và bảo mật hệ thống thông tin | 2+0
+2025-05-19 11:00:54,050 - lightrag - INFO - Merge N: Phần mềm độc hại | 5+0
+2025-05-19 11:00:54,050 - lightrag - INFO - Merge N: Mật mã | 3+0
+2025-05-19 11:00:54,051 - lightrag - INFO - Merge N: 3-DES | 4+0
+2025-05-19 11:00:54,052 - lightrag - INFO - LLM merge N: MD5 | 7+0
+2025-05-19 11:00:57,776 - lightrag - INFO -  == LLM cache == saving default: 66dee34c4e5a9661df09afa5b2eb3ee5
+2025-05-19 11:00:57,777 - lightrag - INFO - LLM merge N: SHA1 | 6+0
+2025-05-19 11:01:01,245 - lightrag - INFO -  == LLM cache == saving default: 77daea755783f441e43d8f8345731c94
+2025-05-19 11:01:01,246 - lightrag - INFO - Merge N: Pháp luật an toàn thông tin | 2+0
+2025-05-19 11:01:01,247 - lightrag - INFO - Merge N: Đạo đức an toàn thông tin | 4+0
+2025-05-19 11:01:01,248 - lightrag - INFO - Merge N: ISO/IEC 27000 | 2+0
+2025-05-19 11:01:01,248 - lightrag - INFO - Merge N: Tấn công | 4+0
+2025-05-19 11:01:01,249 - lightrag - INFO - Merge N: An toàn hệ thống thông tin | 3+0
+2025-05-19 11:01:01,250 - lightrag - INFO - Merge N: Vietnam | 3+0
+2025-05-19 11:01:01,251 - lightrag - INFO - Merge N: Tấn công chủ động | 2+0
+2025-05-19 11:01:01,251 - lightrag - INFO - Merge N: Tấn công thụ động | 2+0
+2025-05-19 11:01:01,252 - lightrag - INFO - Merge N: Botnet | 2+0
+2025-05-19 11:01:01,253 - lightrag - INFO - Merge N: Mã độc đào tiền ảo | 2+0
+2025-05-19 11:01:01,253 - lightrag - INFO - Merge N: Hệ thống thông tin | 3+0
+2025-05-19 11:01:01,254 - lightrag - INFO - Merge N: Hệ điều hành | 3+0
+2025-05-19 11:01:01,255 - lightrag - INFO - Merge N: Proxy | 2+0
+2025-05-19 11:01:01,255 - lightrag - INFO - Merge N: Vân tay | 2+0
+2025-05-19 11:01:01,256 - lightrag - INFO - Merge N: Đầu vào | 2+0
+2025-05-19 11:01:01,257 - lightrag - INFO - Merge N: Xử lý | 2+0
+2025-05-19 11:01:01,257 - lightrag - INFO - Merge N: Đầu ra | 2+0
+2025-05-19 11:01:01,257 - lightrag - INFO - Merge N: Khách hàng | 2+0
+2025-05-19 11:01:01,257 - lightrag - INFO - Merge N: Nhà cung cấp | 3+0
+2025-05-19 11:01:01,257 - lightrag - INFO - Merge N: Cơ quan chính quyền | 2+0
+2025-05-19 11:01:01,257 - lightrag - INFO - Merge N: Cổ đông | 2+0
+2025-05-19 11:01:01,257 - lightrag - INFO - Merge N: Đối thủ cạnh tranh | 2+0
+2025-05-19 11:01:01,257 - lightrag - INFO - Merge N: Phần cứng | 4+0
+2025-05-19 11:01:01,257 - lightrag - INFO - Merge N: Phần mềm | 3+0
+2025-05-19 11:01:01,262 - lightrag - INFO - Merge N: Mạng | 2+0
+2025-05-19 11:01:01,263 - lightrag - INFO - Merge N: Tính toàn vẹn | 3+0
+2025-05-19 11:01:01,263 - lightrag - INFO - Merge N: Tính sẵn dùng | 2+0
+2025-05-19 11:01:01,264 - lightrag - INFO - Merge N: Uptime | 2+0
+2025-05-19 11:01:01,264 - lightrag - INFO - Merge N: Downtime | 2+0
+2025-05-19 11:01:01,266 - lightrag - INFO - Merge N: Vùng người dùng | 2+0
+2025-05-19 11:01:01,266 - lightrag - INFO - Merge N: Vùng máy trạm | 2+0
+2025-05-19 11:01:01,267 - lightrag - INFO - Merge N: Vùng mạng LAN | 3+0
+2025-05-19 11:01:01,267 - lightrag - INFO - Merge N: Vùng mạng WAN | 3+0
+2025-05-19 11:01:01,268 - lightrag - INFO - Merge N: Application Security | 2+0
+2025-05-19 11:01:01,268 - lightrag - INFO - Merge N: Network Security | 2+0
+2025-05-19 11:01:01,269 - lightrag - INFO - Merge N: Mối đe dọa | 2+0
+2025-05-19 11:01:01,271 - lightrag - INFO - Merge N: Lỗ hổng bảo mật | 2+0
+2025-05-19 11:01:01,271 - lightrag - INFO - Merge N: Phần mềm ứng dụng | 2+0
+2025-05-19 11:01:01,272 - lightrag - INFO - Merge N: Thấp (Low) | 2+0
+2025-05-19 11:01:01,273 - lightrag - INFO - Merge N: Mất trộm các thiết bị | 2+0
+2025-05-19 11:01:01,274 - lightrag - INFO - Merge N: Tai họa thiên nhiên | 2+0
+2025-05-19 11:01:01,274 - lightrag - INFO - Merge N: Gián điệp công nghiệp | 2+0
+2025-05-19 11:01:01,274 - lightrag - INFO - Merge N: Khủng bố phá hoại | 2+0
+2025-05-19 11:01:01,276 - lightrag - INFO - Merge N: Tin tặc | 2+0
+2025-05-19 11:01:01,277 - lightrag - INFO - Merge N: IBM AppScan | 2+0
+2025-05-19 11:01:01,278 - lightrag - INFO - Merge N: Beyond Security AVDS | 2+0
+2025-05-19 11:01:01,278 - lightrag - INFO - Merge N: SQLmap | 2+0
+2025-05-19 11:01:01,278 - lightrag - INFO - Merge N: XSS | 3+0
+2025-05-19 11:01:01,279 - lightrag - INFO - Merge N: SQL Injection | 3+0
+2025-05-19 11:01:01,280 - lightrag - INFO - Merge N: CSRF | 3+0
+2025-05-19 11:01:01,280 - lightrag - INFO - Merge N: Man-in-the-Middle Attack | 3+0
+2025-05-19 11:01:01,281 - lightrag - INFO - Merge N: Pharming Attack | 3+0
+2025-05-19 11:01:01,282 - lightrag - INFO - Merge N: Attacker | 2+0
+2025-05-19 11:01:01,282 - lightrag - INFO - Merge N: Adware | 2+0
+2025-05-19 11:01:01,283 - lightrag - INFO - Merge N: Spyware | 2+0
+2025-05-19 11:01:01,284 - lightrag - INFO - Merge N: Virus | 3+0
+2025-05-19 11:01:01,284 - lightrag - INFO - Merge N: Zombie/Bot | 3+0
+2025-05-19 11:01:01,285 - lightrag - INFO - Merge N: Trojan | 3+0
+2025-05-19 11:01:01,285 - lightrag - INFO - Merge N: Tên người dùng | 2+0
+2025-05-19 11:01:01,286 - lightrag - INFO - Merge N: Email | 2+0
+2025-05-19 11:01:01,287 - lightrag - INFO - Merge N: Plaintext | 5+0
+2025-05-19 11:01:01,288 - lightrag - INFO - Merge N: Hàm băm một chiều | 2+0
+2025-05-19 11:01:01,288 - lightrag - INFO - Merge N: C | 3+0
+2025-05-19 11:01:01,289 - lightrag - INFO - Merge N: Kẻ tấn công | 3+0
+2025-05-19 11:01:01,290 - lightrag - INFO - Merge N: Dữ liệu đầu vào | 2+0
+2025-05-19 11:01:01,291 - lightrag - INFO - Merge N: /bin/sh | 2+0
+2025-05-19 11:01:01,293 - lightrag - INFO - Merge N: SQL Injection Attack | 2+0
+2025-05-19 11:01:01,294 - lightrag - INFO - Merge N: tbl_accounts | 2+0
+2025-05-19 11:01:01,295 - lightrag - INFO - Merge N: lỗ hổng chèn mã SQL | 2+0
+2025-05-19 11:01:01,295 - lightrag - INFO - Merge N: MySQL | 2+0
+2025-05-19 11:01:01,296 - lightrag - INFO - Merge N: UNION SELECT | 2+0
+2025-05-19 11:01:01,296 - lightrag - INFO - Merge N: ORDER BY | 2+0
+2025-05-19 11:01:01,297 - lightrag - INFO - Merge N: MS-SQL Server | 2+0
+2025-05-19 11:01:01,298 - lightrag - INFO - Merge N: SYN Flood Attack | 2+0
+2025-05-19 11:01:01,299 - lightrag - INFO - Merge N: Smurf Attack | 2+0
+2025-05-19 11:01:01,300 - lightrag - INFO - Merge N: Router | 2+0
+2025-05-19 11:01:01,301 - lightrag - INFO - Merge N: Tấn công DDoS | 2+0
+2025-05-19 11:01:01,303 - lightrag - INFO - Merge N: Bot | 2+0
+2025-05-19 11:01:01,304 - lightrag - INFO - Merge N: ISP | 2+0
+2025-05-19 11:01:01,304 - lightrag - INFO - Merge N: HTTP | 3+0
+2025-05-19 11:01:01,304 - lightrag - INFO - Merge N: Antivirus software | 3+0
+2025-05-19 11:01:01,305 - lightrag - INFO - Merge N: Command and Control (C&C) | 3+0
+2025-05-19 11:01:01,306 - lightrag - INFO - Merge N: FTP protocol | 2+0
+2025-05-19 11:01:01,306 - lightrag - INFO - Merge N: Client | 3+0
+2025-05-19 11:01:01,307 - lightrag - INFO - Merge N: Server | 3+0
+2025-05-19 11:01:01,308 - lightrag - INFO - Merge N: Trò lừa đảo Nigeria 4-1-9 | 2+0
+2025-05-19 11:01:01,318 - lightrag - INFO - Merge N: Mỹ | 2+0
+2025-05-19 11:01:01,319 - lightrag - INFO - Merge N: Châu Âu | 2+0
+2025-05-19 11:01:01,320 - lightrag - INFO - Merge N: User | 2+0
+2025-05-19 11:01:01,320 - lightrag - INFO - Merge N: APT Attack | 2+0
+2025-05-19 11:01:01,321 - lightrag - INFO - Merge N: Vi rút | 2+0
+2025-05-19 11:01:01,322 - lightrag - INFO - Merge N: Rootkit | 3+0
+2025-05-19 11:01:01,323 - lightrag - INFO - Merge N: Mã hóa | 2+0
+2025-05-19 11:01:01,324 - lightrag - INFO - Merge N: Worm | 3+0
+2025-05-19 11:01:01,326 - lightrag - INFO - Merge N: DDoS Attack | 2+0
+2025-05-19 11:01:01,327 - lightrag - INFO - Merge N: Chapter 3 | 2+0
+2025-05-19 11:01:01,328 - lightrag - INFO - Merge N: Asymmetric key encryption | 3+0
+2025-05-19 11:01:01,328 - lightrag - INFO - Merge N: Hash functions | 3+0
+2025-05-19 11:01:01,329 - lightrag - INFO - Merge N: Mã hóa khóa đối xứng | 2+0
+2025-05-19 11:01:01,329 - lightrag - INFO - Merge N: Khóa công khai | 2+0
+2025-05-19 11:01:01,330 - lightrag - INFO - Merge N: Khóa riêng | 2+0
+2025-05-19 11:01:01,332 - lightrag - INFO - Merge N: Key management and distribution | 2+0
+2025-05-19 11:01:01,333 - lightrag - INFO - Merge N: Pretty Good Privacy (PGP) | 2+0
+2025-05-19 11:01:01,334 - lightrag - INFO - Merge N: Ronald Rivest | 2+0
+2025-05-19 11:01:01,336 - lightrag - INFO - Merge N: Digest | 2+0
+2025-05-19 11:01:01,336 - lightrag - INFO - Merge N: Ciphertext | 3+0
+2025-05-19 11:01:01,338 - lightrag - INFO - Merge N: MD2 | 3+0
+2025-05-19 11:01:01,338 - lightrag - INFO - Merge N: MD4 | 2+0
+2025-05-19 11:01:01,339 - lightrag - INFO - Merge N: MD6 | 2+0
+2025-05-19 11:01:01,339 - lightrag - INFO - Merge N: SHA0 | 3+0
+2025-05-19 11:01:01,340 - lightrag - INFO - Merge N: SHA2 | 2+0
+2025-05-19 11:01:01,340 - lightrag - INFO - Merge N: SHA3 | 2+0
+2025-05-19 11:01:01,341 - lightrag - INFO - Merge N: United States | 3+0
+2025-05-19 11:01:01,344 - lightrag - INFO - Merge N: State | 2+0
+2025-05-19 11:01:01,345 - lightrag - INFO - Merge N: Final Round | 2+0
+2025-05-19 11:01:01,346 - lightrag - INFO - Merge N: SubBytes | 2+0
+2025-05-19 11:01:01,346 - lightrag - INFO - Merge N: ShiftRows | 2+0
+2025-05-19 11:01:01,347 - lightrag - INFO - Merge N: MixColumns | 2+0
+2025-05-19 11:01:01,348 - lightrag - INFO - Merge N: AddRoundKey | 2+0
+2025-05-19 11:01:01,348 - lightrag - INFO - Merge N: S-box | 2+0
+2025-05-19 11:01:01,349 - lightrag - INFO - Merge N: Rabin | 2+0
+2025-05-19 11:01:01,349 - lightrag - INFO - Merge N: ElGamal | 3+0
+2025-05-19 11:01:01,350 - lightrag - INFO - Merge N: McEliece | 2+0
+2025-05-19 11:01:01,351 - lightrag - INFO - Merge N: Knapsack | 2+0
+2025-05-19 11:01:01,351 - lightrag - INFO - Merge N: Public key | 2+0
+2025-05-19 11:01:01,352 - lightrag - INFO - Merge N: Private key | 2+0
+2025-05-19 11:01:01,353 - lightrag - INFO - Merge N: Modification Detection Code (MDC) | 2+0
+2025-05-19 11:01:01,354 - lightrag - INFO - Merge N: Message Authentication Code (MAC) | 3+0
+2025-05-19 11:01:01,354 - lightrag - INFO - Merge N: Keyed Hash Functions | 2+0
+2025-05-19 11:01:01,355 - lightrag - INFO - Merge N: Compression | 2+0
+2025-05-19 11:01:01,356 - lightrag - INFO - Merge N: Message | 2+0
+2025-05-19 11:01:01,357 - lightrag - INFO - Merge N: Digital signature | 3+0
+2025-05-19 11:01:01,358 - lightrag - INFO - Merge N: Digital certificate | 2+0
+2025-05-19 11:01:01,360 - lightrag - INFO - Merge N: Sender | 2+0
+2025-05-19 11:01:01,360 - lightrag - INFO - Merge N: Receiver | 2+0
+2025-05-19 11:01:01,361 - lightrag - INFO - Merge N: Verisign | 2+0
+2025-05-19 11:01:01,363 - lightrag - INFO - Merge N: Hash function H | 2+0
+2025-05-19 11:01:01,363 - lightrag - INFO - Merge N: Certificate Authority (CA) | 2+0
+2025-05-19 11:01:01,364 - lightrag - INFO - Merge N: www.vietcombank.com.vn | 2+0
+2025-05-19 11:01:01,364 - lightrag - INFO - Merge N: X.509 | 2+0
+2025-05-19 11:01:01,365 - lightrag - INFO - Merge N: HTTPS | 3+0
+2025-05-19 11:01:01,365 - lightrag - INFO - Merge N: Người dùng | 2+0
+2025-05-19 11:01:01,367 - lightrag - INFO - Merge N: Mã hóa khóa công khai | 2+0
+2025-05-19 11:01:01,367 - lightrag - INFO - Merge N: Key Distribution Center (KDC) | 2+0
+2025-05-19 11:01:01,367 - lightrag - INFO - Merge N: Key Translation Center (KTC) | 2+0
+2025-05-19 11:01:01,367 - lightrag - INFO - Merge N: E | 2+0
+2025-05-19 11:01:01,369 - lightrag - INFO - Merge N: D | 2+0
+2025-05-19 11:01:01,369 - lightrag - INFO - Merge N: EKBT(K) | 2+0
+2025-05-19 11:01:01,370 - lightrag - INFO - Merge N: Certification Authority (CA) | 2+0
+2025-05-19 11:01:01,370 - lightrag - INFO - Merge N: B | 3+0
+2025-05-19 11:01:01,371 - lightrag - INFO - Merge N: Ks | 2+0
+2025-05-19 11:01:01,372 - lightrag - INFO - Merge N: SSL Client | 2+0
+2025-05-19 11:01:01,372 - lightrag - INFO - Merge N: SSL Server | 2+0
+2025-05-19 11:01:01,375 - lightrag - INFO - Merge N: Encryption | 2+0
+2025-05-19 11:01:01,376 - lightrag - INFO - Merge N: PGP Authentication Model | 2+0
+2025-05-19 11:01:01,377 - lightrag - INFO - Merge N: PGP Confidentiality Model | 2+0
+2025-05-19 11:01:01,378 - lightrag - INFO - Merge N: Discretionary Access Control (DAC) | 3+0
+2025-05-19 11:01:01,379 - lightrag - INFO - Merge N: Mandatory Access Control (MAC) | 2+0
+2025-05-19 11:01:01,379 - lightrag - INFO - Merge N: Role-Based Access Control (RBAC) | 2+0
+2025-05-19 11:01:01,379 - lightrag - INFO - Merge N: Rule-Based Access Control | 2+0
+2025-05-19 11:01:01,380 - lightrag - INFO - Merge N: Access Control List (ACL) | 2+0
+2025-05-19 11:01:01,380 - lightrag - INFO - Merge N: Mật khẩu | 2+0
+2025-05-19 11:01:01,381 - lightrag - INFO - Merge N: A | 2+0
+2025-05-19 11:01:01,383 - lightrag - INFO - Merge N: Rule | 2+0
+2025-05-19 11:01:01,384 - lightrag - INFO - Merge N: RSA Security | 2+0
+2025-05-19 11:01:01,384 - lightrag - INFO - Merge N: ApplePay | 2+0
+2025-05-19 11:01:01,385 - lightrag - INFO - Merge N: Biometric Access Control | 2+0
+2025-05-19 11:01:01,385 - lightrag - INFO - Merge N: Intrusion Detection System (IDS) | 2+0
+2025-05-19 11:01:01,386 - lightrag - INFO - Merge N: Intrusion Prevention System (IPS) | 2+0
+2025-05-19 11:01:01,388 - lightrag - INFO - Merge N: Threat | 2+0
+2025-05-19 11:01:01,388 - lightrag - INFO - Merge N: ISO 27001 | 2+0
+2025-05-19 11:01:01,390 - lightrag - INFO - Merge N: Quản lý thay đổi | 2+0
+2025-05-19 11:01:01,391 - lightrag - INFO - Merge N: Xử lý sự cố | 2+0
+2025-05-19 11:01:01,393 - lightrag - INFO - Merge N: ISO 17799:2005 | 2+0
+2025-05-19 11:01:01,393 - lightrag - INFO - Merge N: ISO 27002 | 2+0
+2025-05-19 11:01:01,400 - lightrag - INFO - Merge E: Các công cụ hỗ trợ tấn công - Công cụ quét cổng dịch vụ | 2+0
+2025-05-19 11:01:01,402 - lightrag - INFO - Merge E: Các công cụ hỗ trợ tấn công - Công cụ nghe lén | 2+0
+2025-05-19 11:01:01,408 - lightrag - INFO - Merge E: Các công cụ hỗ trợ tấn công - Công cụ ghi phím gõ | 2+0
+2025-05-19 11:01:01,416 - lightrag - INFO - Merge E: Information Security Management - Risk Assessment | 2+0
+2025-05-19 11:01:01,423 - lightrag - INFO - Merge E: Một số thẻ bài (Token) của hãng RSA Security - Thẻ thông minh tiếp xúc | 2+0
+2025-05-19 11:01:01,426 - lightrag - INFO - Merge E: ISO/IEC 27001:2005 - Plan-Do-Check-Act cycle | 2+0
+2025-05-19 11:01:01,430 - lightrag - INFO - Merge E: Học viện Công nghệ Bưu chính Viễn thông - Môn học An toàn và bảo mật hệ thống thông tin | 2+0
+2025-05-19 11:01:01,433 - lightrag - INFO - Merge E: An toàn máy tính và dữ liệu - An toàn thông tin | 3+0
+2025-05-19 11:01:01,433 - lightrag - INFO - Merge E: An ninh mạng - An toàn thông tin | 3+0
+2025-05-19 11:01:01,434 - lightrag - INFO - Merge E: An toàn thông tin - Quản lý an toàn thông tin | 3+0
+2025-05-19 11:01:01,435 - lightrag - INFO - Merge E: An toàn thông tin - Viện SANS | 2+0
+2025-05-19 11:01:01,438 - lightrag - INFO - Merge E: Hệ thống thông tin - Đầu vào | 2+0
+2025-05-19 11:01:01,438 - lightrag - INFO - Merge E: Hệ thống thông tin - Xử lý | 2+0
+2025-05-19 11:01:01,446 - lightrag - INFO - Merge E: Hệ thống thông tin - Đầu ra | 2+0
+2025-05-19 11:01:01,468 - lightrag - INFO - Merge E: Hệ thống thông tin - Khách hàng | 2+0
+2025-05-19 11:01:01,476 - lightrag - INFO - Merge E: Hệ thống thông tin - Nhà cung cấp | 2+0
+2025-05-19 11:01:01,487 - lightrag - INFO - Merge E: Cơ quan chính quyền - Hệ thống thông tin | 2+0
+2025-05-19 11:01:01,488 - lightrag - INFO - Merge E: Cổ đông - Hệ thống thông tin | 2+0
+2025-05-19 11:01:01,489 - lightrag - INFO - Merge E: Hệ thống thông tin - Đối thủ cạnh tranh | 2+0
+2025-05-19 11:01:01,490 - lightrag - INFO - Merge E: Mật mã - Tính bí mật | 2+0
+2025-05-19 11:01:01,493 - lightrag - INFO - Merge E: Mối đe dọa - Tấn công | 2+0
+2025-05-19 11:01:01,498 - lightrag - INFO - Merge E: buffer overflow - stack memory | 2+0
+2025-05-19 11:01:01,502 - lightrag - INFO - Merge E: function() - stack memory | 2+0
+2025-05-19 11:01:01,509 - lightrag - INFO - Merge E: MS-SQL Server - xp_cmdshell | 2+0
+2025-05-19 11:01:01,510 - lightrag - INFO - Merge E: MS-SQL Server - sp_send_dbmail | 2+0
+2025-05-19 11:01:01,512 - lightrag - INFO - Merge E: Router - Smurf Attack | 2+0
+2025-05-19 11:01:01,518 - lightrag - INFO - Merge E: Browser Hijacking - Malicious Plug-in | 2+0
+2025-05-19 11:01:01,519 - lightrag - INFO - Merge E: Attacker - Malicious Plug-in | 2+0
+2025-05-19 11:01:01,520 - lightrag - INFO - Merge E: Browser Hijacking - User | 2+0
+2025-05-19 11:01:01,520 - lightrag - INFO - Merge E: Pharming Attack - User | 2+0
+2025-05-19 11:01:01,522 - lightrag - INFO - Merge E: Bot - Botnet | 2+0
+2025-05-19 11:01:01,525 - lightrag - INFO - Merge E: Asymmetric key encryption - RSA | 2+0
+2025-05-19 11:01:01,525 - lightrag - INFO - Merge E: Hash functions - MD5 | 2+0
+2025-05-19 11:01:01,530 - lightrag - INFO - Merge E: AES - AES-NI | 2+0
+2025-05-19 11:01:01,534 - lightrag - INFO - Merge E: S-box - SubBytes | 2+0
+2025-05-19 11:01:01,537 - lightrag - INFO - Merge E: AES decryption process - InvSubBytes | 2+0
+2025-05-19 11:01:01,541 - lightrag - INFO - Merge E: AES decryption process - InvMixColumns | 2+0
+2025-05-19 11:01:01,542 - lightrag - INFO - Merge E: Hash Functions - Keyed Hash Functions | 2+0
+2025-05-19 11:01:01,543 - lightrag - INFO - Merge E: Keyed Hash Functions - Message Authentication Code (MAC) | 2+0
+2025-05-19 11:01:01,545 - lightrag - INFO - Merge E: DSA (Digital Signature Algorithm) - RSA | 2+0
+2025-05-19 11:01:01,546 - lightrag - INFO - Merge E: Certificate Authority (CA) - Verisign | 2+0
+2025-05-19 11:01:01,549 - lightrag - INFO - Merge E: Phân phối khóa điểm – điểm - Trung tâm phân phối khóa (KDC) | 2+0
+2025-05-19 11:01:01,551 - lightrag - INFO - Merge E: Mã hóa khóa công khai - SSL/TLS | 2+0
+2025-05-19 11:01:01,552 - lightrag - INFO - Merge E: Mã hóa khóa công khai - PGP | 2+0
+2025-05-19 11:01:01,552 - lightrag - INFO - Merge E: Danh mục công khai khóa công khai - Xác thực cây khóa công khai | 2+0
+2025-05-19 11:01:01,553 - lightrag - INFO - Merge E: B - Kr | 2+0
+2025-05-19 11:01:01,553 - lightrag - INFO - Merge E: A - B | 2+0
+2025-05-19 11:01:01,555 - lightrag - INFO - Merge E: SSL Server - Server Certificate | 2+0
+2025-05-19 11:01:01,555 - lightrag - INFO - Merge E: Cardholder (Chủ thẻ/Khách hàng) - Merchant (Nhà cung cấp dịch vụ/Người bán hàng) | 2+0
+2025-05-19 11:01:01,556 - lightrag - INFO - Merge E: Acquirer (Ngân hàng của nhà cung cấp/Ngân hàng của người bán) - Issuer (Ngân hàng của chủ thẻ/Ngân hàng của người mua) | 2+0
+2025-05-19 11:01:01,556 - lightrag - INFO - Merge E: Acquirer (Ngân hàng của nhà cung cấp/Ngân hàng của người bán) - Merchant (Nhà cung cấp dịch vụ/Người bán hàng) | 2+0
+2025-05-19 11:01:01,559 - lightrag - INFO - Merge E: Access Control List (ACL) - Discretionary Access Control (DAC) | 2+0
+2025-05-19 11:01:01,564 - lightrag - INFO - Merge E: Intrusion Detection System (IDS) - Intrusion Prevention System (IPS) | 2+0
+2025-05-19 11:01:01,570 - lightrag - INFO - Merge E: ISO 17799:2005 - ISO 27002 | 2+0
+2025-05-19 11:01:01,573 - lightrag - INFO - Updating 2156 entities  1/1: unknown_source
+2025-05-19 11:01:57,272 - lightrag - INFO - Updating 2506 relations 1/1: unknown_source
+2025-05-19 11:03:02,834 - lightrag - INFO - Writing graph with 2188 nodes, 2506 edges
+2025-05-19 11:03:03,125 - lightrag - INFO - In memory DB persist to disk
+2025-05-19 11:03:03,126 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2025-05-19 11:03:03,127 - lightrag - INFO - Document processing pipeline completed
+2025-05-19 11:03:03,128 - lightrag - INFO - Process 8572 building query context...
+2025-05-19 11:03:03,129 - lightrag - INFO - Query nodes: Tấn công DDoS, Phishing, Malware, SQL Injection, Cross-site scripting, top_k: 60, cosine: 0.2
+2025-05-19 11:03:04,147 - lightrag - INFO - Local query uses 60 entites, 174 relations, 3 chunks
+2025-05-19 11:03:04,149 - lightrag - INFO - Query edges: Phương pháp tấn công, An ninh mạng, Mối đe dọa bảo mật, top_k: 60, cosine: 0.2
+2025-05-19 11:03:05,500 - lightrag - INFO - Global query uses 69 entites, 60 relations, 3 chunks
+2025-05-19 11:03:16,712 - lightrag - INFO -  == LLM cache == saving hybrid: 12142d004e0797e5ffd2301266c7df52
+2025-05-19 11:03:16,758 - lightrag - INFO - Storage Finalization completed!
+2025-05-19 11:03:42,268 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-19 11:03:42,979 - lightrag - INFO - Process 5012 KV load full_docs with 1 records
+2025-05-19 11:03:42,987 - lightrag - INFO - Process 5012 KV load text_chunks with 82 records
+2025-05-19 11:03:43,059 - lightrag - INFO - Process 5012 KV load llm_response_cache with 177 records
+2025-05-19 11:03:43,066 - lightrag - INFO - Process 5012 doc status load doc_status with 1 records
+2025-05-19 11:03:43,071 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-19 11:03:43,071 - lightrag - INFO - Storage Initialization completed!
+2025-05-19 11:03:47,251 - lightrag - INFO -  == LLM cache == saving hybrid: 3573f540ce77768821aa26ffc6da97fe
+2025-05-19 11:03:47,251 - lightrag - INFO - Process 5012 building query context...
+2025-05-19 11:03:47,252 - lightrag - INFO - Query nodes: Tấn công mạng, Tấn công từ chối dịch vụ, Phishing, Malware, Spear phishing, top_k: 60, cosine: 0.2
+2025-05-19 11:03:47,253 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-19 11:03:48,677 - lightrag - INFO - Local query uses 60 entites, 158 relations, 3 chunks
+2025-05-19 11:03:48,679 - lightrag - INFO - Query edges: Phương pháp tấn công, Bảo mật, An ninh mạng, top_k: 60, cosine: 0.2
+2025-05-19 11:03:49,689 - lightrag - INFO - Global query uses 72 entites, 60 relations, 3 chunks
+2025-05-19 11:03:58,233 - lightrag - INFO - Storage Finalization completed!
+2025-05-19 11:05:34,445 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-19 11:05:35,071 - lightrag - INFO - Process 11736 KV load full_docs with 1 records
+2025-05-19 11:05:35,079 - lightrag - INFO - Process 11736 KV load text_chunks with 82 records
+2025-05-19 11:05:35,145 - lightrag - INFO - Process 11736 KV load llm_response_cache with 178 records
+2025-05-19 11:05:35,153 - lightrag - INFO - Process 11736 doc status load doc_status with 1 records
+2025-05-19 11:05:35,155 - lightrag - INFO - Process 11736 building query context...
+2025-05-19 11:05:35,155 - lightrag - INFO - Query nodes: Tấn công mạng, Tấn công từ chối dịch vụ, Phishing, Malware, Spear phishing, top_k: 60, cosine: 0.2
+2025-05-19 11:05:35,156 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-19 11:05:35,157 - lightrag - INFO - Storage Initialization completed!
+2025-05-19 11:05:36,470 - lightrag - INFO - Local query uses 60 entites, 158 relations, 3 chunks
+2025-05-19 11:05:36,472 - lightrag - INFO - Query edges: Phương pháp tấn công, Bảo mật, An ninh mạng, top_k: 60, cosine: 0.2
+2025-05-19 11:05:37,372 - lightrag - INFO - Global query uses 72 entites, 60 relations, 3 chunks
+2025-05-19 11:05:37,376 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-19 11:05:49,673 - lightrag - INFO - Storage Finalization completed!
+2025-05-19 11:06:01,694 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-19 11:06:02,297 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-19 11:06:02,297 - lightrag - INFO - Storage Initialization completed!
+2025-05-19 11:06:09,254 - lightrag - INFO -  == LLM cache == saving hybrid: e4624bc1952d22d757c7ccf56679f1a6
+2025-05-19 11:06:09,255 - lightrag - INFO - Process 11736 building query context...
+2025-05-19 11:06:09,256 - lightrag - INFO - Query nodes: model, model nào, tên model, ChatGPT, GPT-4, OpenAI, top_k: 60, cosine: 0.2
+2025-05-19 11:06:09,257 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-19 11:06:10,242 - lightrag - INFO - Local query uses 60 entites, 117 relations, 3 chunks
+2025-05-19 11:06:10,243 - lightrag - INFO - Query edges: Mô hình AI, Xác định mô hình, Sử dụng mô hình, top_k: 60, cosine: 0.2
+2025-05-19 11:06:11,144 - lightrag - INFO - Global query uses 79 entites, 60 relations, 3 chunks
+2025-05-19 11:06:13,955 - lightrag - INFO - Storage Finalization completed!
+2025-05-19 11:07:30,774 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-19 11:07:31,383 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-19 11:07:31,384 - lightrag - INFO - Storage Initialization completed!
+2025-05-19 11:07:36,649 - lightrag - INFO -  == LLM cache == saving hybrid: 37a02e05439de04e7ad7f92c851eed64
+2025-05-19 11:07:36,650 - lightrag - INFO - Process 11736 building query context...
+2025-05-19 11:07:36,650 - lightrag - INFO - Query nodes: tôi, vừa hỏi, câu gì, top_k: 60, cosine: 0.2
+2025-05-19 11:07:36,651 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-19 11:07:37,617 - lightrag - INFO - Local query uses 60 entites, 152 relations, 3 chunks
+2025-05-19 11:07:37,619 - lightrag - INFO - Query edges: Câu hỏi, Nội dung truy vấn, Ngữ cảnh hội thoại, top_k: 60, cosine: 0.2
+2025-05-19 11:07:38,597 - lightrag - INFO - Global query uses 87 entites, 60 relations, 3 chunks
+2025-05-19 11:07:40,986 - lightrag - INFO - Storage Finalization completed!
+2025-05-19 11:09:07,402 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-19 11:09:08,026 - lightrag - INFO - Process 5172 KV load full_docs with 1 records
+2025-05-19 11:09:08,034 - lightrag - INFO - Process 5172 KV load text_chunks with 82 records
+2025-05-19 11:09:08,109 - lightrag - INFO - Process 5172 KV load llm_response_cache with 180 records
+2025-05-19 11:09:08,114 - lightrag - INFO - Process 5172 doc status load doc_status with 1 records
+2025-05-19 11:09:08,119 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-19 11:09:08,121 - lightrag - INFO - Storage Initialization completed!
+2025-05-19 11:09:15,787 - lightrag - INFO -  == LLM cache == saving hybrid: 64abc24061143f7624ccebc95cb55d01
+2025-05-19 11:09:15,788 - lightrag - INFO - Process 5172 building query context...
+2025-05-19 11:09:15,789 - lightrag - INFO - Query nodes: Địa chỉ trở về của hàm, Con trỏ khung ngăn xếp (sfp), Bộ đệm cục bộ của hàm, Biến đầu vào của hàm, Tin tặc, Mã độc, Tràn bộ đệm, top_k: 60, cosine: 0.2
+2025-05-19 11:09:15,790 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-19 11:09:16,775 - lightrag - INFO - Local query uses 60 entites, 91 relations, 3 chunks
+2025-05-19 11:09:16,776 - lightrag - INFO - Query edges: Khai thác lỗi tràn bộ đệm, Bộ nhớ ngăn xếp, Chèn mã độc, Ghi đè bộ nhớ, Chuyển hướng thực thi, top_k: 60, cosine: 0.2
+2025-05-19 11:09:17,672 - lightrag - INFO - Global query uses 76 entites, 60 relations, 3 chunks
+2025-05-19 11:09:24,503 - lightrag - INFO - Storage Finalization completed!
+2025-05-19 11:10:40,834 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-19 11:10:41,460 - lightrag - INFO - Process 9704 KV load full_docs with 1 records
+2025-05-19 11:10:41,468 - lightrag - INFO - Process 9704 KV load text_chunks with 82 records
+2025-05-19 11:10:41,541 - lightrag - INFO - Process 9704 KV load llm_response_cache with 181 records
+2025-05-19 11:10:41,546 - lightrag - INFO - Process 9704 doc status load doc_status with 1 records
+2025-05-19 11:10:41,551 - lightrag - INFO - Process 9704 building query context...
+2025-05-19 11:10:41,552 - lightrag - INFO - Query nodes: Địa chỉ trở về của hàm, Con trỏ khung ngăn xếp (sfp), Bộ đệm cục bộ của hàm, Biến đầu vào của hàm, Tin tặc, Mã độc, Tràn bộ đệm, top_k: 60, cosine: 0.2
+2025-05-19 11:10:41,553 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-19 11:10:41,554 - lightrag - INFO - Storage Initialization completed!
+2025-05-19 11:10:43,141 - lightrag - INFO - Local query uses 60 entites, 91 relations, 3 chunks
+2025-05-19 11:10:43,143 - lightrag - INFO - Query edges: Khai thác lỗi tràn bộ đệm, Bộ nhớ ngăn xếp, Chèn mã độc, Ghi đè bộ nhớ, Chuyển hướng thực thi, top_k: 60, cosine: 0.2
+2025-05-19 11:10:44,294 - lightrag - INFO - Global query uses 76 entites, 60 relations, 3 chunks
+2025-05-19 11:10:44,298 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-19 11:10:57,640 - lightrag - INFO - Storage Finalization completed!
+2025-05-19 11:13:43,306 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-19 11:13:43,939 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-19 11:13:43,940 - lightrag - INFO - Storage Initialization completed!
+2025-05-19 11:13:50,432 - lightrag - INFO -  == LLM cache == saving hybrid: d51c5154d2e4284cfd7dc34682d79c61
+2025-05-19 11:13:50,432 - lightrag - INFO - Process 9704 building query context...
+2025-05-19 11:13:50,433 - lightrag - INFO - Query nodes: Vi rút, Sâu, Tự lây lan mà không cần tương tác của người dùng, Tương tác của người dùng, Phá hoại lớn hơn, Lựa chọn A, Lựa chọn B, Lựa chọn C, Lựa chọn D, top_k: 60, cosine: 0.2
+2025-05-19 11:13:50,434 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-19 11:13:51,442 - lightrag - INFO - Local query uses 60 entites, 138 relations, 3 chunks
+2025-05-19 11:13:51,444 - lightrag - INFO - Query edges: Phần mềm độc hại, Virus máy tính, Sâu máy tính, Phương thức lây lan, Khả năng phá hoại, top_k: 60, cosine: 0.2
+2025-05-19 11:13:52,692 - lightrag - INFO - Global query uses 69 entites, 60 relations, 3 chunks
+2025-05-19 11:13:56,955 - lightrag - INFO - Storage Finalization completed!
+2025-05-19 11:14:17,208 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-19 11:14:17,819 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-19 11:14:17,820 - lightrag - INFO - Storage Initialization completed!
+2025-05-19 11:14:22,104 - lightrag - INFO -  == LLM cache == saving hybrid: e65b177da5c06ef01855533362bf6f0e
+2025-05-19 11:14:22,105 - lightrag - INFO - Process 9704 building query context...
+2025-05-19 11:14:22,106 - lightrag - INFO - Query nodes: Interceptions, Fabrications, Interruptions, Modifications, top_k: 60, cosine: 0.2
+2025-05-19 11:14:22,107 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-19 11:14:23,014 - lightrag - INFO - Local query uses 60 entites, 100 relations, 3 chunks
+2025-05-19 11:14:23,016 - lightrag - INFO - Query edges: Dạng tấn công, Ngắt quãng dịch vụ, Kênh truyền thông, Người dùng bình thường, top_k: 60, cosine: 0.2
+2025-05-19 11:14:23,930 - lightrag - INFO - Global query uses 69 entites, 60 relations, 3 chunks
+2025-05-19 11:14:28,755 - lightrag - INFO - Storage Finalization completed!

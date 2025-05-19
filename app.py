@@ -2,7 +2,7 @@ import os
 import asyncio
 import streamlit as st
 from lightrag import LightRAG, QueryParam
-from lightrag.llm.openai import gpt_4o_mini_complete, gpt_4o_complete, openai_embed
+from lightrag.llm.openai import gpt_4o_mini_complete, gpt_4o_complete, openai_embed, gpt_o4_mini_complete
 from lightrag.kg.shared_storage import initialize_pipeline_status
 from lightrag.utils import setup_logger
 from dotenv import load_dotenv
@@ -23,7 +23,7 @@ async def initialize_rag():
     rag = LightRAG(
         working_dir=WORKING_DIR,
         embedding_func=openai_embed,
-        llm_model_func=gpt_4o_mini_complete,
+        llm_model_func=gpt_o4_mini_complete,
     )
     await rag.initialize_storages()
     await initialize_pipeline_status()
@@ -39,7 +39,7 @@ async def generate_response(query):
         result = await rag.aquery(
             query,
             param=QueryParam(mode=mode, stream=True),
-            system_prompt="Bạn là một chuyên gia về An toàn bảo mật và Hệ thống thông tin. Bạn có thể trả lời các câu hỏi về An toàn bảo mật và Hệ thống thông tin. Nếu câu hỏi trắc nghiệm chỉ chọn 1 đáp án đúng nhất, giải thích các đáp án sai."
+            system_prompt="Bạn là một chuyên gia về An toàn bảo mật và Hệ thống thông tin. Bạn có thể trả lời các câu hỏi về An toàn bảo mật và Hệ thống thông tin. Nếu câu hỏi trắc nghiệm chỉ chọn 1 đáp án đúng nhất, giải thích các đáp án sai. Trả về câu trả lời dưới dạng markdown."
         )
         
         response_placeholder = st.empty()
