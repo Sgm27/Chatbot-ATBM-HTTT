@@ -1,0 +1,838 @@
+[
+  {
+    "number": "1",
+    "question": "Chọn đáp án đúng giữa 2 hàm băm MDC và MAC:",
+    "options": [
+      {
+        "label": "a.",
+        "text": "MDC có khả năng chống đụng độ cao hơn MAC"
+      },
+      {
+        "label": "b.",
+        "text": "MDC băm đơn thuần, MAC băm đơn thuần + khóa bí mật."
+      },
+      {
+        "label": "c.",
+        "text": "MDC an toàn hơn MAC"
+      },
+      {
+        "label": "d.",
+        "text": "MAC an toàn hơn MDC"
+      }
+    ]
+  },
+  {
+    "number": "2",
+    "question": "Chọn đáp án đúng nhất về hai giải thuật RSA và DSA:",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Giải thuật DSA an toàn hơn giải thuật RSA"
+      },
+      {
+        "label": "b.",
+        "text": "Giải thuật DSA đơn giản hơn giải thuật RSA"
+      },
+      {
+        "label": "c.",
+        "text": "Giải thuật RSA an toàn hơn giải thuật DSA"
+      },
+      {
+        "label": "d.",
+        "text": "Giải thuật DSA và RSA đều có thể sử dụng mã hóa và chữ ký số"
+      }
+    ]
+  },
+  {
+    "number": "3",
+    "question": "Chọn đáp án đúng nhất về mối quan hệ giữa mối đe dọa (threat), lỗ hổng (vulnerability) và tấn công (attack) trong an toàn và bảo mật thông tin?",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Mối đe dọa là lỗi kỹ thuật trong hệ thống, lỗ hổng là kết quả của mối đe dọa, và tấn công là việc sử dụng lỗ hổng để xâm nhập hệ thống."
+      },
+      {
+        "label": "b.",
+        "text": "Mối đe dọa là một hành động có chủ đích của tin tặc, lỗ hổng là điểm yếu trong hệ thống, và tấn công là quá trình khai thác lỗ hổng đó."
+      },
+      {
+        "label": "c.",
+        "text": "Mối đe dọa là hành động tấn công, lỗ hổng là phần mềm bị lỗi, và tấn công là cách khắc phục lỗ hổng đó."
+      },
+      {
+        "label": "d.",
+        "text": "Mối đe dọa là bất kỳ yếu tố nào có thể gây hại, lỗ hổng là điểm yếu của hệ thống, và tấn công là hành động khai thác lỗ hổng để hiện thực hóa mối đe dọa."
+      }
+    ]
+  },
+  {
+    "number": "4",
+    "question": "Chọn đáp án đúng về công cụ John the Ripper:",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Dùng để băm (mã hóa) mật khẩu"
+      },
+      {
+        "label": "b.",
+        "text": "Rà quét cổng và phát hiện lỗ hổng bảo mật trên hệ thống"
+      },
+      {
+        "label": "c.",
+        "text": "Bẻ khóa mật khẩu dựa trên chuỗi băm"
+      },
+      {
+        "label": "d.",
+        "text": "Thu thập hàm băm (hashes) của mật khẩu"
+      }
+    ]
+  },
+  {
+    "number": "5",
+    "question": "Chọn đáp án đúng về tường lửa tích hợp trên hệ điều hành Windows(WFAS):",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Tự động phát hiện và ngăn chặn các cuộc tấn công vào máy chủ."
+      },
+      {
+        "label": "b.",
+        "text": "Chỉ cho phép các máy tính từ mạng nội bộ kết nối đến"
+      },
+      {
+        "label": "c.",
+        "text": "Chỉ cho kết nối đến các cổng web mặc định (80, 443)"
+      },
+      {
+        "label": "d.",
+        "text": "Chặn tất cả các kết nối, trừ khi có quy tắc cho phép."
+      }
+    ]
+  },
+  {
+    "number": "6",
+    "question": "Công cụ nào sau đây thường được sử dụng để thực hiện tấn công quét cổng (port scanning) nhằm thu thập thông tin về hệ thống mục tiêu?",
+    "options": [
+      {
+        "label": "a.",
+        "text": "tcpdump"
+      },
+      {
+        "label": "b.",
+        "text": "John the Ripper"
+      },
+      {
+        "label": "c.",
+        "text": "Wireshark"
+      },
+      {
+        "label": "d.",
+        "text": "nmap"
+      }
+    ]
+  },
+  {
+    "number": "7",
+    "question": "Cổng nào được giao thức https sử dụng mặc định?",
+    "options": [
+      {
+        "label": "a.",
+        "text": "80"
+      },
+      {
+        "label": "b.",
+        "text": "21"
+      },
+      {
+        "label": "c.",
+        "text": "53"
+      },
+      {
+        "label": "d.",
+        "text": "443"
+      }
+    ]
+  },
+  {
+    "number": "8",
+    "question": "Hai dịch vụ quan trọng nhất của hệ thống kiểm soát truy cập?",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Authentication và Administrator"
+      },
+      {
+        "label": "b.",
+        "text": "Authentication và Authorization"
+      },
+      {
+        "label": "c.",
+        "text": "Administrator và Authorization"
+      },
+      {
+        "label": "d.",
+        "text": "Authenticator và Administrator"
+      }
+    ]
+  },
+  {
+    "number": "9",
+    "question": "Hình thức nào sau đây là biến thể phức tạp hơn của tấn công DoS ?",
+    "options": [
+      {
+        "label": "a.",
+        "text": "SQL Injection"
+      },
+      {
+        "label": "b.",
+        "text": "Phishing"
+      },
+      {
+        "label": "c.",
+        "text": "DDoS"
+      },
+      {
+        "label": "d.",
+        "text": "Pharming"
+      }
+    ]
+  },
+  {
+    "number": "10",
+    "question": "Hình thức tấn công nào sau đây nói đến việc thử tất cả các tổ hợp ký tự (chữ, số, ký tự đặc biệt,…) để có thể tìm ra mật khẩu?",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Tấn công dò quét (scan attack)"
+      },
+      {
+        "label": "b.",
+        "text": "Tấn công phun mật khẩu (password spraying)"
+      },
+      {
+        "label": "c.",
+        "text": "Tấn công brute-force (brute-force attack)"
+      },
+      {
+        "label": "d.",
+        "text": "Tấn công từ điển (dictionary attack)"
+      }
+    ]
+  },
+  {
+    "number": "11",
+    "question": "Kiểm soát (control) an toàn thông tin là phương tiện để …",
+    "options": [
+      {
+        "label": "a.",
+        "text": "hạn chế rủi ro."
+      },
+      {
+        "label": "b.",
+        "text": "ngăn chặn rủi ro."
+      },
+      {
+        "label": "c.",
+        "text": "khắc phục rủi ro."
+      },
+      {
+        "label": "d.",
+        "text": "quản lý rủi ro."
+      }
+    ]
+  },
+  {
+    "number": "12",
+    "question": "Luật An ninh mạng tại Việt Nam bắt đầu có hiệu lực từ ngày:",
+    "options": [
+      {
+        "label": "a.",
+        "text": "01/01/2022"
+      },
+      {
+        "label": "b.",
+        "text": "01/01/2021"
+      },
+      {
+        "label": "c.",
+        "text": "01/01/2020"
+      },
+      {
+        "label": "d.",
+        "text": "01/01/2019"
+      }
+    ]
+  },
+  {
+    "number": "13",
+    "question": "Mô hình tổng quát đảm bảo an toàn thông tin và hệ thống thông tin thường gặp gồm các lớp nào?",
+    "options": [
+      {
+        "label": "a.",
+        "text": "An ninh mạng, An ninh tổ chức và An ninh hệ thống."
+      },
+      {
+        "label": "b.",
+        "text": "An ninh mạng, An ninh tổ chức và Điều khiển truy cập."
+      },
+      {
+        "label": "c.",
+        "text": "An ninh tổ chức, Tường lửa và Điều khiển truy cập."
+      },
+      {
+        "label": "d.",
+        "text": "An ninh tổ chức, An ninh mạng và An toàn HĐH và ứng dụng."
+      }
+    ]
+  },
+  {
+    "number": "14",
+    "question": "Một hệ mã hoá (cryptosystem) được cấu thành từ hai thành phần chính gồm:",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Phương pháp mã hóa và chia dòng / khối"
+      },
+      {
+        "label": "b.",
+        "text": "Giải thuật mã hóa và chữ ký số"
+      },
+      {
+        "label": "c.",
+        "text": "Giải thuật mã hóa và giải mã"
+      },
+      {
+        "label": "d.",
+        "text": "Phương pháp mã hóa và không gian khóa"
+      }
+    ]
+  },
+  {
+    "number": "15",
+    "question": "Một thông điệp có nội dung nhạy cảm truyền trên mạng bị sửa đổi. Các thuộc tính ATTT nào bị vi phạm?",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Toàn vẹn"
+      },
+      {
+        "label": "b.",
+        "text": "Bí mật, toàn vẹn và sẵn dùng"
+      },
+      {
+        "label": "c.",
+        "text": "Bí mật và toàn vẹn"
+      },
+      {
+        "label": "d.",
+        "text": "Bí mật"
+      }
+    ]
+  },
+  {
+    "number": "16",
+    "question": "Một trong các điểm yếu làm giảm hiệu quả của phát hiện tấn công, đột nhập dựa trên bất thường là:",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Không có khả năng phát hiện tấn công, đột nhập mới"
+      },
+      {
+        "label": "b.",
+        "text": "Tỷ lệ cảnh báo sai cao"
+      },
+      {
+        "label": "c.",
+        "text": "Không có khả năng ngăn chặn tấn công, đột nhập"
+      },
+      {
+        "label": "d.",
+        "text": "Không có khả năng phát hiện các cuộc tấn công DoS"
+      }
+    ]
+  },
+  {
+    "number": "17",
+    "question": "Một ưu điểm của tường lửa có trạng thái so với tường lửa không trạng thái là?:",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Chạy nhanh hơn"
+      },
+      {
+        "label": "b.",
+        "text": "Lọc nội dung gói tốt hơn"
+      },
+      {
+        "label": "c.",
+        "text": "Phân biệt các gói tin thuộc về các kết nối mạng khác nhau"
+      },
+      {
+        "label": "d.",
+        "text": "Nhận dạng được các dạng tấn công và các phần mềm độc hại"
+      }
+    ]
+  },
+  {
+    "number": "18",
+    "question": "Mục đích chính của một cuộc SQL Injection (SQLi) là gì?",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Truy xuất, sửa đổi hoặc xóa dữ liệu trong cơ sở dữ liệu"
+      },
+      {
+        "label": "b.",
+        "text": "Làm máy chủ CSDL ngừng cung cấp dịch vụ"
+      },
+      {
+        "label": "c.",
+        "text": "Phá hủy hệ điều hành và phần cứng vật lý của hệ thống thông tin"
+      },
+      {
+        "label": "d.",
+        "text": "Chiếm quyền kiểm soát Hệ thống thông tin"
+      }
+    ]
+  },
+  {
+    "number": "19",
+    "question": "Mục đích chính của một cuộc SQL Injection (SQLi) là gì?",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Truy xuất, sửa đổi hoặc xóa dữ liệu trong cơ sở dữ liệu"
+      },
+      {
+        "label": "b.",
+        "text": "Chiếm quyền kiểm soát Hệ thống thông tin"
+      },
+      {
+        "label": "c.",
+        "text": "Phá hủy hệ điều hành và phần cứng vật lý của hệ thống thông tin"
+      },
+      {
+        "label": "d.",
+        "text": "Làm máy chủ CSDL ngừng cung cấp dịch vụ"
+      }
+    ]
+  },
+  {
+    "number": "20",
+    "question": "Mục đích chính của một cuộc tấn công tràn bộ đệm (Buffer overflow) là gì?",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Làm tràn ổ cứng của máy chủ để gây từ chối dịch vụ"
+      },
+      {
+        "label": "b.",
+        "text": "Đánh cắp thông tin người dùng trong hệ thống"
+      },
+      {
+        "label": "c.",
+        "text": "Ghi đè bộ nhớ để thực thi mã độc hoặc chiếm quyền điều khiển hệ thống"
+      },
+      {
+        "label": "d.",
+        "text": "Làm hệ thống hoạt động bị lỗi, tự khởi động lại ngừng cung cấp dịch vụ"
+      }
+    ]
+  },
+  {
+    "number": "21",
+    "question": "Người sử dụng HTTT quản lý trong mô hình 4 loại HTTT là:",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Nhân viên"
+      },
+      {
+        "label": "b.",
+        "text": "Giám đốc điều hành"
+      },
+      {
+        "label": "c.",
+        "text": "Quản lý cao cấp"
+      },
+      {
+        "label": "d.",
+        "text": "Quản lý bộ phận"
+      }
+    ]
+  },
+  {
+    "number": "22",
+    "question": "Phát biểu đúng nhất về mã hóa khóa bí mật (Secret key cryptography):",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Là phương pháp mã hóa sử dụng kỹ thuật mã hóa khối"
+      },
+      {
+        "label": "b.",
+        "text": "An toàn hơn mã hóa khóa công khai"
+      },
+      {
+        "label": "c.",
+        "text": "Sử dụng một khóa chung cho mã hóa và giải mã"
+      },
+      {
+        "label": "d.",
+        "text": "Sử dụng một khóa quá trình mã hóa và một khóa khác cho giải mã"
+      }
+    ]
+  },
+  {
+    "number": "23",
+    "question": "Phép toán logic nào được sử dụng trong mã hóa:",
+    "options": [
+      {
+        "label": "a.",
+        "text": "NOT"
+      },
+      {
+        "label": "b.",
+        "text": "AND"
+      },
+      {
+        "label": "c.",
+        "text": "XOR"
+      },
+      {
+        "label": "d.",
+        "text": "OR"
+      }
+    ]
+  },
+  {
+    "number": "24",
+    "question": "Phương pháp nào dưới đây được xem là hiệu quả nhất để ngăn chặn tấn công SQL Injection (SQLi) ?",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Sử dụng tường lửa để lọc truy vấn SQL đầu vào (validated input)"
+      },
+      {
+        "label": "b.",
+        "text": "Mã hóa mật khẩu người dùng trong cơ sở dữ liệu bằng thuật toán mạnh"
+      },
+      {
+        "label": "c.",
+        "text": "Toàn bộ dữ liệu đầu vào (input validation) được ghi vào file log để kiểm tra lại"
+      },
+      {
+        "label": "d.",
+        "text": "Sử dụng truy vấn tham số hóa (Prepared Statements)"
+      }
+    ]
+  },
+  {
+    "number": "25",
+    "question": "Số lượng nhân tố (factor) xác thực sử dụng trong kiểm soát truy nhập dựa trên thẻ thông minh (smartcard) là:",
+    "options": [
+      {
+        "label": "a.",
+        "text": "4 factors"
+      },
+      {
+        "label": "b.",
+        "text": "3 factors"
+      },
+      {
+        "label": "c.",
+        "text": "2 factors"
+      },
+      {
+        "label": "d.",
+        "text": "5 factors"
+      }
+    ]
+  },
+  {
+    "number": "26",
+    "question": "Sự khác biệt chính giữa hệ thống ngăn chặn xâm nhập (IPS) và hệ thống phát hiện xâm nhập (IDS) là:",
+    "options": [
+      {
+        "label": "a.",
+        "text": "IPS phát hiện xâm nhập hiệu quả hơn"
+      },
+      {
+        "label": "b.",
+        "text": "IDS có khả năng chủ động ngăn chặn xâm nhập"
+      },
+      {
+        "label": "c.",
+        "text": "IPS có khả năng chủ động ngăn chặn xâm nhập"
+      },
+      {
+        "label": "d.",
+        "text": "IDS phát hiện xâm nhập hiệu quả hơn"
+      }
+    ]
+  },
+  {
+    "number": "27",
+    "question": "Tại sao một hệ thống phát hiện xâm nhập dựa trên chữ ký không thể phát hiện các tấn công, đột nhập mới?",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Do các tấn công, đột nhập mới không gây ra bất thường"
+      },
+      {
+        "label": "b.",
+        "text": "Do các tấn công, đột nhập mới chỉ gây thiệt hại nhỏ"
+      },
+      {
+        "label": "c.",
+        "text": "Do chữ ký của chúng chưa tồn tại trong hệ thống"
+      },
+      {
+        "label": "d.",
+        "text": "Do các tấn công, đột nhập mới không có chữ ký"
+      }
+    ]
+  },
+  {
+    "number": "28",
+    "question": "Tấn công kẻ đứng giữa (MITM), thường xảy ra khi nào ?",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Khi một bên thứ ba chặn và can thiệp vào luồng trao đổi dữ liệu giữa hai bên mà họ không biết"
+      },
+      {
+        "label": "b.",
+        "text": "Khi người dùng quên không đăng xuất sau khi đăng nhập"
+      },
+      {
+        "label": "c.",
+        "text": "Khi tin tặc sử dụng phần mềm gián điệp để chiếm quyền máy tính"
+      },
+      {
+        "label": "d.",
+        "text": "Khi người dùng bị chuyển hướng sang một trang web giả mạo"
+      }
+    ]
+  },
+  {
+    "number": "29",
+    "question": "Thành phần nào sau đây thuộc về “Lớp bảo vệ vật lý” (physical security):",
+    "options": [
+      {
+        "label": "a.",
+        "text": "DB2 administrators"
+      },
+      {
+        "label": "b.",
+        "text": "Databases"
+      },
+      {
+        "label": "c.",
+        "text": "USB devices"
+      },
+      {
+        "label": "d.",
+        "text": "Users"
+      }
+    ]
+  },
+  {
+    "number": "30",
+    "question": "Thuộc tính toàn vẹn (Integrity) trong an toàn thông tin đảm bảo điều gì?",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Thông tin chỉ có thể được truy cập bởi những người được phép."
+      },
+      {
+        "label": "b.",
+        "text": "Thông tin chỉ xem được nhưng không sửa được."
+      },
+      {
+        "label": "c.",
+        "text": "Thông tin được mã hóa để ngăn chặn việc truy cập trái phép."
+      },
+      {
+        "label": "d.",
+        "text": "Thông tin chỉ có thể được chỉnh sửa bởi những người được phép."
+      }
+    ]
+  },
+  {
+    "number": "31",
+    "question": "Trong giải thuật RSA, quan hệ toán học giữa khóa công khai e và Phi( n ) là:",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Là 2 số nguyên tố cùng nhau"
+      },
+      {
+        "label": "b.",
+        "text": "1 số là chẵn, số còn lại là lẻ"
+      },
+      {
+        "label": "c.",
+        "text": "Phi( n ) là modulo nghịch đảo của e"
+      },
+      {
+        "label": "d.",
+        "text": "Không quan hệ gì cả"
+      }
+    ]
+  },
+  {
+    "number": "32",
+    "question": "Trong mã hóa dòng (stream cipher), dữ liệu được xử lý theo…",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Từng bit hoặc từng ký tự (byte)"
+      },
+      {
+        "label": "b.",
+        "text": "Từng dòng ký tự (bytes)"
+      },
+      {
+        "label": "c.",
+        "text": "Từng bit"
+      },
+      {
+        "label": "d.",
+        "text": "Từng ký tự (byte)"
+      }
+    ]
+  },
+  {
+    "number": "33",
+    "question": "Trong tấn công từ chối dịch vụ phân tán (DDoS) lý do nào sau đây khiến việc xác định và ngăn chặn máy zombie trở nên khó khăn đối với các hệ thống phòng thủ ?",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Vì các máy tính zombie thường sử dụng địa chỉ IP giống nhau khi tấn công"
+      },
+      {
+        "label": "b.",
+        "text": "Vì lưu lượng tấn công được mã hóa đầu cuối nên khó thể phân tích"
+      },
+      {
+        "label": "c.",
+        "text": "Vì máy zombie thường phân bố toàn cầu, sử dụng nhiều địa chỉ IP thật và hành vi giống người dùng hợp lệ"
+      },
+      {
+        "label": "d.",
+        "text": "Vì các zombie thường sử dụng địa chỉ IP giả mạo để tránh bị phát hiện"
+      }
+    ]
+  },
+  {
+    "number": "34",
+    "question": "Tường lửa không thể chống lại…",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Tấn công giả mạo địa chỉ"
+      },
+      {
+        "label": "b.",
+        "text": "Tấn công từ mạng Internet"
+      },
+      {
+        "label": "c.",
+        "text": "Các hiểm họa từ bên ngoài"
+      },
+      {
+        "label": "d.",
+        "text": "Các hiểm họa từ bên trong"
+      }
+    ]
+  },
+  {
+    "number": "35",
+    "question": "Ưu điểm của điều khiển truy nhập dựa trên các đặc điểm sinh trắc học là:",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Bảo mật cao và chi phí thấp"
+      },
+      {
+        "label": "b.",
+        "text": "Bảo mật cao và được hỗ trợ rộng rãi"
+      },
+      {
+        "label": "c.",
+        "text": "Bảo mật cao và độ ổn định cao"
+      },
+      {
+        "label": "d.",
+        "text": "Bảo mật cao và luôn đi cùng với chủ thể"
+      }
+    ]
+  },
+  {
+    "number": "36",
+    "question": "Đâu là một loại tường lửa?:",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Gateway server"
+      },
+      {
+        "label": "b.",
+        "text": "Server gateway"
+      },
+      {
+        "label": "c.",
+        "text": "Application-level gateway"
+      },
+      {
+        "label": "d.",
+        "text": "Application server"
+      }
+    ]
+  },
+  {
+    "number": "37",
+    "question": "Đâu là điểm chung giữa tấn công Phishing và Pharming?",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Yêu cầu cài đặt phần mềm gián điệp để thực hiện tấn công."
+      },
+      {
+        "label": "b.",
+        "text": "Tập trung tấn công người dùng trang web mạng xã hội"
+      },
+      {
+        "label": "c.",
+        "text": "Dựa vào việc chuyển đổi địa chỉ tên miền để đánh lừa nạn nhân."
+      },
+      {
+        "label": "d.",
+        "text": "Đánh cắp thông tin cá nhân (tài khoản tài chính) của nạn nhân."
+      }
+    ]
+  },
+  {
+    "number": "38",
+    "question": "Điều nào dưới đây KHÔNG phải là một thuộc tính chính trong An toàn bảo mật Hệ thống Thông tin?",
+    "options": [
+      {
+        "label": "a.",
+        "text": "Tính sẵn dùng (Availability)"
+      },
+      {
+        "label": "b.",
+        "text": "Tính toàn vẹn (Integrity)"
+      },
+      {
+        "label": "c.",
+        "text": "Tính linh hoạt (Flexibility)"
+      },
+      {
+        "label": "d.",
+        "text": "Tính bảo mật (Confidentiality)"
+      }
+    ]
+  }
+]

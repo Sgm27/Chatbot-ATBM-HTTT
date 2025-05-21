@@ -2548,3 +2548,386 @@ openai.BadRequestError: Error code: 400 - {'error': {'message': "Unsupported par
 2025-05-19 11:14:23,016 - lightrag - INFO - Query edges: Dạng tấn công, Ngắt quãng dịch vụ, Kênh truyền thông, Người dùng bình thường, top_k: 60, cosine: 0.2
 2025-05-19 11:14:23,930 - lightrag - INFO - Global query uses 69 entites, 60 relations, 3 chunks
 2025-05-19 11:14:28,755 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 00:38:57,520 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 00:38:58,067 - lightrag - INFO - Process 10140 KV load full_docs with 1 records
+2025-05-20 00:38:58,074 - lightrag - INFO - Process 10140 KV load text_chunks with 82 records
+2025-05-20 00:38:58,127 - lightrag - INFO - Process 10140 KV load llm_response_cache with 183 records
+2025-05-20 00:38:58,133 - lightrag - INFO - Process 10140 doc status load doc_status with 1 records
+2025-05-20 00:38:58,135 - lightrag - INFO - Process 10140 building query context...
+2025-05-20 00:38:58,136 - lightrag - INFO - Query nodes: Tấn công mạng, Tấn công từ chối dịch vụ, Phishing, Malware, Spear phishing, top_k: 60, cosine: 0.2
+2025-05-20 00:38:58,136 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 00:38:58,137 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 00:39:00,086 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 00:40:31,437 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 00:40:31,956 - lightrag - INFO - Process 9860 KV load full_docs with 1 records
+2025-05-20 00:40:31,963 - lightrag - INFO - Process 9860 KV load text_chunks with 82 records
+2025-05-20 00:40:32,010 - lightrag - INFO - Process 9860 KV load llm_response_cache with 183 records
+2025-05-20 00:40:32,015 - lightrag - INFO - Process 9860 doc status load doc_status with 1 records
+2025-05-20 00:40:32,018 - lightrag - INFO - Process 9860 building query context...
+2025-05-20 00:40:32,018 - lightrag - INFO - Query nodes: Tấn công mạng, Tấn công từ chối dịch vụ, Phishing, Malware, Spear phishing, top_k: 60, cosine: 0.2
+2025-05-20 00:40:32,019 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 00:40:32,020 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 00:40:34,395 - lightrag - INFO - Local query uses 60 entites, 158 relations, 3 chunks
+2025-05-20 00:40:34,397 - lightrag - INFO - Query edges: Phương pháp tấn công, Bảo mật, An ninh mạng, top_k: 60, cosine: 0.2
+2025-05-20 00:40:37,912 - lightrag - INFO - Global query uses 72 entites, 60 relations, 3 chunks
+2025-05-20 00:40:37,915 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 00:40:50,101 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 00:41:38,599 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 00:41:39,145 - lightrag - INFO - Process 17132 KV load full_docs with 1 records
+2025-05-20 00:41:39,155 - lightrag - INFO - Process 17132 KV load text_chunks with 82 records
+2025-05-20 00:41:39,200 - lightrag - INFO - Process 17132 KV load llm_response_cache with 183 records
+2025-05-20 00:41:39,205 - lightrag - INFO - Process 17132 doc status load doc_status with 1 records
+2025-05-20 00:41:39,208 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 00:41:39,210 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 00:41:50,054 - lightrag - INFO -  == LLM cache == saving hybrid: 2f601a53ab3572f889113947f15f6481
+2025-05-20 00:41:50,056 - lightrag - INFO - Process 17132 building query context...
+2025-05-20 00:41:50,057 - lightrag - INFO - Query nodes: Vùng máy trạm, Vùng mạng WAN, Vùng mạng LAN-to-WAN, Vùng mạng LAN, top_k: 60, cosine: 0.2
+2025-05-20 00:41:50,058 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 00:41:51,605 - lightrag - INFO - Local query uses 60 entites, 127 relations, 3 chunks
+2025-05-20 00:41:51,605 - lightrag - INFO - Query edges: Tấn công từ chối dịch vụ (DoS), Tấn công từ chối dịch vụ phân tán (DDoS), Cơ sở hạ tầng CNTT, Mô hình 7 vùng, top_k: 60, cosine: 0.2
+2025-05-20 00:41:53,555 - lightrag - INFO - Global query uses 75 entites, 60 relations, 3 chunks
+2025-05-20 00:42:03,640 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 00:42:08,424 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 00:42:08,972 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 00:42:08,972 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 00:42:18,735 - lightrag - INFO -  == LLM cache == saving hybrid: 20228a32b11dc3c44b9d0bfabe106d3a
+2025-05-20 00:42:18,736 - lightrag - INFO - Process 17132 building query context...
+2025-05-20 00:42:18,738 - lightrag - INFO - Query nodes: đánh cắp thông tin, sử dụng trái phép, tiết lộ thông tin, sửa đổi thông tin, vận chuyển thông tin, phá hủy thông tin, top_k: 60, cosine: 0.2
+2025-05-20 00:42:18,739 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 00:42:20,246 - lightrag - INFO - Local query uses 60 entites, 185 relations, 3 chunks
+2025-05-20 00:42:20,248 - lightrag - INFO - Query edges: An toàn thông tin, Bảo vệ thông tin, Phòng chống tấn công mạng, Truy nhập trái phép, Quyền truy cập, top_k: 60, cosine: 0.2
+2025-05-20 00:42:21,569 - lightrag - INFO - Global query uses 56 entites, 60 relations, 3 chunks
+2025-05-20 00:42:30,366 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 07:26:16,430 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 07:26:18,379 - lightrag - INFO - Process 13472 KV load full_docs with 1 records
+2025-05-20 07:26:18,442 - lightrag - INFO - Process 13472 KV load text_chunks with 82 records
+2025-05-20 07:26:18,617 - lightrag - INFO - Process 13472 KV load llm_response_cache with 185 records
+2025-05-20 07:26:18,670 - lightrag - INFO - Process 13472 doc status load doc_status with 1 records
+2025-05-20 07:26:18,684 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 07:26:18,687 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 07:26:27,149 - lightrag - INFO -  == LLM cache == saving hybrid: 480fd101766ca5fbf3be1fe26286f6f5
+2025-05-20 07:26:27,151 - lightrag - INFO - Process 13472 building query context...
+2025-05-20 07:26:27,151 - lightrag - INFO - Query nodes: Đọc lên và ghi lên, Đọc xuống và ghi xuống, Đọc xuống và ghi lên, Đọc lên và ghi xuống, Đọc lên, Đọc xuống, Ghi lên, Ghi xuống, top_k: 60, cosine: 0.2
+2025-05-20 07:26:27,151 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 07:26:32,579 - lightrag - INFO - Local query uses 60 entites, 111 relations, 3 chunks
+2025-05-20 07:26:32,595 - lightrag - INFO - Query edges: Mô hình Bell-La Padula, Nguyên tắc bảo mật tài nguyên, Bảo mật thông tin, Kiểm soát truy cập, top_k: 60, cosine: 0.2
+2025-05-20 07:26:34,920 - lightrag - INFO - Global query uses 78 entites, 60 relations, 3 chunks
+2025-05-20 07:26:41,744 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 07:27:07,983 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 07:27:08,893 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 07:27:08,909 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 07:27:17,887 - lightrag - INFO -  == LLM cache == saving hybrid: 03b8bb4696349db9e655f0bd2d22aec5
+2025-05-20 07:27:17,887 - lightrag - INFO - Process 13472 building query context...
+2025-05-20 07:27:17,887 - lightrag - INFO - Query nodes: Tần suất sử dụng mật khẩu, Kích thước mật khẩu, Độ khó đoán mật khẩu, Tuổi thọ mật khẩu, Số loại ký tự dùng trong mật khẩu, top_k: 60, cosine: 0.2
+2025-05-20 07:27:17,896 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 07:27:20,374 - lightrag - INFO - Local query uses 60 entites, 98 relations, 3 chunks
+2025-05-20 07:27:20,374 - lightrag - INFO - Query edges: Kỹ thuật điều khiển truy nhập, Tính bảo mật, Xác thực mật khẩu, Yếu tố bảo mật, top_k: 60, cosine: 0.2
+2025-05-20 07:27:22,588 - lightrag - INFO - Global query uses 77 entites, 60 relations, 3 chunks
+2025-05-20 07:27:30,788 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 07:29:16,409 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 07:29:17,286 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 07:29:17,286 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 07:29:23,527 - lightrag - INFO -  == LLM cache == saving hybrid: 0ff5188eb2f28f30e61808989c224eba
+2025-05-20 07:29:23,527 - lightrag - INFO - Process 13472 building query context...
+2025-05-20 07:29:23,527 - lightrag - INFO - Query nodes: thông tin biết trước, chữ ký tấn công, cơ sở dữ liệu chữ ký, tấn công, xâm nhập, loại tấn công mới, yêu cầu xây dựng cơ sở dữ liệu, top_k: 60, cosine: 0.2
+2025-05-20 07:29:23,527 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 07:29:25,430 - lightrag - INFO - Local query uses 60 entites, 174 relations, 3 chunks
+2025-05-20 07:29:25,434 - lightrag - INFO - Query edges: Phát hiện xâm nhập, Phát hiện bất thường, Anomaly-based detection, An ninh mạng, Phát hiện tấn công mới, top_k: 60, cosine: 0.2
+2025-05-20 07:29:27,032 - lightrag - INFO - Global query uses 78 entites, 60 relations, 3 chunks
+2025-05-20 07:29:34,738 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 07:31:07,245 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 07:31:08,155 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 07:31:08,155 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 07:31:12,484 - lightrag - INFO -  == LLM cache == saving hybrid: a096a830f91d8a6d1c3f717d84864ac0
+2025-05-20 07:31:12,484 - lightrag - INFO - Process 13472 building query context...
+2025-05-20 07:31:12,489 - lightrag - INFO - Query nodes: khả năng ngăn chặn tấn công, phát hiện cuộc tấn công DoS, tỷ lệ cảnh báo sai, phát hiện tấn công mới, top_k: 60, cosine: 0.2
+2025-05-20 07:31:12,489 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 07:31:16,443 - lightrag - INFO - Local query uses 60 entites, 131 relations, 3 chunks
+2025-05-20 07:31:16,443 - lightrag - INFO - Query edges: phát hiện tấn công bất thường, hệ thống IDS, điểm yếu, hiệu quả phát hiện, top_k: 60, cosine: 0.2
+2025-05-20 07:31:20,497 - lightrag - INFO - Global query uses 74 entites, 60 relations, 3 chunks
+2025-05-20 07:31:30,645 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 07:36:07,259 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 07:36:08,185 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 07:36:08,185 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 07:36:12,845 - lightrag - INFO -  == LLM cache == saving hybrid: ec0842a67c1575bbaa13384815d52e9f
+2025-05-20 07:36:12,845 - lightrag - INFO - Process 13472 building query context...
+2025-05-20 07:36:12,845 - lightrag - INFO - Query nodes: hành vi bất thường, ngắt quãng dịch vụ, dịch vụ được cung cấp, tổn hại nghiêm trọng, quan hệ chặt chẽ, top_k: 60, cosine: 0.2
+2025-05-20 07:36:12,854 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 07:36:15,000 - lightrag - INFO - Local query uses 60 entites, 115 relations, 3 chunks
+2025-05-20 07:36:15,000 - lightrag - INFO - Query edges: Phát hiện tấn công, xâm nhập, Phương pháp dựa trên bất thường, Giá trị đặc trưng, top_k: 60, cosine: 0.2
+2025-05-20 07:36:17,363 - lightrag - INFO - Global query uses 84 entites, 60 relations, 3 chunks
+2025-05-20 07:36:23,721 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 07:42:16,630 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 07:42:17,492 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 07:42:17,492 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 07:42:24,580 - lightrag - INFO -  == LLM cache == saving hybrid: f142140b6e6ffe4dd1742ed318abe4d5
+2025-05-20 07:42:24,580 - lightrag - INFO - Process 13472 building query context...
+2025-05-20 07:42:24,580 - lightrag - INFO - Query nodes: bảo mật cao, độ ổn định cao, chi phí thấp, luôn đi cùng với chủ thể, được hỗ trợ rộng rãi, top_k: 60, cosine: 0.2
+2025-05-20 07:42:24,584 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 07:42:28,580 - lightrag - INFO - Local query uses 60 entites, 138 relations, 3 chunks
+2025-05-20 07:42:28,580 - lightrag - INFO - Query edges: điều khiển truy nhập, đặc điểm sinh trắc học, ưu điểm, top_k: 60, cosine: 0.2
+2025-05-20 07:42:30,819 - lightrag - INFO - Global query uses 82 entites, 60 relations, 3 chunks
+2025-05-20 07:42:40,658 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 07:43:42,802 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 07:43:43,682 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 07:43:43,682 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 07:43:53,849 - lightrag - INFO -  == LLM cache == saving hybrid: d363b49466545771b3ac5b0a045662d1
+2025-05-20 07:43:53,851 - lightrag - INFO - Process 13472 building query context...
+2025-05-20 07:43:53,851 - lightrag - INFO - Query nodes: lọc nội dung gói, nhận dạng tấn công, phần mềm độc hại, chạy nhanh hơn, phân biệt gói tin, kết nối mạng, top_k: 60, cosine: 0.2
+2025-05-20 07:43:53,856 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 07:43:56,511 - lightrag - INFO - Local query uses 60 entites, 127 relations, 3 chunks
+2025-05-20 07:43:56,511 - lightrag - INFO - Query edges: Tường lửa có trạng thái, Tường lửa không trạng thái, Ưu điểm, Bảo mật mạng, top_k: 60, cosine: 0.2
+2025-05-20 07:43:59,041 - lightrag - INFO - Global query uses 70 entites, 60 relations, 3 chunks
+2025-05-20 07:44:04,818 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 07:46:00,957 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 07:46:01,777 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 07:46:01,777 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 07:46:07,297 - lightrag - INFO -  == LLM cache == saving hybrid: 62c45def2ffa8e7e29b1c3f35a971d46
+2025-05-20 07:46:07,297 - lightrag - INFO - Process 13472 building query context...
+2025-05-20 07:46:07,310 - lightrag - INFO - Query nodes: Thống kê, Học máy, Khai phá dữ liệu, Agents, Đồ thị, Đối sánh chuỗi, top_k: 60, cosine: 0.2
+2025-05-20 07:46:07,310 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 07:46:09,263 - lightrag - INFO - Local query uses 60 entites, 133 relations, 3 chunks
+2025-05-20 07:46:09,263 - lightrag - INFO - Query edges: Xử lý dữ liệu, Phân tích dữ liệu, Mô hình hoá, Phát hiện tấn công xâm nhập, Phát hiện dựa trên bất thường, top_k: 60, cosine: 0.2
+2025-05-20 07:46:11,164 - lightrag - INFO - Global query uses 82 entites, 60 relations, 3 chunks
+2025-05-20 07:46:19,871 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 07:53:51,433 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 07:53:52,302 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 07:53:52,302 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 07:54:05,707 - lightrag - INFO -  == LLM cache == saving hybrid: 4d7e81e1133a057097806ef52d553d72
+2025-05-20 07:54:05,708 - lightrag - INFO - Process 13472 building query context...
+2025-05-20 07:54:05,708 - lightrag - INFO - Query nodes: người tạo ra đối tượng, cấp quyền truy nhập cho người dùng khác, sử dụng rộng rãi nhất, vai trò của người dùng trong tổ chức, tính nhạy cảm của thông tin, chính sách quản trị, top_k: 60, cosine: 0.2
+2025-05-20 07:54:05,708 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 07:54:07,612 - lightrag - INFO - Local query uses 60 entites, 146 relations, 3 chunks
+2025-05-20 07:54:07,615 - lightrag - INFO - Query edges: cơ chế điều khiển truy nhập dựa trên vai trò, RBAC, bảo mật thông tin, quản lý quyền truy cập, top_k: 60, cosine: 0.2
+2025-05-20 07:54:09,424 - lightrag - INFO - Global query uses 78 entites, 60 relations, 3 chunks
+2025-05-20 07:54:15,633 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 07:56:44,161 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 07:56:45,097 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 07:56:45,097 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 07:56:52,719 - lightrag - INFO -  == LLM cache == saving hybrid: 9fc7f6f032191134843d561f89bb189d
+2025-05-20 07:56:52,719 - lightrag - INFO - Process 13472 building query context...
+2025-05-20 07:56:52,719 - lightrag - INFO - Query nodes: người tạo ra đối tượng, cấp quyền truy nhập cho người dùng khác, tính nhạy cảm của thông tin, chính sách quản trị, được sử dụng rộng rãi nhất, quản lý quyền truy nhập chặt chẽ hơn, top_k: 60, cosine: 0.2
+2025-05-20 07:56:52,719 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 07:56:54,750 - lightrag - INFO - Local query uses 60 entites, 160 relations, 3 chunks
+2025-05-20 07:56:54,753 - lightrag - INFO - Query edges: Cơ chế điều khiển truy nhập, DAC, Quyền truy nhập, Bảo mật hệ thống, top_k: 60, cosine: 0.2
+2025-05-20 07:57:06,180 - lightrag - INFO - Global query uses 78 entites, 60 relations, 3 chunks
+2025-05-20 07:57:12,186 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 08:03:50,748 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 08:03:52,515 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 08:03:52,515 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 08:04:04,002 - lightrag - INFO -  == LLM cache == saving hybrid: 6b8f0d373614197110d33cdcfa22afff
+2025-05-20 08:04:04,002 - lightrag - INFO - Process 13472 building query context...
+2025-05-20 08:04:04,007 - lightrag - INFO - Query nodes: nmap, Microsoft Baseline Security Analyzer, Nessus vulnerability scanner, Acunetix Web Vulnerability Scanne, top_k: 60, cosine: 0.2
+2025-05-20 08:04:04,008 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 08:04:06,845 - lightrag - INFO - Local query uses 60 entites, 128 relations, 3 chunks
+2025-05-20 08:04:06,854 - lightrag - INFO - Query edges: Công cụ rà quét lỗ hổng bảo mật, SQL injection, Bảo mật website, top_k: 60, cosine: 0.2
+2025-05-20 08:04:11,662 - lightrag - INFO - Global query uses 57 entites, 60 relations, 3 chunks
+2025-05-20 08:04:18,013 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 08:05:47,072 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 08:05:48,822 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 08:05:48,822 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 08:05:57,015 - lightrag - INFO -  == LLM cache == saving hybrid: aea7ccf4fefea88cd64de4b40aea90db
+2025-05-20 08:05:57,015 - lightrag - INFO - Process 13472 building query context...
+2025-05-20 08:05:57,024 - lightrag - INFO - Query nodes: Ma trận phân quyền, Quản lý quyền riêng rẽ, Danh sách đối tượng kèm quyền, Danh sách người dùng kèm quyền, Người dùng, Đối tượng, Quyền truy cập, top_k: 60, cosine: 0.2
+2025-05-20 08:05:57,026 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 08:05:59,691 - lightrag - INFO - Local query uses 60 entites, 125 relations, 3 chunks
+2025-05-20 08:05:59,695 - lightrag - INFO - Query edges: Danh sách điều khiển truy cập (ACL), Quản lý quyền truy cập, Mô hình kiểm soát truy cập, Access Control List, top_k: 60, cosine: 0.2
+2025-05-20 08:06:02,833 - lightrag - INFO - Global query uses 66 entites, 60 relations, 3 chunks
+2025-05-20 08:06:35,139 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 08:36:03,045 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 08:36:04,886 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 08:36:04,886 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 08:36:15,742 - lightrag - INFO -  == LLM cache == saving hybrid: 0c332c25e7ab51819e4c724c6ad3f11e
+2025-05-20 08:36:15,742 - lightrag - INFO - Process 13472 building query context...
+2025-05-20 08:36:15,744 - lightrag - INFO - Query nodes: Các hiểm họa từ bên trong, Các hiểm họa từ bên ngoài, Tấn công giả mạo địa chỉ, Tấn công từ mạng Internet, top_k: 60, cosine: 0.2
+2025-05-20 08:36:15,746 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 08:36:18,176 - lightrag - INFO - Local query uses 60 entites, 128 relations, 3 chunks
+2025-05-20 08:36:18,180 - lightrag - INFO - Query edges: Tường lửa, Giới hạn tường lửa, An ninh mạng, Mối đe dọa bảo mật, top_k: 60, cosine: 0.2
+2025-05-20 08:36:29,208 - lightrag - INFO - Global query uses 70 entites, 60 relations, 3 chunks
+2025-05-20 08:36:37,171 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 08:48:59,523 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 08:49:01,310 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 08:49:01,312 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 08:49:08,043 - lightrag - INFO -  == LLM cache == saving hybrid: 1c61ab2738616f04e86f619b87168576
+2025-05-20 08:49:08,043 - lightrag - INFO - Process 13472 building query context...
+2025-05-20 08:49:08,047 - lightrag - INFO - Query nodes: IPS, IDS, A. IPS phát hiện xâm nhập hiệu quả hơn, B. IPS có khả năng chủ động ngăn chặn xâm nhập, C. IDS phát hiện xâm nhập hiệu quả hơn, D. IDS có khả năng chủ động ngăn chặn xâm nhập, phát hiện xâm nhập, ngăn chặn xâm nhập, top_k: 60, cosine: 0.2
+2025-05-20 08:49:08,050 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 08:49:10,697 - lightrag - INFO - Local query uses 60 entites, 185 relations, 3 chunks
+2025-05-20 08:49:10,707 - lightrag - INFO - Query edges: Hệ thống ngăn chặn xâm nhập (IPS), Hệ thống phát hiện xâm nhập (IDS), Sự khác biệt chính, An ninh mạng, top_k: 60, cosine: 0.2
+2025-05-20 08:49:13,072 - lightrag - INFO - Global query uses 74 entites, 60 relations, 3 chunks
+2025-05-20 08:49:18,675 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 09:09:24,714 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 09:09:26,608 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 09:09:26,608 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 09:09:34,771 - lightrag - INFO -  == LLM cache == saving hybrid: 2fbcfce2fb342fad639091f618294006
+2025-05-20 09:09:34,779 - lightrag - INFO - Process 13472 building query context...
+2025-05-20 09:09:34,779 - lightrag - INFO - Query nodes: header của gói tin, payload của gói tin, địa chỉ IP, top_k: 60, cosine: 0.2
+2025-05-20 09:09:34,784 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 09:09:36,772 - lightrag - INFO - Local query uses 60 entites, 91 relations, 3 chunks
+2025-05-20 09:09:36,772 - lightrag - INFO - Query edges: Tường lửa lọc gói, Thông tin gói tin, Lọc thông tin trong gói tin, top_k: 60, cosine: 0.2
+2025-05-20 09:09:39,575 - lightrag - INFO - Global query uses 76 entites, 60 relations, 3 chunks
+2025-05-20 09:09:46,165 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 09:13:01,663 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 09:13:03,474 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 09:13:03,479 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 09:13:11,726 - lightrag - INFO -  == LLM cache == saving hybrid: 7ad1e5b0bf7ebd7fb2f807bda8b560f6
+2025-05-20 09:13:11,728 - lightrag - INFO - Process 13472 building query context...
+2025-05-20 09:13:11,729 - lightrag - INFO - Query nodes: sử dụng nhiều hơn 1 phần mềm, máy tính, xung đột, không thể hoạt động, chiếm nhiều tài nguyên, tấn công lẫn nhau, lựa chọn A, lựa chọn B, lựa chọn C, lựa chọn D, top_k: 60, cosine: 0.2
+2025-05-20 09:13:11,730 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 09:13:14,263 - lightrag - INFO - Local query uses 60 entites, 165 relations, 3 chunks
+2025-05-20 09:13:14,269 - lightrag - INFO - Query edges: phần mềm quét virus, chế độ quét theo thời gian thực, xung đột phần mềm quét virus, tài nguyên hệ thống, top_k: 60, cosine: 0.2
+2025-05-20 09:13:18,690 - lightrag - INFO - Global query uses 74 entites, 60 relations, 3 chunks
+2025-05-20 09:13:27,283 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 09:14:52,460 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 09:14:54,425 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 09:14:54,427 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 09:15:02,047 - lightrag - INFO -  == LLM cache == saving hybrid: 2f8f0a7602d668839e20097b565d19eb
+2025-05-20 09:15:02,047 - lightrag - INFO - Process 13472 building query context...
+2025-05-20 09:15:02,049 - lightrag - INFO - Query nodes: người tạo đối tượng cấp quyền, quản lý quyền truy nhập chặt chẽ hơn, tính nhạy cảm của thông tin, sử dụng rộng rãi nhất, top_k: 60, cosine: 0.2
+2025-05-20 09:15:02,053 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 09:15:04,557 - lightrag - INFO - Local query uses 60 entites, 175 relations, 3 chunks
+2025-05-20 09:15:04,566 - lightrag - INFO - Query edges: cơ chế điều khiển truy nhập bắt buộc (MAC), quyền truy nhập, bảo mật thông tin, chính sách quản trị, top_k: 60, cosine: 0.2
+2025-05-20 09:15:06,683 - lightrag - INFO - Global query uses 75 entites, 60 relations, 3 chunks
+2025-05-20 09:15:14,628 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 09:16:00,430 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 09:16:02,446 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 09:16:02,449 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 09:16:08,232 - lightrag - INFO -  == LLM cache == saving hybrid: 25ae13268cf64d42795e69743d69117d
+2025-05-20 09:16:08,232 - lightrag - INFO - Process 13472 building query context...
+2025-05-20 09:16:08,237 - lightrag - INFO - Query nodes: Server gateway, Application server, Application-level gateway, Gateway server, top_k: 60, cosine: 0.2
+2025-05-20 09:16:08,239 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 09:16:10,550 - lightrag - INFO - Local query uses 60 entites, 127 relations, 3 chunks
+2025-05-20 09:16:10,559 - lightrag - INFO - Query edges: tường lửa, loại tường lửa, bảo mật mạng, top_k: 60, cosine: 0.2
+2025-05-20 09:16:13,929 - lightrag - INFO - Global query uses 67 entites, 60 relations, 3 chunks
+2025-05-20 09:16:20,382 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 09:17:23,022 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 09:17:24,871 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 09:17:24,877 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 09:17:31,464 - lightrag - INFO -  == LLM cache == saving hybrid: d567c3da41e257dc1bfba2144cd8a469
+2025-05-20 09:17:31,464 - lightrag - INFO - Process 13472 building query context...
+2025-05-20 09:17:31,473 - lightrag - INFO - Query nodes: Khóa mã (encrypted key), The ATM, Thẻ bài (token), Thẻ thông minh (smart card), top_k: 60, cosine: 0.2
+2025-05-20 09:17:31,473 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 09:17:34,120 - lightrag - INFO - Local query uses 60 entites, 130 relations, 3 chunks
+2025-05-20 09:17:34,120 - lightrag - INFO - Query edges: Ví điện tử, Paypal, Phân loại công cụ thanh toán, Bảo mật điện tử, top_k: 60, cosine: 0.2
+2025-05-20 09:17:36,847 - lightrag - INFO - Global query uses 71 entites, 60 relations, 3 chunks
+2025-05-20 09:17:46,346 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 09:24:17,470 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 09:24:19,268 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 09:24:19,272 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 09:24:26,072 - lightrag - INFO -  == LLM cache == saving hybrid: c8f9111ca9c90a5c9e7079638337288a
+2025-05-20 09:24:26,072 - lightrag - INFO - Process 13472 building query context...
+2025-05-20 09:24:26,072 - lightrag - INFO - Query nodes: Thẻ ATM, Tên truy nhập, Số PIN, Mật khẩu, Thẻ ATM và tên truy nhập, Tên truy nhập và số PIN, Thẻ ATM và số PIN, Tên truy nhập và mật khẩu, top_k: 60, cosine: 0.2
+2025-05-20 09:24:26,072 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 09:24:28,487 - lightrag - INFO - Local query uses 60 entites, 135 relations, 3 chunks
+2025-05-20 09:24:28,487 - lightrag - INFO - Query edges: Xác thực, Độ an toàn, Bảo mật, Phương thức xác thực, Thông tin xác thực, top_k: 60, cosine: 0.2
+2025-05-20 09:24:31,473 - lightrag - INFO - Global query uses 66 entites, 60 relations, 3 chunks
+2025-05-20 09:24:40,086 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 09:25:56,943 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 09:25:58,689 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 09:25:58,689 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 09:26:04,385 - lightrag - INFO -  == LLM cache == saving hybrid: 6cae2ee761f8506daa0123f8306ab8f9
+2025-05-20 09:26:04,393 - lightrag - INFO - Process 13472 building query context...
+2025-05-20 09:26:04,395 - lightrag - INFO - Query nodes: E-token, Chứng chỉ số khóa công khai, The ATM, Mobile-token, top_k: 60, cosine: 0.2
+2025-05-20 09:26:04,397 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 09:26:06,875 - lightrag - INFO - Local query uses 60 entites, 116 relations, 3 chunks
+2025-05-20 09:26:06,879 - lightrag - INFO - Query edges: khóa mã hóa, điều khiển truy cập, xác thực, bảo mật, top_k: 60, cosine: 0.2
+2025-05-20 09:26:08,938 - lightrag - INFO - Global query uses 75 entites, 60 relations, 3 chunks
+2025-05-20 09:26:21,165 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 09:27:42,055 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 09:27:44,050 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 09:27:44,050 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 09:27:50,137 - lightrag - INFO -  == LLM cache == saving hybrid: 6e0e676564971175a87c9f051a8e6c08
+2025-05-20 09:27:50,137 - lightrag - INFO - Process 13472 building query context...
+2025-05-20 09:27:50,145 - lightrag - INFO - Query nodes: Chữ ký chưa tồn tại, Không có chữ ký, Không gây ra bất thường, Thiệt hại nhỏ, top_k: 60, cosine: 0.2
+2025-05-20 09:27:50,145 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 09:27:52,351 - lightrag - INFO - Local query uses 60 entites, 87 relations, 3 chunks
+2025-05-20 09:27:52,356 - lightrag - INFO - Query edges: Hệ thống phát hiện xâm nhập dựa trên chữ ký, Phát hiện xâm nhập, Tấn công mới, Xâm nhập mới, top_k: 60, cosine: 0.2
+2025-05-20 09:27:54,395 - lightrag - INFO - Global query uses 78 entites, 60 relations, 3 chunks
+2025-05-20 09:28:03,891 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 14:29:39,009 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 14:29:39,512 - lightrag - INFO - Process 4020 KV load full_docs with 1 records
+2025-05-20 14:29:39,517 - lightrag - INFO - Process 4020 KV load text_chunks with 82 records
+2025-05-20 14:29:39,570 - lightrag - INFO - Process 4020 KV load llm_response_cache with 207 records
+2025-05-20 14:29:39,575 - lightrag - INFO - Process 4020 doc status load doc_status with 1 records
+2025-05-20 14:29:39,578 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 14:29:39,579 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 14:29:46,440 - lightrag - INFO -  == LLM cache == saving hybrid: f5dfd865348d527678f198b4f8361d4a
+2025-05-20 14:29:46,440 - lightrag - INFO - Process 4020 building query context...
+2025-05-20 14:29:46,440 - lightrag - INFO - Query nodes: Chặn nhanh hơn, Lọc nội dung gói tốt hơn, Phân biệt các gói tin thuộc về các kết nối mạng khác nhau, Nhận dạng các dạng tấn công và các phần mềm độc hại, Gói tin, Kết nối mạng, top_k: 60, cosine: 0.2
+2025-05-20 14:29:46,440 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 14:29:48,167 - lightrag - INFO - Local query uses 60 entites, 112 relations, 3 chunks
+2025-05-20 14:29:48,169 - lightrag - INFO - Query edges: Tường lửa, Tường lửa có trạng thái, Tường lửa không trạng thái, Ưu điểm, Bảo mật mạng, top_k: 60, cosine: 0.2
+2025-05-20 14:29:49,940 - lightrag - INFO - Global query uses 68 entites, 60 relations, 3 chunks
+2025-05-20 14:29:59,470 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 14:38:07,757 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 14:38:08,189 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 14:38:08,190 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 14:38:17,615 - lightrag - INFO -  == LLM cache == saving hybrid: e361171baac4ea8891f8f508593f3e80
+2025-05-20 14:38:17,616 - lightrag - INFO - Process 4020 building query context...
+2025-05-20 14:38:17,617 - lightrag - INFO - Query nodes: khắc phục rủi ro, quản lý rủi ro, ngăn chặn rủi ro, hạn chế rủi ro, top_k: 60, cosine: 0.2
+2025-05-20 14:38:17,619 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 14:38:19,912 - lightrag - INFO - Local query uses 60 entites, 130 relations, 3 chunks
+2025-05-20 14:38:19,913 - lightrag - INFO - Query edges: An toàn thông tin, Kiểm soát an toàn thông tin, Rủi ro, Phương tiện bảo vệ, top_k: 60, cosine: 0.2
+2025-05-20 14:38:21,840 - lightrag - INFO - Global query uses 57 entites, 60 relations, 3 chunks
+2025-05-20 14:38:33,279 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 14:39:12,562 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 14:39:12,987 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 14:39:12,988 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 14:39:19,542 - lightrag - INFO -  == LLM cache == saving hybrid: 87e24a753643d67a1e4b6a5e1348bc24
+2025-05-20 14:39:19,542 - lightrag - INFO - Process 4020 building query context...
+2025-05-20 14:39:19,542 - lightrag - INFO - Query nodes: Sự tuân thủ, Sự áp chế, Hình phạt áp dụng, Phạm vi áp dụng, top_k: 60, cosine: 0.2
+2025-05-20 14:39:19,542 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 14:39:21,388 - lightrag - INFO - Local query uses 60 entites, 123 relations, 3 chunks
+2025-05-20 14:39:21,388 - lightrag - INFO - Query edges: Luật, Chính sách, Khác biệt chính, So sánh, top_k: 60, cosine: 0.2
+2025-05-20 14:39:23,026 - lightrag - INFO - Global query uses 74 entites, 60 relations, 3 chunks
+2025-05-20 14:39:31,103 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 14:39:58,823 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 14:39:59,237 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 14:39:59,237 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 14:40:06,713 - lightrag - INFO -  == LLM cache == saving hybrid: e67add3dc55910d415562bc0cda1da4a
+2025-05-20 14:40:06,713 - lightrag - INFO - Process 4020 building query context...
+2025-05-20 14:40:06,713 - lightrag - INFO - Query nodes: 01/01/2019, 01/01/2020, 01/01/2021, 01/01/2022, A, B, C, D, top_k: 60, cosine: 0.2
+2025-05-20 14:40:06,713 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 14:40:08,367 - lightrag - INFO - Local query uses 32 entites, 64 relations, 3 chunks
+2025-05-20 14:40:08,367 - lightrag - INFO - Query edges: Luật An ninh mạng, Hiệu lực pháp lý, Thời điểm áp dụng, Pháp luật công nghệ thông tin, Việt Nam, top_k: 60, cosine: 0.2
+2025-05-20 14:40:10,120 - lightrag - INFO - Global query uses 74 entites, 60 relations, 3 chunks
+2025-05-20 14:40:13,537 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 14:40:13,967 - lightrag - INFO - Process 4020 building query context...
+2025-05-20 14:40:13,967 - lightrag - INFO - Query nodes: 01/01/2019, 01/01/2020, 01/01/2021, 01/01/2022, A, B, C, D, top_k: 60, cosine: 0.2
+2025-05-20 14:40:13,967 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 14:40:13,967 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 14:40:16,161 - lightrag - INFO - Local query uses 32 entites, 64 relations, 3 chunks
+2025-05-20 14:40:16,161 - lightrag - INFO - Query edges: Luật An ninh mạng, Hiệu lực pháp lý, Thời điểm áp dụng, Pháp luật công nghệ thông tin, Việt Nam, top_k: 60, cosine: 0.2
+2025-05-20 14:40:17,546 - lightrag - INFO - Creating a new event loop in main thread.
+2025-05-20 14:40:17,993 - lightrag - INFO - Global query uses 74 entites, 60 relations, 3 chunks
+2025-05-20 14:40:17,993 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 14:40:23,274 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 16:55:28,743 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 16:55:29,266 - lightrag - INFO - Process 1172 KV load full_docs with 1 records
+2025-05-20 16:55:29,283 - lightrag - INFO - Process 1172 KV load text_chunks with 82 records
+2025-05-20 16:55:29,334 - lightrag - INFO - Process 1172 KV load llm_response_cache with 211 records
+2025-05-20 16:55:29,352 - lightrag - INFO - Process 1172 doc status load doc_status with 1 records
+2025-05-20 16:55:29,356 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 16:55:29,357 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 16:55:37,330 - lightrag - INFO -  == LLM cache == saving hybrid: 9e89b7eccdf868170620ea1c6945f576
+2025-05-20 16:55:37,330 - lightrag - INFO - Process 1172 building query context...
+2025-05-20 16:55:37,330 - lightrag - INFO - Query nodes: Phishing, Malware, Ransomware, DDoS, SQL Injection, Cross-Site Scripting (XSS), Man-in-the-Middle (MITM), Brute Force, Zero-Day, Trojan, Worm, Virus, Social Engineering, top_k: 60, cosine: 0.2
+2025-05-20 16:55:37,330 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 16:55:38,805 - lightrag - INFO - Local query uses 60 entites, 193 relations, 3 chunks
+2025-05-20 16:55:38,807 - lightrag - INFO - Query edges: Tấn công mạng, An ninh mạng, Mối đe dọa bảo mật, Tấn công phổ biến, top_k: 60, cosine: 0.2
+2025-05-20 16:55:40,672 - lightrag - INFO - Global query uses 63 entites, 60 relations, 3 chunks
+2025-05-20 16:55:55,732 - lightrag - INFO - Storage Finalization completed!
+2025-05-20 17:26:53,521 - lightrag - INFO - Loaded graph from ./data\graph_chunk_entity_relation.graphml with 2188 nodes, 2506 edges
+2025-05-20 17:26:54,188 - lightrag - INFO - Process 4632 KV load full_docs with 1 records
+2025-05-20 17:26:54,196 - lightrag - INFO - Process 4632 KV load text_chunks with 82 records
+2025-05-20 17:26:54,267 - lightrag - INFO - Process 4632 KV load llm_response_cache with 212 records
+2025-05-20 17:26:54,273 - lightrag - INFO - Process 4632 doc status load doc_status with 1 records
+2025-05-20 17:26:54,275 - lightrag - INFO - Process 4632 building query context...
+2025-05-20 17:26:54,276 - lightrag - INFO - Query nodes: Chữ ký chưa tồn tại, Không có chữ ký, Không gây ra bất thường, Thiệt hại nhỏ, top_k: 60, cosine: 0.2
+2025-05-20 17:26:54,276 - lightrag - INFO - limit_async: 16 new workers initialized
+2025-05-20 17:26:54,277 - lightrag - INFO - Storage Initialization completed!
+2025-05-20 17:26:56,087 - lightrag - INFO - Local query uses 60 entites, 87 relations, 3 chunks
+2025-05-20 17:26:56,088 - lightrag - INFO - Query edges: Hệ thống phát hiện xâm nhập dựa trên chữ ký, Phát hiện xâm nhập, Tấn công mới, Xâm nhập mới, top_k: 60, cosine: 0.2
+2025-05-20 17:26:58,137 - lightrag - INFO - Global query uses 78 entites, 60 relations, 3 chunks
+2025-05-20 17:26:58,143 - lightrag - INFO - limit_async: 4 new workers initialized
+2025-05-20 17:27:05,713 - lightrag - INFO - Storage Finalization completed!
