@@ -39,8 +39,8 @@ async def main():
             param=QueryParam(mode=mode)
         )
         print(result)
-        # with open("./result.md", "w", encoding="utf-8") as f:
-        #     f.write(result)
+        with open("./result.md", "w", encoding="utf-8") as f:
+            f.write(result)
 
     except Exception as e:
         print(f"An error occurred: {e}")
